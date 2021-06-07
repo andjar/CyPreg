@@ -4,11 +4,13 @@ IL_1b;IL-1beta
 IL_2;IL-2
 IL_6;IL-6
 IL_8;IL-8
+IL_12p40;IL-12p40
 IL_12p70;IL-12p70
 IL_15;IL-15
 IL_17;IL-17
 IFN_g;IFN-gamma
 TNF_a;TNF-alpha
+TNF_b;TNF-beta
 IL_1ra;IL-1Ra
 IL_4;IL-4
 IL_5;IL-5
@@ -26,3 +28,6 @@ MIP_1a;MIP-1alpha
 MIP_1b;MIP-1beta
 eotaxin;Eotaxin
 IP_10;IP-10
+EGF;EGF
+IFN_a2;IFN-alpha2
+VEGF;VEGF

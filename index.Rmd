@@ -3,6 +3,7 @@ title: "The Cytokine in Pregnancy Database"
 output: 
   flexdashboard::flex_dashboard:
     orientation: rows
+    self_contained: false
 ---
 
 ```{r setup, include=FALSE}
@@ -113,7 +114,83 @@ ggplotly(
   ggplot(merge(df_aggregated,cytokines),
          aes(ga, ifelse(grepl("log",unit), exp(value), value), shape = condition, color = paste(author, year))) + geom_point() + 
     theme_bw() + scale_y_log10() + theme(legend.position = "bottom") +
-    labs(x = "Cytokine", y = "Number of observations") + 
+    labs(x = "Gestational age", y = "Concentration") + 
+    facet_wrap(~printname, scales = "free_y")
+)
+```
+
+# Trends {data-icon="fa-chart-line"}
+
+## Row {.tabset }
+
+### Method
+
+```{r}
+ggplotly(
+  ggplot(merge(df_aggregated,cytokines),
+         aes(ga, ifelse(grepl("log",unit), exp(value), value), color = method)) + geom_point() + 
+    theme_bw() + scale_y_log10() + theme(legend.position = "bottom") +
+    labs(x = "Gestational age", y = "Concentration", color = "Method") + 
+    facet_wrap(~printname, scales = "free_y")
+)
+```
+
+### Tissue
+
+```{r}
+ggplotly(
+  ggplot(merge(df_aggregated,cytokines),
+         aes(ga, ifelse(grepl("log",unit), exp(value), value), color = tissue)) + geom_point() + 
+    theme_bw() + scale_y_log10() + theme(legend.position = "bottom") +
+    labs(x = "Gestational age", y = "Concentration", color = "Tissue") + 
+    facet_wrap(~printname, scales = "free_y")
+)
+```
+
+### BMI
+
+```{r}
+ggplotly(
+  ggplot(merge(df_aggregated,cytokines),
+         aes(ga, ifelse(grepl("log",unit), exp(value), value), color = ifelse(is.na(bmi), bmi.baseline, bmi))) + geom_point() + 
+    theme_bw() + scale_y_log10() + theme(legend.position = "bottom") +
+    labs(x = "Gestational age", y = "Concentration", color = "BMI") + 
+    facet_wrap(~printname, scales = "free_y")
+)
+```
+
+### Maternal age
+
+```{r}
+ggplotly(
+  ggplot(merge(df_aggregated,cytokines),
+         aes(ga, ifelse(grepl("log",unit), exp(value), value), color = age)) + geom_point() + 
+    theme_bw() + scale_y_log10() + theme(legend.position = "bottom") +
+    labs(x = "Gestational age", y = "Concentration", color = "Maternal age") + 
+    facet_wrap(~printname, scales = "free_y")
+)
+```
+
+### Systolic blood pressure
+
+```{r}
+ggplotly(
+  ggplot(merge(df_aggregated,cytokines),
+         aes(ga, ifelse(grepl("log",unit), exp(value), value), color = systolic)) + geom_point() + 
+    theme_bw() + scale_y_log10() + theme(legend.position = "bottom") +
+    labs(x = "Gestational age", y = "Concentration", color = "Systolic blood pressure") + 
+    facet_wrap(~printname, scales = "free_y")
+)
+```
+
+### Distolic blood pressure
+
+```{r}
+ggplotly(
+  ggplot(merge(df_aggregated,cytokines),
+         aes(ga, ifelse(grepl("log",unit), exp(value), value), color = diastolic)) + geom_point() + 
+    theme_bw() + scale_y_log10() + theme(legend.position = "bottom") +
+    labs(x = "Gestational age", y = "Concentration", color = "Distolic blood pressure") + 
     facet_wrap(~printname, scales = "free_y")
 )
 ```

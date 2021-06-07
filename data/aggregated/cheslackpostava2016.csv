@@ -1,0 +1,37 @@
+﻿cytokine;value.median;unit;n;ga.string;ga.days.mean;ga.days.sd;condition;method;age.mean;age.sd;tissue
+IL_1b;0.03;pg/mL;48;First trimester;89.4;25.5;Bipolar disorder in offspring;Milliplex Map + Luminex 100;27.5;6.6;serum
+IL_5;0.12;pg/mL;47;First trimester;89.4;25.5;Bipolar disorder in offspring;Milliplex Map + Luminex 100;27.5;6.6;serum
+IL_6;2.35;pg/mL;42;First trimester;89.4;25.5;Bipolar disorder in offspring;Milliplex Map + Luminex 100;27.5;6.6;serum
+IL_8;77;pg/mL;45;First trimester;89.4;25.5;Bipolar disorder in offspring;Milliplex Map + Luminex 100;27.5;6.6;serum
+IL_10;8.53;pg/mL;48;First trimester;89.4;25.5;Bipolar disorder in offspring;Milliplex Map + Luminex 100;27.5;6.6;serum
+TNF_a;4.5;pg/mL;48;First trimester;89.4;25.5;Bipolar disorder in offspring;Milliplex Map + Luminex 100;27.5;6.6;serum
+IL_1b;0.03;pg/mL;63;Second trimester;168.4;25.5;Bipolar disorder in offspring;Milliplex Map + Luminex 100;27.5;6.6;serum
+IL_5;0.11;pg/mL;70;Second trimester;168.4;25.5;Bipolar disorder in offspring;Milliplex Map + Luminex 100;27.5;6.6;serum
+IL_6;2.49;pg/mL;67;Second trimester;168.4;25.5;Bipolar disorder in offspring;Milliplex Map + Luminex 100;27.5;6.6;serum
+IL_8;110.5;pg/mL;67;Second trimester;168.4;25.5;Bipolar disorder in offspring;Milliplex Map + Luminex 100;27.5;6.6;serum
+IL_10;8.43;pg/mL;70;Second trimester;168.4;25.5;Bipolar disorder in offspring;Milliplex Map + Luminex 100;27.5;6.6;serum
+TNF_a;3.9;pg/mL;71;Second trimester;168.4;25.5;Bipolar disorder in offspring;Milliplex Map + Luminex 100;27.5;6.6;serum
+IL_1b;0.03;pg/mL;54;Third trimester;249.5;17.2;Bipolar disorder in offspring;Milliplex Map + Luminex 100;27.5;6.6;serum
+IL_5;0.08;pg/mL;58;Third trimester;249.5;17.2;Bipolar disorder in offspring;Milliplex Map + Luminex 100;27.5;6.6;serum
+IL_6;3.05;pg/mL;53;Third trimester;249.5;17.2;Bipolar disorder in offspring;Milliplex Map + Luminex 100;27.5;6.6;serum
+IL_8;98.8;pg/mL;56;Third trimester;249.5;17.2;Bipolar disorder in offspring;Milliplex Map + Luminex 100;27.5;6.6;serum
+IL_10;10.7;pg/mL;51;Third trimester;249.5;17.2;Bipolar disorder in offspring;Milliplex Map + Luminex 100;27.5;6.6;serum
+TNF_a;4.33;pg/mL;58;Third trimester;249.5;17.2;Bipolar disorder in offspring;Milliplex Map + Luminex 100;27.5;6.6;serum
+IL_1b;0.03;pg/mL;83;First trimester;83.6;19;healthy;Milliplex Map + Luminex 100;28.2;6;serum
+IL_5;0.1;pg/mL;87;First trimester;83.6;19;healthy;Milliplex Map + Luminex 100;28.2;6;serum
+IL_6;2.93;pg/mL;80;First trimester;83.6;19;healthy;Milliplex Map + Luminex 100;28.2;6;serum
+IL_8;103;pg/mL;87;First trimester;83.6;19;healthy;Milliplex Map + Luminex 100;28.2;6;serum
+IL_10;8.85;pg/mL;91;First trimester;83.6;19;healthy;Milliplex Map + Luminex 100;28.2;6;serum
+TNF_a;4.47;pg/mL;94;First trimester;83.6;19;healthy;Milliplex Map + Luminex 100;28.2;6;serum
+IL_1b;0.03;pg/mL;108;Second trimester;166.7;19.9;healthy;Milliplex Map + Luminex 100;28.2;6;serum
+IL_5;0.1;pg/mL;131;Second trimester;166.7;19.9;healthy;Milliplex Map + Luminex 100;28.2;6;serum
+IL_6;4.06;pg/mL;130;Second trimester;166.7;19.9;healthy;Milliplex Map + Luminex 100;28.2;6;serum
+IL_8;80.8;pg/mL;127;Second trimester;166.7;19.9;healthy;Milliplex Map + Luminex 100;28.2;6;serum
+IL_10;8.32;pg/mL;124;Second trimester;166.7;19.9;healthy;Milliplex Map + Luminex 100;28.2;6;serum
+TNF_a;4.48;pg/mL;137;Second trimester;166.7;19.9;healthy;Milliplex Map + Luminex 100;28.2;6;serum
+IL_1b;0.03;pg/mL;94;Third trimester;250.3;13.4;healthy;Milliplex Map + Luminex 100;28.2;6;serum
+IL_5;0.09;pg/mL;108;Third trimester;250.3;13.4;healthy;Milliplex Map + Luminex 100;28.2;6;serum
+IL_6;4.62;pg/mL;104;Third trimester;250.3;13.4;healthy;Milliplex Map + Luminex 100;28.2;6;serum
+IL_8;82;pg/mL;105;Third trimester;250.3;13.4;healthy;Milliplex Map + Luminex 100;28.2;6;serum
+IL_10;9.11;pg/mL;94;Third trimester;250.3;13.4;healthy;Milliplex Map + Luminex 100;28.2;6;serum
+TNF_a;4.84;pg/mL;113;Third trimester;250.3;13.4;healthy;Milliplex Map + Luminex 100;28.2;6;serum
