@@ -1,14 +1,14 @@
 ﻿cytokine;printname
 CRP;CRP
-IL_1b;IL-1\u03B2
+IL_1b;IL-1beta
 IL_2;IL-2
 IL_6;IL-6
 IL_8;IL-8
 IL_12p70;IL-12p70
 IL_15;IL-15
 IL_17;IL-17
-IFN_g;IFN-\03B3
-TNF_a;TNF-\u03b1
+IFN_g;IFN-gamma
+TNF_a;TNF-alpha
 IL_1ra;IL-1Ra
 IL_4;IL-4
 IL_5;IL-5
@@ -22,7 +22,7 @@ G_CSF;G-CSF
 GM_CSF;GM-CSF
 IL_7;IL-7
 MCP_1;MCP-1
-MIP_1a;MIP-1\u03b1
-MIP_1b;MIP-1\u03B2
+MIP_1a;MIP-1alpha
+MIP_1b;MIP-1beta
 eotaxin;Eotaxin
 IP_10;IP-10
