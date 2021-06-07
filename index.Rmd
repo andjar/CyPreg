@@ -43,7 +43,17 @@ datatable(df_studies[,c("author","year","title","doi","type")], class = 'cell-bo
 #ggplot(df_aggregated, aes(ga_days.mean, value, group = filename)) + geom_point() + geom_line() + facet_wrap(~cytokine, scales = "free") + theme_bw()
 ```
 
-# Contribute {data-icon="fa-info"}
+# Details {data-icon="fa-info"}
+
+## Row
+
+### Concentrations
+
+```{r}
+ggplot(df_aggregated, aes(ga_days.mean, value, group = filename)) + geom_point() + geom_line() + facet_wrap(~cytokine, scales = "free") + theme_bw()
+```
+
+# Contribute {data-icon="fa-hands-helping"}
 
 ## Row
 
