@@ -1,13 +1,13 @@
-﻿cytokine;value.median;value.range.lower;value.range.upper;unit;n;ga.string;ga.days.percentile.0;ga.days.percentile.100;ga.days.range;condition;condition.onset;condition.onset.def;condition.severity;condition.severity.def;method;age.median;age.percentile.0;age.percentile.100;tissue;birthweight.median;birthweight.percentile.0;birthweight.percentile.100;systolic.median;systolic.percentile.0;systolic.percentile.100;diastolic.median;diastolic.percentile.0;diastolic.percentile.100
-IL_6;11.81;2.76;267.4;pg/mL;104;;236;160;274;preeclampsia;;;;Maternal systolic blood pressure >=140 mmHg and/or diastolic blood pressure >=90 mmHg measured on two occasions separated by at least 6 h, and proteinuria >300 mg in a 24 h period or qualitative, >1+, after 20 weeks of gestation;ELISA kit (BD, San Diego, USA);30;18;40;serum;;;;157 ;129;186;108 ;77;140
-IL_6;11.76;2.99;249.1;pg/mL;38;;;;;preeclampsia;Early;Before week 32;;;ELISA kit (BD, San Diego, USA);;;;serum;;;;;;;;;
-IL_6;12.22;2.76;267.4;pg/mL;66;;;;;preeclampsia;Late;After week 32;;;ELISA kit (BD, San Diego, USA);;;;serum;;;;;;;;;
-IL_6;17.46;2.76;249.1;pg/mL;52;;;;;preeclampsia;;;Severe;Maternal systolic blood pressure >=160 mmHg and/or diastolic blood pressure >=110 mmHg;ELISA kit (BD, San Diego, USA);;;;serum;;;;;;;;;
-IL_6;10.26;2.99;267.4;pg/mL;52;;;;;preeclampsia;;;Mild/moderate;;ELISA kit (BD, San Diego, USA);;;;serum;;;;;;;;;
-IL_6;10.9;0.605;65.7;pg/mL;75;;255;196;295;healthy;;;;;ELISA kit (BD, San Diego, USA);26;19;38;serum;;;;120 ;90;138;76.5 ;60;90
-IL_6;9.86;0.605;31.7;pg/mL;30;Before week 32;;;;healthy;;;;;ELISA kit (BD, San Diego, USA);;;;serum;;;;;;;;;
-IL_6;10.9;1.412;65.7;pg/mL;45;After week 32;;;;healthy;;;;;ELISA kit (BD, San Diego, USA);;;;serum;;;;;;;;;
-IL_6;19.96;2.76;249.1;pg/mL;24;;198;154;220;preeclampsia;Early;Before week 32;Severe;Maternal systolic blood pressure >=160 mmHg and/or diastolic blood pressure >=110 mmHg;ELISA kit (BD, San Diego, USA);31;20;40;serum;1963 ;940;3700;177 ;153;234;122 ;105;160
-IL_6;9.013;3.51;186.8;pg/mL;14;;207;175;224;preeclampsia;Early;Before week 33;Mild/moderate;;ELISA kit (BD, San Diego, USA);27;20;37;serum;1838 ;1150;3700;145 ;134;159;97 ;90;108
-IL_6;14.02;4.57;237.7;pg/mL;28;;249;225;280;preeclampsia;Late;After week 32;Severe;Maternal systolic blood pressure >=160 mmHg and/or diastolic blood pressure >=110 mmHg;ELISA kit (BD, San Diego, USA);30;22;41;serum;2411 ;1450;4000;170 ;137;198;110 ;97;123
-IL_6;11.6;2.99;267.4;pg/mL;38;;260;226;280;preeclampsia;Late;After week 32;Mild/moderate;;ELISA kit (BD, San Diego, USA);27;18;46;serum;2842 ;900;4800;146 ;129;159;96 ;77;109
+﻿cytokine;value.median;value.range.lower;value.range.upper;unit;n;maingroup;subgroup;ga.string;ga.days.percentile.0;ga.days.percentile.100;ga.days.range;condition;condition.onset;condition.onset.def;condition.severity;condition.severity.def;method;age.median;age.percentile.0;age.percentile.100;tissue;birthweight.median;birthweight.percentile.0;birthweight.percentile.100;systolic.median;systolic.percentile.0;systolic.percentile.100;diastolic.median;diastolic.percentile.0;diastolic.percentile.100
+IL_6;11.81;2.76;267.4;pg/mL;104;1;;;236;160;274;preeclampsia;;;;Maternal systolic blood pressure >=140 mmHg and/or diastolic blood pressure >=90 mmHg measured on two occasions separated by at least 6 h, and proteinuria >300 mg in a 24 h period or qualitative, >1+, after 20 weeks of gestation;ELISA kit (BD, San Diego, USA);30;18;40;serum;;;;157 ;129;186;108 ;77;140
+IL_6;11.76;2.99;249.1;pg/mL;38;3;1;;;;;preeclampsia;Early;Before week 32;;;ELISA kit (BD, San Diego, USA);;;;serum;;;;;;;;;
+IL_6;12.22;2.76;267.4;pg/mL;66;4;1;;;;;preeclampsia;Late;After week 32;;;ELISA kit (BD, San Diego, USA);;;;serum;;;;;;;;;
+IL_6;17.46;2.76;249.1;pg/mL;52;;1;;;;;preeclampsia;;;Severe;Maternal systolic blood pressure >=160 mmHg and/or diastolic blood pressure >=110 mmHg;ELISA kit (BD, San Diego, USA);;;;serum;;;;;;;;;
+IL_6;10.26;2.99;267.4;pg/mL;52;;1;;;;;preeclampsia;;;Mild/moderate;;ELISA kit (BD, San Diego, USA);;;;serum;;;;;;;;;
+IL_6;10.9;0.605;65.7;pg/mL;75;2;;;255;196;295;healthy;;;;;ELISA kit (BD, San Diego, USA);26;19;38;serum;;;;120 ;90;138;76.5 ;60;90
+IL_6;9.86;0.605;31.7;pg/mL;30;;2;Before week 32;;;;healthy;;;;;ELISA kit (BD, San Diego, USA);;;;serum;;;;;;;;;
+IL_6;10.9;1.412;65.7;pg/mL;45;;2;After week 32;;;;healthy;;;;;ELISA kit (BD, San Diego, USA);;;;serum;;;;;;;;;
+IL_6;19.96;2.76;249.1;pg/mL;24;;3;;198;154;220;preeclampsia;Early;Before week 32;Severe;Maternal systolic blood pressure >=160 mmHg and/or diastolic blood pressure >=110 mmHg;ELISA kit (BD, San Diego, USA);31;20;40;serum;1963 ;940;3700;177 ;153;234;122 ;105;160
+IL_6;9.013;3.51;186.8;pg/mL;14;;3;;207;175;224;preeclampsia;Early;Before week 33;Mild/moderate;;ELISA kit (BD, San Diego, USA);27;20;37;serum;1838 ;1150;3700;145 ;134;159;97 ;90;108
+IL_6;14.02;4.57;237.7;pg/mL;28;;4;;249;225;280;preeclampsia;Late;After week 32;Severe;Maternal systolic blood pressure >=160 mmHg and/or diastolic blood pressure >=110 mmHg;ELISA kit (BD, San Diego, USA);30;22;41;serum;2411 ;1450;4000;170 ;137;198;110 ;97;123
+IL_6;11.6;2.99;267.4;pg/mL;38;;4;;260;226;280;preeclampsia;Late;After week 32;Mild/moderate;;ELISA kit (BD, San Diego, USA);27;18;46;serum;2842 ;900;4800;146 ;129;159;96 ;77;109
