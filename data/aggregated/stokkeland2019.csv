@@ -1,0 +1,17 @@
+﻿cytokine;value.median;value.25percentile;value.75percentile;unit;n;ga_string;ga_days.mean;ga_days.sd;condition;method
+CRP;3.5;1.4;7.2;ug/mL;104;GA 10 weeks;75;7;healthy;Human CRP Quantikine kit (R&D technologies, MN, USA)
+CRP;4.8;2.2;7.3;ug/mL;96;GA 12 weeks;91;6;healthy;Human CRP Quantikine kit (R&D technologies, MN, USA)
+CRP;4.9;2.6;7.9;ug/mL;93;GA 19 weeks;130;5;healthy;Human CRP Quantikine kit (R&D technologies, MN, USA)
+CRP;4.6;1.9;8.5;ug/mL;101;GA 24 weeks;170;7;healthy;Human CRP Quantikine kit (R&D technologies, MN, USA)
+IL_1b;1.6;1.2;2;pg/mL;104;GA 10 weeks;75;7;healthy;Bio-Plex Pro Human Cytokine 27-Plex Assay
+IL_1b;1.6;1.1;1.9;pg/mL;96;GA 12 weeks;91;6;healthy;Bio-Plex Pro Human Cytokine 27-Plex Assay
+IL_1b;1.5;1.2;1.9;pg/mL;93;GA 19 weeks;130;5;healthy;Bio-Plex Pro Human Cytokine 27-Plex Assay
+IL_1b;1.5;1.2;1.6;pg/mL;101;GA 24 weeks;170;7;healthy;Bio-Plex Pro Human Cytokine 27-Plex Assay
+IL_2;1.7;0.6;3.4;pg/mL;104;GA 10 weeks;75;7;healthy;Bio-Plex Pro Human Cytokine 27-Plex Assay
+IL_2;1.6;0.7;2.9;pg/mL;96;GA 12 weeks;91;6;healthy;Bio-Plex Pro Human Cytokine 27-Plex Assay
+IL_2;1.1;0.4;3;pg/mL;93;GA 19 weeks;130;5;healthy;Bio-Plex Pro Human Cytokine 27-Plex Assay
+IL_2;0.8;0.2;2;pg/mL;101;GA 24 weeks;170;7;healthy;Bio-Plex Pro Human Cytokine 27-Plex Assay
+IL_6;1.4;0.8;2.1;pg/mL;104;GA 10 weeks;75;7;healthy;Bio-Plex Pro Human Cytokine 27-Plex Assay
+IL_6;1.3;0.8;1.8;pg/mL;96;GA 12 weeks;91;6;healthy;Bio-Plex Pro Human Cytokine 27-Plex Assay
+IL_6;1.1;0.6;1.7;pg/mL;93;GA 19 weeks;130;5;healthy;Bio-Plex Pro Human Cytokine 27-Plex Assay
+IL_6;1.1;0.7;1.8;pg/mL;101;GA 24 weeks;170;7;healthy;Bio-Plex Pro Human Cytokine 27-Plex Assay

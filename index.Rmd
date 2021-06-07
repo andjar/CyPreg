@@ -1,0 +1,56 @@
+---
+title: "The Cytokine in Pregnancy Database"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(ggplot2)
+library(DT)
+source("R/load_data.R")
+```
+
+# Overview {data-icon="fa-home"}
+
+## Row
+
+### Studies
+
+```{r}
+valueBox(nrow(df_studies), icon = "fa-file-alt")
+```
+
+### Aggregated data points
+
+```{r}
+valueBox(nrow(df_aggregated), icon = "fa-filter")
+```
+
+### Raw data points
+
+```{r}
+valueBox(nrow(df_raw), icon = "fa-chart-bar")
+```
+
+## Row
+
+### Studies
+
+```{r}
+datatable(df_studies[,c("author","year","title","doi","type")], class = 'cell-border stripe')
+#ggplot(df_aggregated, aes(ga_days.mean, value, group = filename)) + geom_point() + geom_line() + facet_wrap(~cytokine, scales = "free") + theme_bw()
+```
+
+# Contribute {data-icon="fa-info"}
+
+## Row
+
+### How to contribute
+
+You can contribute to the database through github. Clone the project `https://github.com/andjar/CyPreg.git` and add your data to the data directory. When you add a new study, the study should be added to the file `data/studies.csv`. There are two types of data; either *aggregated* data or *raw* data. Raw data are preferable when they are available under an appropriate license. To ensure compatibility, please see the `variables.csv` for which variables that should be included and `cytokines.csv` for standardized cytokine names.
+
+For **aggregated data**
+
+For **raw data**

@@ -1,0 +1,16 @@
+﻿variable;description
+cytokine;
+value.median;
+value.mean;
+value.25percentile;
+value.75percentile;
+value.sd;
+unit;
+n;
+ga_string;
+ga_days.median;
+ga_days.mean;
+ga_days.25percentile;
+ga_days.75percentile;
+ga_days.sd;
+condition;
