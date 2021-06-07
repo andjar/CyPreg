@@ -43,32 +43,48 @@ valueBox(nrow(cytokines), icon = "fa-snowflake")
 
 ## Row
 
-### Studies 
+### Studies
 
 ```{r}
 datatable(df_studies[,c("author","year","title","doi","design","type")], class = 'cell-border stripe')
 #ggplot(df_aggregated, aes(ga_days.mean, value, group = filename)) + geom_point() + geom_line() + facet_wrap(~cytokine, scales = "free") + theme_bw()
 ```
 
-### Usage {data-width=150}
+### Usage {data-width="150"}
 
 Download
 
-* [Aggregated data](./aggregated_data.csv)
-* [Raw data](./aggregated_data.csv)
+-   [Aggregated data](./aggregated_data.csv)
+-   [Raw data](./aggregated_data.csv)
 
 License:
 
-Citation: 
+Citation:
 
 # Details {data-icon="fa-info"}
 
 ## Row
 
-### Concentrations
+### Aggregated
 
 ```{r}
+ggplot(merge(df_aggregated,cytokines), aes(printname)) + geom_bar() + 
+  theme_bw() + 
+  labs(x = "Cytokine", y = "Number of observations") + 
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+
 #ggplot(df_aggregated, aes(ga_days.mean, value, group = filename)) + geom_point() + geom_line() + facet_wrap(~cytokine, scales = "free") + theme_bw()
+```
+
+## Row
+
+### Raw
+
+```{r}
+#ggplot(merge(df_aggregated,cytokines), aes(printname)) + geom_bar() + 
+#  theme_bw() + 
+#  labs(x = "Cytokine", y = "Number of observations") + 
+#  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
 ```
 
 # Contribute {data-icon="fa-hands-helping"}
@@ -77,8 +93,22 @@ Citation:
 
 ### How to contribute
 
-You can contribute to the database through github. Clone the project `https://github.com/andjar/CyPreg.git` and add your data to the data directory. When you add a new study, the study should be added to the file `data/studies.csv`. There are two types of data; either *aggregated* data or *raw* data. Raw data are preferable when they are available under an appropriate license. To ensure compatibility, please see the `variables.csv` for which variables that should be included and `cytokines.csv` for standardized cytokine names.
+Feel free to contribute! The easiest way to contribute is through [github](https://github.com/andjar/CyPreg) and is described step-wise below.
 
-For **aggregated data**
+1.  If you are new to git, [this guide](https://www.dataschool.io/how-to-contribute-on-github/) can help you getting started. The repository for the database is `https://github.com/andjar/CyPreg.git`
 
-For **raw data**
+2.  Check `data/studies.csv` (or the Overview page) to see that the study you want to add is missing from the database
+
+3.  Add the new study to `data/studies.csv`. Here, `type` should be either `raw` or `aggregated`, and the preferred filename is of the form `firstauthorYYYY.csv` (e.g. `stokkeland2019.csv`)
+
+4.  The data are to be added in a new .csv-file but it may be nice to use an existing file as template. Raw data live in the `data/raw` folder and aggregated data in `data/aggregated`.
+
+5.  The data file should have a long format where each cytokine measurement has its own row. The variable names are columns with the variable name on top. Please see `data/variables.csv` for variable names
+
+    -   If you want to append a new variable, you must also add it to `data/variables.csv` and provide a short description so that others can understand exactly what it means
+
+    -   Please adhere to the convention `basename.median`, `basename.mean`, `basename.sd`, and `basename.percentile.%n` (where `%n` is a numerical value). This will ensure that new columns are created with names `basename`, `basename.upper` and `basename.low` and corresponding columns ending with .def\`
+
+        -   The highest and lower percentiles will be used for upper and lower, respectively. If standard deviation is given, upper and lower will be the corresponding value +/- 1.97 times the standard deviation
+
+6.  Cytokine names should match the column `cytokine` in `data/cytokines.csv`
