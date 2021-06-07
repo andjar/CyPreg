@@ -10,6 +10,7 @@ library(flexdashboard)
 library(ggplot2)
 library(DT)
 source("R/load_data.R")
+source("R/export_data.R")
 ```
 
 # Overview {data-icon="fa-home"}
@@ -34,14 +35,31 @@ valueBox(nrow(df_aggregated), icon = "fa-filter")
 valueBox(nrow(df_raw), icon = "fa-chart-bar")
 ```
 
-## Row
-
-### Studies
+### Different cytokines
 
 ```{r}
-datatable(df_studies[,c("author","year","title","doi","type")], class = 'cell-border stripe')
+valueBox(nrow(cytokines), icon = "fa-snowflake")
+```
+
+## Row
+
+### Studies 
+
+```{r}
+datatable(df_studies[,c("author","year","title","doi","design","type")], class = 'cell-border stripe')
 #ggplot(df_aggregated, aes(ga_days.mean, value, group = filename)) + geom_point() + geom_line() + facet_wrap(~cytokine, scales = "free") + theme_bw()
 ```
+
+### Usage {data-width=150}
+
+Download
+
+* [Aggregated data](./aggregated_data.csv)
+* [Raw data](./aggregated_data.csv)
+
+License:
+
+Citation: 
 
 # Details {data-icon="fa-info"}
 
@@ -50,7 +68,7 @@ datatable(df_studies[,c("author","year","title","doi","type")], class = 'cell-bo
 ### Concentrations
 
 ```{r}
-ggplot(df_aggregated, aes(ga_days.mean, value, group = filename)) + geom_point() + geom_line() + facet_wrap(~cytokine, scales = "free") + theme_bw()
+#ggplot(df_aggregated, aes(ga_days.mean, value, group = filename)) + geom_point() + geom_line() + facet_wrap(~cytokine, scales = "free") + theme_bw()
 ```
 
 # Contribute {data-icon="fa-hands-helping"}
