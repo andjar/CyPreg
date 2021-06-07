@@ -1,5 +1,4 @@
-﻿condition;description;onset;severity
-healthy;;;
-preeclampsia;;early, late;mild/moderate, severe
-;;;
-;;;
+﻿condition;description
+healthy;
+preeclampsia;
+gestational hypertension;

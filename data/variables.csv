@@ -3,16 +3,19 @@ cytokine;both;Cytokine name, see cytokines.csv
 value;aggregated;Cytokine leve
 unit;both;The unit of the reported cytokine levels
 n;both;The number of participant that the reported cytokine levels are based on
+maingroup;aggregated;Sometimes subgroup analyses are presented, if so, define maingroups and subgroups
+subgroup;aggregated;The main group which the current subpopulation belongs to
 ga.string;both;Gestational age at sampling described as a string
 ga.days;aggregated;Gestational age at sampling in days
 ga.weeks;aggregated;Gestational age at sampling in weeks
 condition;aggregated;
-condition.onset;;
-condition.severity;;
+condition.onset;both;
+condition.severity;both;
 method;both;
-bmi.baseline;aggregated;Maternal BMI at either inclusion or before pregnancy, resported as median
-age;aggregated;Maternal age, reported as mean
+bmi;both;Maternal BMI at sampling
+bmi.baseline;aggregated;Maternal BMI at either inclusion or before pregnancy
+age;aggregated;Maternal age
 tissue;both;The tissue type where the cytokines have been measured
 systolic;both;
 diastolic;both;
-birthweigth;both;
+birthweight;both;

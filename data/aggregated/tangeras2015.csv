@@ -1,0 +1,79 @@
+﻿cytokine;value.median;value.percentile.25;value.percentile.75;unit;n;ga.string;ga.weeks.median;ga.weeks.percentile.25;ga.weeks.percentile.75;condition;method;bmi.median;bmi.percentile.25;bmi.percentile.75;age.mean;age.sd;tissue;systolic.median;systolic.percentile.25;systolic.percentile.75;diastolic.median;diastolic.percentile.25;diastolic.percentile.75;birthweight.mean;birthweight.sd
+IL_1b;2.81;2.66;3.27;pg/mL;19;Gestational Weeks 11+0-13+6;13;13;13;gestational hypertension;Bio-Plex Pro Human Cytokine 27-plex assay;27;23;31;25.9;3.9;serum;118;115;128;80;74;84;3408;654
+IL_1ra;210;189;264;pg/mL;19;Gestational Weeks 11+0-13+6;13;13;13;gestational hypertension;Bio-Plex Pro Human Cytokine 27-plex assay;27;23;31;25.9;3.9;serum;118;115;128;80;74;84;3408;654
+IL_2;18.6;15.9;24.3;pg/mL;19;Gestational Weeks 11+0-13+6;13;13;13;gestational hypertension;Bio-Plex Pro Human Cytokine 27-plex assay;27;23;31;25.9;3.9;serum;118;115;128;80;74;84;3408;654
+IL_4;5.22;4.68;6.15;pg/mL;19;Gestational Weeks 11+0-13+6;13;13;13;gestational hypertension;Bio-Plex Pro Human Cytokine 27-plex assay;27;23;31;25.9;3.9;serum;118;115;128;80;74;84;3408;654
+IL_5;2.89;2.67;3.86;pg/mL;19;Gestational Weeks 11+0-13+6;13;13;13;gestational hypertension;Bio-Plex Pro Human Cytokine 27-plex assay;27;23;31;25.9;3.9;serum;118;115;128;80;74;84;3408;654
+IL_6;9.88;7.68;11.09;pg/mL;19;Gestational Weeks 11+0-13+6;13;13;13;gestational hypertension;Bio-Plex Pro Human Cytokine 27-plex assay;27;23;31;25.9;3.9;serum;118;115;128;80;74;84;3408;654
+IL_7;17.4;15.3;23.1;pg/mL;19;Gestational Weeks 11+0-13+6;13;13;13;gestational hypertension;Bio-Plex Pro Human Cytokine 27-plex assay;27;23;31;25.9;3.9;serum;118;115;128;80;74;84;3408;654
+IL_8;19.3;17.5;23.3;pg/mL;19;Gestational Weeks 11+0-13+6;13;13;13;gestational hypertension;Bio-Plex Pro Human Cytokine 27-plex assay;27;23;31;25.9;3.9;serum;118;115;128;80;74;84;3408;654
+IL_9;30.7;22.8;36.3;pg/mL;19;Gestational Weeks 11+0-13+6;13;13;13;gestational hypertension;Bio-Plex Pro Human Cytokine 27-plex assay;27;23;31;25.9;3.9;serum;118;115;128;80;74;84;3408;654
+IL_10;4.89;3.8;5.94;pg/mL;19;Gestational Weeks 11+0-13+6;13;13;13;gestational hypertension;Bio-Plex Pro Human Cytokine 27-plex assay;27;23;31;25.9;3.9;serum;118;115;128;80;74;84;3408;654
+IL_12p70;38.6;24.7;46.1;pg/mL;19;Gestational Weeks 11+0-13+6;13;13;13;gestational hypertension;Bio-Plex Pro Human Cytokine 27-plex assay;27;23;31;25.9;3.9;serum;118;115;128;80;74;84;3408;654
+IL_13;6.87;4.85;8.57;pg/mL;19;Gestational Weeks 11+0-13+6;13;13;13;gestational hypertension;Bio-Plex Pro Human Cytokine 27-plex assay;27;23;31;25.9;3.9;serum;118;115;128;80;74;84;3408;654
+IL_15;7.87;6.84;10.5;pg/mL;19;Gestational Weeks 11+0-13+6;13;13;13;gestational hypertension;Bio-Plex Pro Human Cytokine 27-plex assay;27;23;31;25.9;3.9;serum;118;115;128;80;74;84;3408;654
+IL_17;111.1;89.6;162.5;pg/mL;19;Gestational Weeks 11+0-13+6;13;13;13;gestational hypertension;Bio-Plex Pro Human Cytokine 27-plex assay;27;23;31;25.9;3.9;serum;118;115;128;80;74;84;3408;654
+eotaxin;188;137;207;pg/mL;19;Gestational Weeks 11+0-13+6;13;13;13;gestational hypertension;Bio-Plex Pro Human Cytokine 27-plex assay;27;23;31;25.9;3.9;serum;118;115;128;80;74;84;3408;654
+bFGF;124;111;143;pg/mL;19;Gestational Weeks 11+0-13+6;13;13;13;gestational hypertension;Bio-Plex Pro Human Cytokine 27-plex assay;27;23;31;25.9;3.9;serum;118;115;128;80;74;84;3408;654
+G_CSF;89;78.6;114.8;pg/mL;19;Gestational Weeks 11+0-13+6;13;13;13;gestational hypertension;Bio-Plex Pro Human Cytokine 27-plex assay;27;23;31;25.9;3.9;serum;118;115;128;80;74;84;3408;654
+GM_CSF;93.5;83.5;115.2;pg/mL;19;Gestational Weeks 11+0-13+6;13;13;13;gestational hypertension;Bio-Plex Pro Human Cytokine 27-plex assay;27;23;31;25.9;3.9;serum;118;115;128;80;74;84;3408;654
+IFN_g;475;400;532;pg/mL;19;Gestational Weeks 11+0-13+6;13;13;13;gestational hypertension;Bio-Plex Pro Human Cytokine 27-plex assay;27;23;31;25.9;3.9;serum;118;115;128;80;74;84;3408;654
+IP_10;987;775;1442;pg/mL;19;Gestational Weeks 11+0-13+6;13;13;13;gestational hypertension;Bio-Plex Pro Human Cytokine 27-plex assay;27;23;31;25.9;3.9;serum;118;115;128;80;74;84;3408;654
+MCP_1;15.9;12.2;20.9;pg/mL;19;Gestational Weeks 11+0-13+6;13;13;13;gestational hypertension;Bio-Plex Pro Human Cytokine 27-plex assay;27;23;31;25.9;3.9;serum;118;115;128;80;74;84;3408;654
+MIP_1a;4.8;4.24;6.28;pg/mL;19;Gestational Weeks 11+0-13+6;13;13;13;gestational hypertension;Bio-Plex Pro Human Cytokine 27-plex assay;27;23;31;25.9;3.9;serum;118;115;128;80;74;84;3408;654
+MIP_1b;98;80.3;114.2;pg/mL;19;Gestational Weeks 11+0-13+6;13;13;13;gestational hypertension;Bio-Plex Pro Human Cytokine 27-plex assay;27;23;31;25.9;3.9;serum;118;115;128;80;74;84;3408;654
+TNF_a;65.3;58.8;80.51;pg/mL;19;Gestational Weeks 11+0-13+6;13;13;13;gestational hypertension;Bio-Plex Pro Human Cytokine 27-plex assay;27;23;31;25.9;3.9;serum;118;115;128;80;74;84;3408;654
+VEGF_A;38;31.7;51.7;pg/mL;19;Gestational Weeks 11+0-13+6;13;13;13;gestational hypertension;Bio-Plex Pro Human Cytokine 27-plex assay;27;23;31;25.9;3.9;serum;118;115;128;80;74;84;3408;654
+IL_1b;2.41;2.08;2.89;pg/mL;25;Gestational Weeks 11+0-13+6;13;13;13;preeclampsia;Bio-Plex Pro Human Cytokine 27-plex assay;25;21;27;26.4;5.2;serum;113;209;123;76;69;80;3139;619
+IL_1ra;190;169;237;pg/mL;25;Gestational Weeks 11+0-13+6;13;13;13;preeclampsia;Bio-Plex Pro Human Cytokine 27-plex assay;25;21;27;26.4;5.2;serum;113;209;123;76;69;80;3139;619
+IL_2;18.7;15.6;22.9;pg/mL;25;Gestational Weeks 11+0-13+6;13;13;13;preeclampsia;Bio-Plex Pro Human Cytokine 27-plex assay;25;21;27;26.4;5.2;serum;113;209;123;76;69;80;3139;619
+IL_4;5.03;4.49;5.62;pg/mL;25;Gestational Weeks 11+0-13+6;13;13;13;preeclampsia;Bio-Plex Pro Human Cytokine 27-plex assay;25;21;27;26.4;5.2;serum;113;209;123;76;69;80;3139;619
+IL_5;2.18;1.69;2.74;pg/mL;25;Gestational Weeks 11+0-13+6;13;13;13;preeclampsia;Bio-Plex Pro Human Cytokine 27-plex assay;25;21;27;26.4;5.2;serum;113;209;123;76;69;80;3139;619
+IL_6;9.4;8.36;12.53;pg/mL;25;Gestational Weeks 11+0-13+6;13;13;13;preeclampsia;Bio-Plex Pro Human Cytokine 27-plex assay;25;21;27;26.4;5.2;serum;113;209;123;76;69;80;3139;619
+IL_7;14.9;11;18.7;pg/mL;25;Gestational Weeks 11+0-13+6;13;13;13;preeclampsia;Bio-Plex Pro Human Cytokine 27-plex assay;25;21;27;26.4;5.2;serum;113;209;123;76;69;80;3139;619
+IL_8;16.6;14.3;19.3;pg/mL;25;Gestational Weeks 11+0-13+6;13;13;13;preeclampsia;Bio-Plex Pro Human Cytokine 27-plex assay;25;21;27;26.4;5.2;serum;113;209;123;76;69;80;3139;619
+IL_9;26.6;22.7;34.5;pg/mL;25;Gestational Weeks 11+0-13+6;13;13;13;preeclampsia;Bio-Plex Pro Human Cytokine 27-plex assay;25;21;27;26.4;5.2;serum;113;209;123;76;69;80;3139;619
+IL_10;3.83;2.6;4.99;pg/mL;25;Gestational Weeks 11+0-13+6;13;13;13;preeclampsia;Bio-Plex Pro Human Cytokine 27-plex assay;25;21;27;26.4;5.2;serum;113;209;123;76;69;80;3139;619
+IL_12p70;25.8;20.7;31.6;pg/mL;25;Gestational Weeks 11+0-13+6;13;13;13;preeclampsia;Bio-Plex Pro Human Cytokine 27-plex assay;25;21;27;26.4;5.2;serum;113;209;123;76;69;80;3139;619
+IL_13;4.88;3.73;5.76;pg/mL;25;Gestational Weeks 11+0-13+6;13;13;13;preeclampsia;Bio-Plex Pro Human Cytokine 27-plex assay;25;21;27;26.4;5.2;serum;113;209;123;76;69;80;3139;619
+IL_15;7.59;6.51;8.85;pg/mL;25;Gestational Weeks 11+0-13+6;13;13;13;preeclampsia;Bio-Plex Pro Human Cytokine 27-plex assay;25;21;27;26.4;5.2;serum;113;209;123;76;69;80;3139;619
+IL_17;95.4;79;120.1;pg/mL;25;Gestational Weeks 11+0-13+6;13;13;13;preeclampsia;Bio-Plex Pro Human Cytokine 27-plex assay;25;21;27;26.4;5.2;serum;113;209;123;76;69;80;3139;619
+eotaxin;153;128;192;pg/mL;25;Gestational Weeks 11+0-13+6;13;13;13;preeclampsia;Bio-Plex Pro Human Cytokine 27-plex assay;25;21;27;26.4;5.2;serum;113;209;123;76;69;80;3139;619
+bFGF;108;97;122;pg/mL;25;Gestational Weeks 11+0-13+6;13;13;13;preeclampsia;Bio-Plex Pro Human Cytokine 27-plex assay;25;21;27;26.4;5.2;serum;113;209;123;76;69;80;3139;619
+G_CSF;75.6;70.3;90.3;pg/mL;25;Gestational Weeks 11+0-13+6;13;13;13;preeclampsia;Bio-Plex Pro Human Cytokine 27-plex assay;25;21;27;26.4;5.2;serum;113;209;123;76;69;80;3139;619
+GM_CSF;85.3;72.3;96.2;pg/mL;25;Gestational Weeks 11+0-13+6;13;13;13;preeclampsia;Bio-Plex Pro Human Cytokine 27-plex assay;25;21;27;26.4;5.2;serum;113;209;123;76;69;80;3139;619
+IFN_g;415;334;493;pg/mL;25;Gestational Weeks 11+0-13+6;13;13;13;preeclampsia;Bio-Plex Pro Human Cytokine 27-plex assay;25;21;27;26.4;5.2;serum;113;209;123;76;69;80;3139;619
+IP_10;874;627;1102;pg/mL;25;Gestational Weeks 11+0-13+6;13;13;13;preeclampsia;Bio-Plex Pro Human Cytokine 27-plex assay;25;21;27;26.4;5.2;serum;113;209;123;76;69;80;3139;619
+MCP_1;15.7;14;18.3;pg/mL;25;Gestational Weeks 11+0-13+6;13;13;13;preeclampsia;Bio-Plex Pro Human Cytokine 27-plex assay;25;21;27;26.4;5.2;serum;113;209;123;76;69;80;3139;619
+MIP_1a;3.97;3.65;5;pg/mL;25;Gestational Weeks 11+0-13+6;13;13;13;preeclampsia;Bio-Plex Pro Human Cytokine 27-plex assay;25;21;27;26.4;5.2;serum;113;209;123;76;69;80;3139;619
+MIP_1b;95.8;72.6;118.8;pg/mL;25;Gestational Weeks 11+0-13+6;13;13;13;preeclampsia;Bio-Plex Pro Human Cytokine 27-plex assay;25;21;27;26.4;5.2;serum;113;209;123;76;69;80;3139;619
+TNF_a;60.9;54.9;69.2;pg/mL;25;Gestational Weeks 11+0-13+6;13;13;13;preeclampsia;Bio-Plex Pro Human Cytokine 27-plex assay;25;21;27;26.4;5.2;serum;113;209;123;76;69;80;3139;619
+VEGF_A;33.9;26.5;41.9;pg/mL;25;Gestational Weeks 11+0-13+6;13;13;13;preeclampsia;Bio-Plex Pro Human Cytokine 27-plex assay;25;21;27;26.4;5.2;serum;113;209;123;76;69;80;3139;619
+IL_1b;2.59;2.24;3.04;pg/mL;504;Gestational Weeks 11+0-13+6;13;12;13;healthy;Bio-Plex Pro Human Cytokine 27-plex assay;24;22;26;27.6;3.9;serum;109;104;114;70;66;74;3543;424
+IL_1ra;198;166;233;pg/mL;504;Gestational Weeks 11+0-13+6;13;12;13;healthy;Bio-Plex Pro Human Cytokine 27-plex assay;24;22;26;27.6;3.9;serum;109;104;114;70;66;74;3543;424
+IL_2;18.3;16.1;21.2;pg/mL;504;Gestational Weeks 11+0-13+6;13;12;13;healthy;Bio-Plex Pro Human Cytokine 27-plex assay;24;22;26;27.6;3.9;serum;109;104;114;70;66;74;3543;424
+IL_4;5.14;4.64;5.69;pg/mL;504;Gestational Weeks 11+0-13+6;13;12;13;healthy;Bio-Plex Pro Human Cytokine 27-plex assay;24;22;26;27.6;3.9;serum;109;104;114;70;66;74;3543;424
+IL_5;2.53;1.98;3.13;pg/mL;504;Gestational Weeks 11+0-13+6;13;12;13;healthy;Bio-Plex Pro Human Cytokine 27-plex assay;24;22;26;27.6;3.9;serum;109;104;114;70;66;74;3543;424
+IL_6;9.28;7.98;10.88;pg/mL;504;Gestational Weeks 11+0-13+6;13;12;13;healthy;Bio-Plex Pro Human Cytokine 27-plex assay;24;22;26;27.6;3.9;serum;109;104;114;70;66;74;3543;424
+IL_7;15.8;13.2;18.6;pg/mL;504;Gestational Weeks 11+0-13+6;13;12;13;healthy;Bio-Plex Pro Human Cytokine 27-plex assay;24;22;26;27.6;3.9;serum;109;104;114;70;66;74;3543;424
+IL_8;18;15.6;21.5;pg/mL;504;Gestational Weeks 11+0-13+6;13;12;13;healthy;Bio-Plex Pro Human Cytokine 27-plex assay;24;22;26;27.6;3.9;serum;109;104;114;70;66;74;3543;424
+IL_9;26.9;22.2;33.2;pg/mL;504;Gestational Weeks 11+0-13+6;13;12;13;healthy;Bio-Plex Pro Human Cytokine 27-plex assay;24;22;26;27.6;3.9;serum;109;104;114;70;66;74;3543;424
+IL_10;3.83;2.88;5.21;pg/mL;504;Gestational Weeks 11+0-13+6;13;12;13;healthy;Bio-Plex Pro Human Cytokine 27-plex assay;24;22;26;27.6;3.9;serum;109;104;114;70;66;74;3543;424
+IL_12p70;26.5;20.8;34.8;pg/mL;504;Gestational Weeks 11+0-13+6;13;12;13;healthy;Bio-Plex Pro Human Cytokine 27-plex assay;24;22;26;27.6;3.9;serum;109;104;114;70;66;74;3543;424
+IL_13;5.64;4.38;7.15;pg/mL;504;Gestational Weeks 11+0-13+6;13;12;13;healthy;Bio-Plex Pro Human Cytokine 27-plex assay;24;22;26;27.6;3.9;serum;109;104;114;70;66;74;3543;424
+IL_15;7.73;6.68;9.18;pg/mL;504;Gestational Weeks 11+0-13+6;13;12;13;healthy;Bio-Plex Pro Human Cytokine 27-plex assay;24;22;26;27.6;3.9;serum;109;104;114;70;66;74;3543;424
+IL_17;97.9;80.2;123;pg/mL;504;Gestational Weeks 11+0-13+6;13;12;13;healthy;Bio-Plex Pro Human Cytokine 27-plex assay;24;22;26;27.6;3.9;serum;109;104;114;70;66;74;3543;424
+eotaxin;158;134;188;pg/mL;504;Gestational Weeks 11+0-13+6;13;12;13;healthy;Bio-Plex Pro Human Cytokine 27-plex assay;24;22;26;27.6;3.9;serum;109;104;114;70;66;74;3543;424
+bFGF;113;100;131;pg/mL;504;Gestational Weeks 11+0-13+6;13;12;13;healthy;Bio-Plex Pro Human Cytokine 27-plex assay;24;22;26;27.6;3.9;serum;109;104;114;70;66;74;3543;424
+G_CSF;85.9;74.5;99.9;pg/mL;504;Gestational Weeks 11+0-13+6;13;12;13;healthy;Bio-Plex Pro Human Cytokine 27-plex assay;24;22;26;27.6;3.9;serum;109;104;114;70;66;74;3543;424
+GM_CSF;88.4;79.8;99.1;pg/mL;504;Gestational Weeks 11+0-13+6;13;12;13;healthy;Bio-Plex Pro Human Cytokine 27-plex assay;24;22;26;27.6;3.9;serum;109;104;114;70;66;74;3543;424
+IFN_g;434;371;501;pg/mL;504;Gestational Weeks 11+0-13+6;13;12;13;healthy;Bio-Plex Pro Human Cytokine 27-plex assay;24;22;26;27.6;3.9;serum;109;104;114;70;66;74;3543;424
+IP_10;860;681;1098;pg/mL;504;Gestational Weeks 11+0-13+6;13;12;13;healthy;Bio-Plex Pro Human Cytokine 27-plex assay;24;22;26;27.6;3.9;serum;109;104;114;70;66;74;3543;424
+MCP_1;16.2;13.5;19.2;pg/mL;504;Gestational Weeks 11+0-13+6;13;12;13;healthy;Bio-Plex Pro Human Cytokine 27-plex assay;24;22;26;27.6;3.9;serum;109;104;114;70;66;74;3543;424
+MIP_1a;4.33;3.62;5.18;pg/mL;504;Gestational Weeks 11+0-13+6;13;12;13;healthy;Bio-Plex Pro Human Cytokine 27-plex assay;24;22;26;27.6;3.9;serum;109;104;114;70;66;74;3543;424
+MIP_1b;89.3;71.4;110.2;pg/mL;504;Gestational Weeks 11+0-13+6;13;12;13;healthy;Bio-Plex Pro Human Cytokine 27-plex assay;24;22;26;27.6;3.9;serum;109;104;114;70;66;74;3543;424
+TNF_a;65.5;57.1;76.4;pg/mL;504;Gestational Weeks 11+0-13+6;13;12;13;healthy;Bio-Plex Pro Human Cytokine 27-plex assay;24;22;26;27.6;3.9;serum;109;104;114;70;66;74;3543;424
+VEGF_A;35.5;29.8;42.5;pg/mL;504;Gestational Weeks 11+0-13+6;13;12;13;healthy;Bio-Plex Pro Human Cytokine 27-plex assay;24;22;26;27.6;3.9;serum;109;104;114;70;66;74;3543;424
+CRP;6.23;3.01;14.6;ug/mL;19;Gestational Weeks 11+0-13+6;13;13;13;gestational gypertension;Turbidimetric assay;27;23;31;25.9;3.9;serum;118;115;128;80;74;84;3408;654
+CRP;3.16;1.95;6.32;ug/mL;25;Gestational Weeks 11+0-13+6;13;13;13;preeclampsia;Turbidimetric assay;25;21;27;26.4;5.2;serum;113;209;123;76;69;80;3139;619
+CRP;3.84;2.05;6.67;ug/mL;504;Gestational Weeks 11+0-13+6;13;12;13;healthy;Turbidimetric assay;24;22;26;27.6;3.9;serum;109;104;114;70;66;74;3543;424

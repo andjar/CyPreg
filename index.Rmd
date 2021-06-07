@@ -36,6 +36,12 @@ valueBox(nrow(df_aggregated), icon = "fa-filter")
 valueBox(nrow(df_raw), icon = "fa-chart-bar")
 ```
 
+### Participants
+
+```{r}
+valueBox(sum(df_studies$ntot), icon = "fa-female")
+```
+
 ### Different cytokines
 
 ```{r}
@@ -69,7 +75,7 @@ Citation:
 
 ```{r}
 df_aggregated_summarized <- aggregate(data = merge(df_aggregated, cytokines), value ~ author + title + condition + printname, FUN = length)
-datatable(df_aggregated_summarized, class = 'cell-border stripe')
+datatable(df_aggregated_summarized, class = 'cell-border stripe', rownames = FALSE)
 ```
 
 ### Aggregated
