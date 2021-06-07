@@ -1,0 +1,16 @@
+﻿cytokine;value.median;value.percentile.0;value.percentile.100;value.mean;value.sd;unit;n;ga.weeks.mean;ga.weeks.sd;condition;condition.severity;condition.severity.def;method;bmi.mean;bmi.sd;age.mean;age.sd;tissue;birthweight.mean;birthweight.sd;systolic.mean;systolic.sd;diastolic.mean;diastolic.sd;gabirth.weeks.mean;gabirth.weeks.sd
+IL_4;0.62;0;6.54;0.58;1.11;pg/mL;56;33.62 ; 1.27;healthy;;BioSource ELISA;;23.03 ; 2.71;28.46 ; 4.44;plasma;3401.59 ; 552.59;111.07 ; 12.09;68.66 ; 9.79;38.73 ; 1.85
+IL_8;0.62;0;37.96;3.43;7.98;pg/mL;56;33.62 ; 1.27;healthy;;BioSource ELISA;;23.03 ; 2.71;28.46 ; 4.44;plasma;3401.59 ; 552.59;111.07 ; 12.09;68.66 ; 9.79;38.73 ; 1.85
+IL_12;3.23;0;17.8;4.43;3.48;pg/mL;56;33.62 ; 1.27;healthy;;BioSource ELISA;;23.03 ; 2.71;28.46 ; 4.44;plasma;3401.59 ; 552.59;111.07 ; 12.09;68.66 ; 9.79;38.73 ; 1.85
+IFN_g;0.41;0;4.28;1.03;1.35;pg/mL;56;33.62 ; 1.27;healthy;;BioSource ELISA;;23.03 ; 2.71;28.46 ; 4.44;plasma;3401.59 ; 552.59;111.07 ; 12.09;68.66 ; 9.79;38.73 ; 1.85
+CRP;6.05;3.1;182.9;16.67;33.95;mg/L;56;33.62 ; 1.27;healthy;;Nefelometric method;;23.03 ; 2.71;28.46 ; 4.44;serum;3401.59 ; 552.59;111.07 ; 12.09;68.66 ; 9.79;38.73 ; 1.85
+IL_4;0.74;0;3.85;0.9;0.85;pg/mL;42;33.55 ; 1.45;preeclampsia;mild;BioSource ELISA;;23.63 ; 2.52;29.40 ; 7.23;plasma;2492.26 ; 778.30;154.76 ; 5.05;99.29 ; 5.36;35.60 ; 2.34
+IL_8;0.96;0;84.75;6.54;18.46;pg/mL;42;33.55 ; 1.45;preeclampsia;mild;BioSource ELISA;;23.63 ; 2.52;29.40 ; 7.23;plasma;2492.26 ; 778.30;154.76 ; 5.05;99.29 ; 5.36;35.60 ; 2.34
+IL_12p40;5.24;0.81;18.52;5.84;3.49;pg/mL;42;33.55 ; 1.45;preeclampsia;mild;BioSource ELISA;;23.63 ; 2.52;29.40 ; 7.23;plasma;2492.26 ; 778.30;154.76 ; 5.05;99.29 ; 5.36;35.60 ; 2.34
+IFN_g;0.23;0;1.22;0.35;0.37;pg/mL;42;33.55 ; 1.45;preeclampsia;mild;BioSource ELISA;;23.63 ; 2.52;29.40 ; 7.23;plasma;2492.26 ; 778.30;154.76 ; 5.05;99.29 ; 5.36;35.60 ; 2.34
+CRP;11.6;3.1;159.4;28.85;37.96;mg/L;42;33.55 ; 1.45;preeclampsia;mild;Nefelometric method;;23.63 ; 2.52;29.40 ; 7.23;serum;2492.26 ; 778.30;154.76 ; 5.05;99.29 ; 5.36;35.60 ; 2.34
+IL_4;0.42;0;3.7;0.59;0.65;pg/mL;40;33.00 ; 1.13;preeclampsia;severe;BioSource ELISA;;23.51 ; 3.02;28.18 ; 5.93;plasma;2120.18 ; 710.66;181.88 ; 23.74;106.75 ; 10.95;34.40 ; 1.82
+IL_8;1.6;0;86.59;13.55;25.73;pg/mL;40;33.00 ; 1.13;preeclampsia;severe;BioSource ELISA;;23.51 ; 3.02;28.18 ; 5.93;plasma;2120.18 ; 710.66;181.88 ; 23.74;106.75 ; 10.95;34.40 ; 1.82
+IL_12;4.44;1.31;14.18;5.8;3.31;pg/mL;40;33.00 ; 1.13;preeclampsia;severe;BioSource ELISA;;23.51 ; 3.02;28.18 ; 5.93;plasma;2120.18 ; 710.66;181.88 ; 23.74;106.75 ; 10.95;34.40 ; 1.82
+IFN_g;0.27;0;14;0.74;2.2;pg/mL;40;33.00 ; 1.13;preeclampsia;severe;BioSource ELISA;;23.51 ; 3.02;28.18 ; 5.93;plasma;2120.18 ; 710.66;181.88 ; 23.74;106.75 ; 10.95;34.40 ; 1.82
+CRP;11.6;3.1;165.3;36.64;42.24;mg/L;40;33.00 ; 1.13;preeclampsia;severe;Nefelometric method;;23.51 ; 3.02;28.18 ; 5.93;serum;2120.18 ; 710.66;181.88 ; 23.74;106.75 ; 10.95;34.40 ; 1.82
