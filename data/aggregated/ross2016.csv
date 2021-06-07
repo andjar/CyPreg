@@ -1,0 +1,31 @@
+﻿cytokine;value.mean;value.sd;unit;n;ga.string;ga.weeks.mean;ga.weeks.sd;condition;method;age.mean;age.sd;tissue
+IFN_g;0.79;0.33;log-pg/mL;87;Second trimester;22.9;1.41;healthy;"Meso Scale Discovery (MSD) instrument (SECTOR Imager 2400; Gaithersburg, MD, USA) using the V-PLEX Proinflammatory Panel 1 (10-Plex)";30.5;5.3;maternal
+IFN_g;0.70;0.33;log-pg/mL;87;Third trimester;32.6;1.33;healthy;"Meso Scale Discovery (MSD) instrument (SECTOR Imager 2400; Gaithersburg, MD, USA) using the V-PLEX Proinflammatory Panel 1 (10-Plex)";30.5;5.3;maternal
+IFN_g;0.77;0.14;log-pg/mL;87;Birth;39.2;1.15;healthy;"Meso Scale Discovery (MSD) instrument (SECTOR Imager 2400; Gaithersburg, MD, USA) using the V-PLEX Proinflammatory Panel 1 (10-Plex)";30.5;5.3;cord plasma
+IFN_g;0.65;0.21;log-pg/mL;539;Second trimester;16.5; 2.49;healthy;A custom MSD V-Plex assay;29.6;5.77;plasma
+IFN_g;0.63;0.19;log-pg/mL;539;Third trimester;33.7 ;1.2;healthy;A custom MSD V-Plex assay;29.6;5.77;plasma
+IL_10;0.15;0.15;log-pg/mL;87;Second trimester;22.9;1.41;healthy;"Meso Scale Discovery (MSD) instrument (SECTOR Imager 2400; Gaithersburg, MD, USA) using the V-PLEX Proinflammatory Panel 1 (10-Plex)";30.5;5.3;maternal
+IL_10;0.13;0.10;log-pg/mL;87;Third trimester;32.6;1.33;healthy;"Meso Scale Discovery (MSD) instrument (SECTOR Imager 2400; Gaithersburg, MD, USA) using the V-PLEX Proinflammatory Panel 1 (10-Plex)";30.5;5.3;maternal
+IL_10;0.22;0.10;log-pg/mL;87;Birth;39.2;1.15;healthy;"Meso Scale Discovery (MSD) instrument (SECTOR Imager 2400; Gaithersburg, MD, USA) using the V-PLEX Proinflammatory Panel 1 (10-Plex)";30.5;5.3;cord plasma
+IL_10;0.14;0.07;log-pg/mL;539;Second trimester;16.5; 2.49;healthy;A custom MSD V-Plex assay;29.6;5.77;plasma
+IL_10;0.14; .070;log-pg/mL;539;Third trimester;33.7 ;1.2;healthy;A custom MSD V-Plex assay;29.6;5.77;plasma
+IL_13;0.53; .356;log-pg/mL;87;Second trimester;22.9;1.41;healthy;"Meso Scale Discovery (MSD) instrument (SECTOR Imager 2400; Gaithersburg, MD, USA) using the V-PLEX Proinflammatory Panel 1 (10-Plex)";30.5;5.3;maternal
+IL_13;0.53; .346;log-pg/mL;87;Third trimester;32.6;1.33;healthy;"Meso Scale Discovery (MSD) instrument (SECTOR Imager 2400; Gaithersburg, MD, USA) using the V-PLEX Proinflammatory Panel 1 (10-Plex)";30.5;5.3;maternal
+IL_13;0.71;0.33;log-pg/mL;87;Birth;39.2;1.15;healthy;"Meso Scale Discovery (MSD) instrument (SECTOR Imager 2400; Gaithersburg, MD, USA) using the V-PLEX Proinflammatory Panel 1 (10-Plex)";30.5;5.3;cord plasma
+IL_13;0.55; .294;log-pg/mL;539;Second trimester;16.5; 2.49;healthy;A custom MSD V-Plex assay;29.6;5.77;plasma
+IL_13;0.56;0.29;log-pg/mL;539;Third trimester;33.7 ;1.2;healthy;A custom MSD V-Plex assay;29.6;5.77;plasma
+IL_6;0.20; .142;log-pg/mL;87;Second trimester;22.9;1.41;healthy;"Meso Scale Discovery (MSD) instrument (SECTOR Imager 2400; Gaithersburg, MD, USA) using the V-PLEX Proinflammatory Panel 1 (10-Plex)";30.5;5.3;maternal
+IL_6;.218 ;0.14;log-pg/mL;87;Third trimester;32.6;1.33;healthy;"Meso Scale Discovery (MSD) instrument (SECTOR Imager 2400; Gaithersburg, MD, USA) using the V-PLEX Proinflammatory Panel 1 (10-Plex)";30.5;5.3;maternal
+IL_6;0.51;0.28;log-pg/mL;87;Birth;39.2;1.15;healthy;"Meso Scale Discovery (MSD) instrument (SECTOR Imager 2400; Gaithersburg, MD, USA) using the V-PLEX Proinflammatory Panel 1 (10-Plex)";30.5;5.3;cord plasma
+IL_6;0.19; .090;log-pg/mL;539;Second trimester;16.5; 2.49;healthy;A custom MSD V-Plex assay;29.6;5.77;plasma
+IL_6;0.23;0.08;log-pg/mL;539;Third trimester;33.7 ;1.2;healthy;A custom MSD V-Plex assay;29.6;5.77;plasma
+IL_8;0.72; .144;log-pg/mL;87;Second trimester;22.9;1.41;healthy;"Meso Scale Discovery (MSD) instrument (SECTOR Imager 2400; Gaithersburg, MD, USA) using the V-PLEX Proinflammatory Panel 1 (10-Plex)";30.5;5.3;maternal
+IL_8;0.77;0.13;log-pg/mL;87;Third trimester;32.6;1.33;healthy;"Meso Scale Discovery (MSD) instrument (SECTOR Imager 2400; Gaithersburg, MD, USA) using the V-PLEX Proinflammatory Panel 1 (10-Plex)";30.5;5.3;maternal
+IL_8;0.93;0.35;log-pg/mL;87;Birth;39.2;1.15;healthy;"Meso Scale Discovery (MSD) instrument (SECTOR Imager 2400; Gaithersburg, MD, USA) using the V-PLEX Proinflammatory Panel 1 (10-Plex)";30.5;5.3;cord plasma
+IL_8;0.46;0.13;log-pg/mL;539;Second trimester;16.5; 2.49;healthy;A custom MSD V-Plex assay;29.6;5.77;plasma
+IL_8;0.47;0.12;log-pg/mL;539;Third trimester;33.7 ;1.2;healthy;A custom MSD V-Plex assay;29.6;5.77;plasma
+TNF_a;0.347;0.123;log-pg/mL;87;Second trimester;22.9;1.41;healthy;"Meso Scale Discovery (MSD) instrument (SECTOR Imager 2400; Gaithersburg, MD, USA) using the V-PLEX Proinflammatory Panel 1 (10-Plex)";30.5;5.3;maternal
+TNF_a;0.348; .124;log-pg/mL;87;Third trimester;32.6;1.33;healthy;"Meso Scale Discovery (MSD) instrument (SECTOR Imager 2400; Gaithersburg, MD, USA) using the V-PLEX Proinflammatory Panel 1 (10-Plex)";30.5;5.3;maternal
+TNF_a;0.569;0.075;log-pg/mL;87;Birth;39.2;1.15;healthy;"Meso Scale Discovery (MSD) instrument (SECTOR Imager 2400; Gaithersburg, MD, USA) using the V-PLEX Proinflammatory Panel 1 (10-Plex)";30.5;5.3;cord plasma
+TNF_a;0.297;0.066;log-pg/mL;539;Second trimester;16.5; 2.49;healthy;A custom MSD V-Plex assay;29.6;5.77;plasma
+TNF_a;0.311; .064;log-pg/mL;539;Third trimester;33.7 ;1.2;healthy;A custom MSD V-Plex assay;29.6;5.77;plasma
