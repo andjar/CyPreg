@@ -1,4 +1,4 @@
-﻿cytokine;value.median;value.25percentile;value.75percentile;unit;n;ga_string;ga_days.mean;ga_days.sd;condition;method;bmi.baseline.median;bmi.baseline.25percentile;bmi.baseline.75percentile;age.mean;age.sd;tissue
+﻿cytokine;value.median;value.percentile.25;value.percentile.75;unit;n;ga.string;ga.days.mean;ga.days.sd;condition;method;bmi.baseline.median;bmi.baseline.percentile.25;bmi.baseline.percentile.75;age.mean;age.sd;tissue
 CRP;3.5;1.4;7.2;ug/mL;104;GA 10 weeks;75;7;healthy;Human CRP Quantikine kit (R&D technologies, MN, USA);22.9;21.5;25.1;28.7;4.2;serum
 CRP;4.8;2.2;7.3;ug/mL;96;GA 12 weeks;91;6;healthy;Human CRP Quantikine kit (R&D technologies, MN, USA);22.9;21.5;25.1;28.7;4.2;serum
 CRP;4.9;2.6;7.9;ug/mL;93;GA 19 weeks;130;5;healthy;Human CRP Quantikine kit (R&D technologies, MN, USA);22.9;21.5;25.1;28.7;4.2;serum
