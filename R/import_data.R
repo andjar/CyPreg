@@ -2,7 +2,6 @@ import_data <- function(study, all_variables){
   
   df <- read.csv(study$filename, fileEncoding = "UTF-8-BOM", sep = ";")
   allowed_variables <- subset(all_variables, type %in% c("both", study$type))$variable
-  allowed_variables <- gsub("%n","*",allowed_variables)
   allowed_variables <- paste(allowed_variables,collapse="|")
   if(any(!grepl(allowed_variables,colnames(df)))){
     stop(paste0("A variable in ",study$file," did not match variables.csv"))

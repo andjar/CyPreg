@@ -1,23 +1,18 @@
 ﻿variable;type;description
 cytokine;both;Cytokine name, see cytokines.csv
-value.median;aggregated;Cytokine level, reported as median
-value.mean;aggregated;Cytokine level, reported as mean
-value.percentile.%n;aggregated;Cytokine level, reported as %nth percentile
-value.sd;aggregated;Variation in cytokine level, reported as standard deviation
+value;aggregated;Cytokine leve
 unit;both;The unit of the reported cytokine levels
 n;both;The number of participant that the reported cytokine levels are based on
 ga.string;both;Gestational age at sampling described as a string
-ga.days.median;aggregated;Gestational age at sampling in days, reported as median
-ga.days.mean;aggregated;Gestational age at sampling in days, reported as mean
-ga.days.percentile.%n;aggregated;Gestational age at sampling in days, reported as %nth percentile
-ga.days.sd;aggregated;Variation in gestational age at sampling in days, reported as standard deviation
-ga.weeks.mean;aggregated;Gestational age at sampling in weeks, reported as mean
-ga.weeks.sd;aggregated;Variation in gestational age at sampling in weeks, reported as standard deviation
+ga.days;aggregated;Gestational age at sampling in days
+ga.weeks;aggregated;Gestational age at sampling in weeks
 condition;aggregated;
+condition.onset;;
+condition.severity;;
 method;both;
-bmi.baseline.median;aggregated;Maternal BMI at either inclusion or before pregnancy, resported as median
-bmi.baseline.mean;aggregated;Maternal BMI at either inclusion or before pregnancy, resported as mean
-bmi.baseline.percentile.%n;aggregated;Maternal BMI at either inclusion or before pregnancy, resported as %nth percentile
-age.mean;aggregated;Maternal age, reported as mean
-age.sd;aggregated;Variation in maternal age, reported as standard deviation
+bmi.baseline;aggregated;Maternal BMI at either inclusion or before pregnancy, resported as median
+age;aggregated;Maternal age, reported as mean
 tissue;both;The tissue type where the cytokines have been measured
+systolic;both;
+diastolic;both;
+birthweigth;both;

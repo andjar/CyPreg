@@ -5,6 +5,8 @@ df_studies <- read.csv("data/studies.csv", fileEncoding = "UTF-8-BOM", sep = ";"
 df_studies$filename <- paste0("data/", df_studies$type, "/", df_studies$file)
 
 all_variables <- read.csv("data/variables.csv", fileEncoding = "UTF-8-BOM", sep = ";")
+
+# Read cytokines ----
 cytokines <- read.csv("data/cytokines.csv", fileEncoding = "UTF-8-BOM", sep = ";", as.is = TRUE)
 cytokines$printname = gsub("alpha","\u03B1",cytokines$printname)
 cytokines$printname = gsub("beta","\u03B2",cytokines$printname)

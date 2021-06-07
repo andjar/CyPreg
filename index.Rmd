@@ -8,6 +8,7 @@ output:
 ```{r setup, include=FALSE}
 library(flexdashboard)
 library(ggplot2)
+library(plotly)
 library(DT)
 source("R/load_data.R")
 source("R/export_data.R")
@@ -47,7 +48,6 @@ valueBox(nrow(cytokines), icon = "fa-snowflake")
 
 ```{r}
 datatable(df_studies[,c("author","year","title","doi","design","type")], class = 'cell-border stripe')
-#ggplot(df_aggregated, aes(ga_days.mean, value, group = filename)) + geom_point() + geom_line() + facet_wrap(~cytokine, scales = "free") + theme_bw()
 ```
 
 ### Usage {data-width="150"}
@@ -68,10 +68,19 @@ Citation:
 ### Aggregated
 
 ```{r}
-ggplot(merge(df_aggregated,cytokines), aes(printname)) + geom_bar() + 
-  theme_bw() + 
-  labs(x = "Cytokine", y = "Number of observations") + 
-  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+df_aggregated_summarized <- aggregate(data = merge(df_aggregated, cytokines), value ~ author + title + condition + printname, FUN = length)
+datatable(df_aggregated_summarized, class = 'cell-border stripe')
+```
+
+### Aggregated
+
+```{r}
+ggplotly(
+  ggplot(merge(df_aggregated,cytokines), aes(printname)) + geom_bar() + 
+    theme_bw() + 
+    labs(x = "Cytokine", y = "Number of observations") + 
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+)
 
 #ggplot(df_aggregated, aes(ga_days.mean, value, group = filename)) + geom_point() + geom_line() + facet_wrap(~cytokine, scales = "free") + theme_bw()
 ```
@@ -107,8 +116,18 @@ Feel free to contribute! The easiest way to contribute is through [github](https
 
     -   If you want to append a new variable, you must also add it to `data/variables.csv` and provide a short description so that others can understand exactly what it means
 
-    -   Please adhere to the convention `basename.median`, `basename.mean`, `basename.sd`, and `basename.percentile.%n` (where `%n` is a numerical value). This will ensure that new columns are created with names `basename`, `basename.upper` and `basename.low` and corresponding columns ending with .def\`
+    -   Please adhere to the following convention: Variable names should have the form `basename.suffix` where `basename` is added to `data/variable.csv`. Available suffixes, that are used in the csf files that contain data, are
 
-        -   The highest and lower percentiles will be used for upper and lower, respectively. If standard deviation is given, upper and lower will be the corresponding value +/- 1.97 times the standard deviation
+        -   `median`: If the given value is reported as median
+
+        -   `mean`: If the given value is reported as mean
+        
+        -   `sd`: If the variation in the given value is reported as standard deviation
+        
+        -   `percentile.%n`: If the variation in the given value is reported as the %nth percentile. Remember that range corresponds to the 0-100th percentile
+        
+        -   `def`: To provide details regarding a basevariable
+
+    -   The highest and lower percentiles will be used for `basename.upper` and `basename.lower`, respectively. If standard deviation is given, upper and lower will be the corresponding value +/- 1.97 times the standard deviation
 
 6.  Cytokine names should match the column `cytokine` in `data/cytokines.csv`
