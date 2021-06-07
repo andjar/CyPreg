@@ -102,6 +102,22 @@ ggplotly(
 #  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
 ```
 
+# Conditions {data-icon="fa-heartbeat"}
+
+## Row
+
+### Aggregated
+
+```{r}
+ggplotly(
+  ggplot(merge(df_aggregated,cytokines),
+         aes(ga, ifelse(grepl("log",unit), exp(value), value), shape = condition, color = paste(author, year))) + geom_point() + 
+    theme_bw() + scale_y_log10() + theme(legend.position = "bottom") +
+    labs(x = "Cytokine", y = "Number of observations") + 
+    facet_wrap(~printname, scales = "free_y")
+)
+```
+
 # Contribute {data-icon="fa-hands-helping"}
 
 ## Row
