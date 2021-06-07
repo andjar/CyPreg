@@ -1,0 +1,1 @@
+write.csv(df_aggregated,"aggregated_data.csv")
