@@ -45,6 +45,14 @@ import_data <- function(study, all_variables){
       }
     }
     
+    df$ga <- NA
+    if(any(grepl("ga.days", colnames(df)))){
+      df$ga <- df$ga.days
+    }
+    if(any(grepl("ga.weeks", colnames(df)))){
+      df$ga <- ifelse(is.na(df$ga),df$ga.weeks*7, df$ga)
+    }
+    
     ## Move spread
     if(any(grepl("value.percentile", colnames(df)))){
       tmp_cols <- which(grepl("value.percentile", colnames(df)))

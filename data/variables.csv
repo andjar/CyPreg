@@ -11,6 +11,8 @@ ga.days.median;aggregated;Gestational age at sampling in days, reported as media
 ga.days.mean;aggregated;Gestational age at sampling in days, reported as mean
 ga.days.percentile.%n;aggregated;Gestational age at sampling in days, reported as %nth percentile
 ga.days.sd;aggregated;Variation in gestational age at sampling in days, reported as standard deviation
+ga.weeks.mean;aggregated;Gestational age at sampling in weeks, reported as mean
+ga.weeks.sd;aggregated;Variation in gestational age at sampling in weeks, reported as standard deviation
 condition;aggregated;
 method;both;
 bmi.baseline.median;aggregated;Maternal BMI at either inclusion or before pregnancy, resported as median
