@@ -107,16 +107,88 @@ ggplotly(
 
 ## Row
 
-### Aggregated
+### Tangerås (2015)
 
 ```{r}
-ggplotly(
-  ggplot(merge(df_aggregated,cytokines),
-         aes(ga, ifelse(grepl("log",unit), exp(value), value), shape = condition, color = paste(author, year))) + geom_point() + 
-    theme_bw() + scale_y_log10() + theme(legend.position = "bottom") +
-    labs(x = "Gestational age", y = "Concentration") + 
-    facet_wrap(~printname, scales = "free_y")
-)
+fig <- plot_ly(
+    type = 'scatterpolar',
+    fill = 'toself'
+  )
+df_plot <- subset(df_aggregated, author == "Tangerås")
+for(i in unique(df_plot$condition)){
+  fig <- fig %>%
+  add_trace(
+    r = subset(df_plot, condition == i)$value/subset(df_plot, condition == "healthy")$value,
+    theta = subset(df_plot, condition == i)$cytokine,
+    name = i
+  )
+}
+
+fig
+```
+
+### Arikan (2012)
+
+```{r}
+fig <- plot_ly(
+    type = 'scatterpolar',
+    fill = 'toself'
+  )
+df_plot <- subset(df_aggregated, author == "Arikan")
+df_plot$condition <- paste(df_plot$condition, df_plot$condition.severity)
+for(i in unique(df_plot$condition)){
+  fig <- fig %>%
+  add_trace(
+    r = subset(df_plot, condition == i)$value/subset(df_plot, condition == "healthy ")$value,
+    theta = subset(df_plot, condition == i)$cytokine,
+    name = i
+  )
+}
+
+fig
+```
+
+## Row
+
+### Garcia (2018)
+
+```{r}
+fig <- plot_ly(
+    type = 'scatterpolar',
+    fill = 'toself'
+  )
+df_plot <- subset(df_aggregated, author == "Garcia")
+for(i in unique(df_plot$condition)){
+  fig <- fig %>%
+  add_trace(
+    r = subset(df_plot, condition == i)$value/subset(df_plot, condition == "healthy")$value,
+    theta = subset(df_plot, condition == i)$cytokine,
+    name = i
+  )
+}
+
+fig
+```
+
+### Cheslack-Postava (2016)
+
+```{r}
+fig <- plot_ly(
+    type = 'scatterpolar',
+    fill = 'toself'
+  )
+df_plot <- subset(df_aggregated, author == "Cheslack-Postava")
+df_plot$condition <- paste0(df_plot$ga.string,", ",df_plot$condition)
+for(i in unique(df_plot$condition)){
+  fig <- fig %>%
+  add_trace(
+    r = subset(df_plot, condition == i)$value/subset(df_plot, condition == "First trimester, healthy")$value,
+    theta = subset(df_plot, condition == i)$cytokine,
+    name = i
+  )
+}
+
+fig
 ```
 
 # Trends {data-icon="fa-chart-line"}
