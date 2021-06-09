@@ -1,0 +1,55 @@
+﻿cytokine;method;value.median;value.percentile.25;value.percentile.75;unit;condition;n;ga.weeks.median;ga.weeks.percentile.25;ga.weeks.percentile.75;gabirth.weeks.median;gabirth.weeks.percentile.25;gabirth.weeks.percentile.75;birthweight.median;birthweight.percentile.25;birthweight.percentile.75;age.median;age.percentile.25;age.percentile.75;bmi.median;bmi.percentile.25;bmi.percentile.75;systolic.median;systolic.percentile.25;systolic.percentile.75;diastolic.median;diastolic.percentile.25;diastolic.percentile.75;tissue
+IL_1b;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;24.5;23;28;pg/mL;healthy non-pregnant;59;;;;;;;;;;28;23;35;20.8;19.6;22.9;115;110;120;80;70;80;serum
+IL_1ra;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;8;6.7;11;pg/mL;healthy non-pregnant;59;;;;;;;;;;28;23;35;20.8;19.6;22.9;115;110;120;80;70;80;serum
+IL_2;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;5;4.2;6;pg/mL;healthy non-pregnant;59;;;;;;;;;;28;23;35;20.8;19.6;22.9;115;110;120;80;70;80;serum
+IL_4;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;3;2;3;pg/mL;healthy non-pregnant;59;;;;;;;;;;28;23;35;20.8;19.6;22.9;115;110;120;80;70;80;serum
+IL_6;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;6;5;8;pg/mL;healthy non-pregnant;59;;;;;;;;;;28;23;35;20.8;19.6;22.9;115;110;120;80;70;80;serum
+IL_8;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;23;18.2;37.5;pg/mL;healthy non-pregnant;59;;;;;;;;;;28;23;35;20.8;19.6;22.9;115;110;120;80;70;80;serum
+IL_10;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;43.7;32.7;60.5;pg/mL;healthy non-pregnant;59;;;;;;;;;;28;23;35;20.8;19.6;22.9;115;110;120;80;70;80;serum
+IL_12p40;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;119;109;140;pg/mL;healthy non-pregnant;59;;;;;;;;;;28;23;35;20.8;19.6;22.9;115;110;120;80;70;80;serum
+IL_12p70;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;12;9;15;pg/mL;healthy non-pregnant;59;;;;;;;;;;28;23;35;20.8;19.6;22.9;115;110;120;80;70;80;serum
+IL_18;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;38.7;33;46.5;pg/mL;healthy non-pregnant;59;;;;;;;;;;28;23;35;20.8;19.6;22.9;115;110;120;80;70;80;serum
+IFN_g;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;4;3;4;pg/mL;healthy non-pregnant;59;;;;;;;;;;28;23;35;20.8;19.6;22.9;115;110;120;80;70;80;serum
+TNF_a;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;2;2;3;pg/mL;healthy non-pregnant;59;;;;;;;;;;28;23;35;20.8;19.6;22.9;115;110;120;80;70;80;serum
+TGF_b1;ELISA (DRG International);342;285;388;pg/mL;healthy non-pregnant;59;;;;;;;;;;28;23;35;20.8;19.6;22.9;115;110;120;80;70;80;serum
+IP_10;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;198;142;327;pg/mL;healthy non-pregnant;59;;;;;;;;;;28;23;35;20.8;19.6;22.9;115;110;120;80;70;80;serum
+MCP_1;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;153;87.5;233;pg/mL;healthy non-pregnant;59;;;;;;;;;;28;23;35;20.8;19.6;22.9;115;110;120;80;70;80;serum
+ICAM_1;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;6638;6143;7205;pg/mL;healthy non-pregnant;59;;;;;;;;;;28;23;35;20.8;19.6;22.9;115;110;120;80;70;80;serum
+VCAM_1;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;6151;5767;6564;pg/mL;healthy non-pregnant;59;;;;;;;;;;28;23;35;20.8;19.6;22.9;115;110;120;80;70;80;serum
+CRP;Autoanalyzer, Germany;0.7;0.5;1.8;mg/L;healthy non-pregnant;59;;;;;;;;;;28;23;35;20.8;19.6;22.9;115;110;120;80;70;80;serum
+IL_1b;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;27;23;31.5;pg/mL;healthy;60;36;36;37;39;38;40;3450;3150;3700;30;28;32;25.8;24.3;27.9;110;108;120;70;60;80;serum
+IL_1ra;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;6;5;7;pg/mL;healthy;60;36;36;37;39;38;40;3450;3150;3700;30;28;32;25.8;24.3;27.9;110;108;120;70;60;80;serum
+IL_2;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;4;4;5;pg/mL;healthy;60;36;36;37;39;38;40;3450;3150;3700;30;28;32;25.8;24.3;27.9;110;108;120;70;60;80;serum
+IL_4;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;2;2;2;pg/mL;healthy;60;36;36;37;39;38;40;3450;3150;3700;30;28;32;25.8;24.3;27.9;110;108;120;70;60;80;serum
+IL_6;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;7;5;9;pg/mL;healthy;60;36;36;37;39;38;40;3450;3150;3700;30;28;32;25.8;24.3;27.9;110;108;120;70;60;80;serum
+IL_8;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;24.5;16;68.5;pg/mL;healthy;60;36;36;37;39;38;40;3450;3150;3700;30;28;32;25.8;24.3;27.9;110;108;120;70;60;80;serum
+IL_10;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;15.7;14;19;pg/mL;healthy;60;36;36;37;39;38;40;3450;3150;3700;30;28;32;25.8;24.3;27.9;110;108;120;70;60;80;serum
+IL_12p40;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;136;118;168;pg/mL;healthy;60;36;36;37;39;38;40;3450;3150;3700;30;28;32;25.8;24.3;27.9;110;108;120;70;60;80;serum
+IL_12p70;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;5;4;5;pg/mL;healthy;60;36;36;37;39;38;40;3450;3150;3700;30;28;32;25.8;24.3;27.9;110;108;120;70;60;80;serum
+IL_18;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;56;44;73.7;pg/mL;healthy;60;36;36;37;39;38;40;3450;3150;3700;30;28;32;25.8;24.3;27.9;110;108;120;70;60;80;serum
+IFN_g;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;3;2;3;pg/mL;healthy;60;36;36;37;39;38;40;3450;3150;3700;30;28;32;25.8;24.3;27.9;110;108;120;70;60;80;serum
+TNF_a;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;2;1;2;pg/mL;healthy;60;36;36;37;39;38;40;3450;3150;3700;30;28;32;25.8;24.3;27.9;110;108;120;70;60;80;serum
+TGF_b1;ELISA (DRG International);364;307;413;pg/mL;healthy;60;36;36;37;39;38;40;3450;3150;3700;30;28;32;25.8;24.3;27.9;110;108;120;70;60;80;serum
+IP_10;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;327;222;442;pg/mL;healthy;60;36;36;37;39;38;40;3450;3150;3700;30;28;32;25.8;24.3;27.9;110;108;120;70;60;80;serum
+MCP_1;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;79.5;52.5;110;pg/mL;healthy;60;36;36;37;39;38;40;3450;3150;3700;30;28;32;25.8;24.3;27.9;110;108;120;70;60;80;serum
+ICAM_1;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;6789;6201;7672;pg/mL;healthy;60;36;36;37;39;38;40;3450;3150;3700;30;28;32;25.8;24.3;27.9;110;108;120;70;60;80;serum
+VCAM_1;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;6157;5633;6617;pg/mL;healthy;60;36;36;37;39;38;40;3450;3150;3700;30;28;32;25.8;24.3;27.9;110;108;120;70;60;80;serum
+CRP;Autoanalyzer, Germany;3.6;1.7;6.6;mg/L;healthy;60;36;36;37;39;38;40;3450;3150;3700;30;28;32;25.8;24.3;27.9;110;108;120;70;60;80;serum
+IL_1b;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;28;23;34;pg/mL;preeclampsia;60;37;36;39;38;37;39;3125;2450;3475;29;26;32;29.9 ;26.9;33.3;162;155;180;100;97;110;serum
+IL_1ra;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;18;11;27.5;pg/mL;preeclampsia;60;37;36;39;38;37;39;3125;2450;3475;29;26;32;29.9 ;26.9;33.3;162;155;180;100;97;110;serum
+IL_2;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;7.5;5.5;12;pg/mL;preeclampsia;60;37;36;39;38;37;39;3125;2450;3475;29;26;32;29.9 ;26.9;33.3;162;155;180;100;97;110;serum
+IL_4;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;3;3;4;pg/mL;preeclampsia;60;37;36;39;38;37;39;3125;2450;3475;29;26;32;29.9 ;26.9;33.3;162;155;180;100;97;110;serum
+IL_6;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;15.5;12;32;pg/mL;preeclampsia;60;37;36;39;38;37;39;3125;2450;3475;29;26;32;29.9 ;26.9;33.3;162;155;180;100;97;110;serum
+IL_8;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;78;35;273;pg/mL;preeclampsia;60;37;36;39;38;37;39;3125;2450;3475;29;26;32;29.9 ;26.9;33.3;162;155;180;100;97;110;serum
+IL_10;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;23;18;35;pg/mL;preeclampsia;60;37;36;39;38;37;39;3125;2450;3475;29;26;32;29.9 ;26.9;33.3;162;155;180;100;97;110;serum
+IL_12p40;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;185;153;215;pg/mL;preeclampsia;60;37;36;39;38;37;39;3125;2450;3475;29;26;32;29.9 ;26.9;33.3;162;155;180;100;97;110;serum
+IL_12p70;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;6;5;8;pg/mL;preeclampsia;60;37;36;39;38;37;39;3125;2450;3475;29;26;32;29.9 ;26.9;33.3;162;155;180;100;97;110;serum
+IL_18;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;73.5;55;87;pg/mL;preeclampsia;60;37;36;39;38;37;39;3125;2450;3475;29;26;32;29.9 ;26.9;33.3;162;155;180;100;97;110;serum
+IFN_g;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;5;4;6;pg/mL;preeclampsia;60;37;36;39;38;37;39;3125;2450;3475;29;26;32;29.9 ;26.9;33.3;162;155;180;100;97;110;serum
+TNF_a;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;2;2;3;pg/mL;preeclampsia;60;37;36;39;38;37;39;3125;2450;3475;29;26;32;29.9 ;26.9;33.3;162;155;180;100;97;110;serum
+TGF_b1;ELISA (DRG International);383;331;418;pg/mL;preeclampsia;60;37;36;39;38;37;39;3125;2450;3475;29;26;32;29.9 ;26.9;33.3;162;155;180;100;97;110;serum
+IP_10;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;688;434;928;pg/mL;preeclampsia;60;37;36;39;38;37;39;3125;2450;3475;29;26;32;29.9 ;26.9;33.3;162;155;180;100;97;110;serum
+MCP_1;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;189;120;283;pg/mL;preeclampsia;60;37;36;39;38;37;39;3125;2450;3475;29;26;32;29.9 ;26.9;33.3;162;155;180;100;97;110;serum
+ICAM_1;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;8132;7413;8808;pg/mL;preeclampsia;60;37;36;39;38;37;39;3125;2450;3475;29;26;32;29.9 ;26.9;33.3;162;155;180;100;97;110;serum
+VCAM_1;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;7386;6913;7709;pg/mL;preeclampsia;60;37;36;39;38;37;39;3125;2450;3475;29;26;32;29.9 ;26.9;33.3;162;155;180;100;97;110;serum
+CRP;Autoanalyzer, Germany;6.8;2.7;12.1;mg/L;preeclampsia;60;37;36;39;38;37;39;3125;2450;3475;29;26;32;29.9 ;26.9;33.3;162;155;180;100;97;110;serum
