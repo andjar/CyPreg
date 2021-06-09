@@ -1,0 +1,16 @@
+﻿cytokine;unit;value.median;value.percentile.25;value.percentile.75;ga.string;age.mean;age.sd;n;bmi.prepregnancy.mean;bmi.prepregnancy.sd;method;tissue;ga.weeks.median
+CRP;ng/mL;10.1;5.7;16.5;15 weeks;31.9;4.1;46;33.4;5.7;eBioscience;serum;15
+IL_6;pg/mL;0.1;0.1;2.7;15 weeks;31.9;4.1;46;33.4;5.7;eBioscience;serum;15
+IL_10;pg/mL;11.7;6.7;25.2;15 weeks;31.9;4.1;46;33.4;5.7;eBioscience;serum;15
+TNF_a;pg/mL;60.1;46.7;97.9;15 weeks;31.9;4.1;46;33.4;5.7;eBioscience;serum;15
+IL_1b;pg/mL;49.2;0.1;85;15 weeks;31.9;4.1;46;33.4;5.7;eBioscience;serum;15
+CRP;ng/mL;9.1;5.4;14.3;24 weeks;31.9;4.1;46;33.4;5.7;eBioscience;serum;24
+IL_6;pg/mL;0.1;0.1;6.6;24 weeks;31.9;4.1;46;33.4;5.7;eBioscience;serum;24
+IL_10;pg/mL;16.3;10.8;32.9;24 weeks;31.9;4.1;46;33.4;5.7;eBioscience;serum;24
+TNF_a;pg/mL;91.3;66.3;134.7;24 weeks;31.9;4.1;46;33.4;5.7;eBioscience;serum;24
+IL_1b;pg/mL;69.5;0.1;104.4;24 weeks;31.9;4.1;46;33.4;5.7;eBioscience;serum;24
+CRP;ng/mL;7.1;3.1;15.6;32 weeks;31.9;4.1;46;33.4;5.7;eBioscience;serum;32
+IL_6;pg/mL;0.1;0.1;7.8;32 weeks;31.9;4.1;46;33.4;5.7;eBioscience;serum;32
+IL_10;pg/mL;15.2;7.4;40.3;32 weeks;31.9;4.1;46;33.4;5.7;eBioscience;serum;32
+TNF_a;pg/mL;90.5;45.4;122.3;32 weeks;31.9;4.1;46;33.4;5.7;eBioscience;serum;32
+IL_1b;pg/mL;62;0.1;109;32 weeks;31.9;4.1;46;33.4;5.7;eBioscience;serum;32

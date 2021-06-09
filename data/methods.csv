@@ -12,4 +12,8 @@ Milliplex Map + Luminex 100;Multiplex;Luminex 100 Analyzer;Luminex, Austin, TX;M
 LabMap;Multiplex;Luminex MultiAnalyte Profiling Technology;;LabMap;Luminex Corporation, Austin, Texas
 Autoanalyzer, Germany;;Cobas Integra 800, Roche, Mannheim, Germany;;;
 ELISA (DRG International);ELISA;;;ELISA kit;DRG International, Mountainside, New Jersey, USA, Cat. No. EIA-1864
-;Multiplex;Bio-Plex 200 analyzer;Bio-Rad Laboratories, Hercules, California, USA;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;Bio-Rad Laboratories, Hercules, California, USA
+Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;Multiplex;Bio-Plex 200 analyzer;Bio-Rad Laboratories, Hercules, California, USA;Bio-Plex, Cat. No. X500317TGY and XF0000ZGAI;Bio-Rad Laboratories, Hercules, California, USA
+ELISA (R&D Systems, Inc);ELISA;;;ELISA kit;R&D Systems, Inc
+MAGPIX (Luminex);Multiplex;MAGPIX (Luminex);;uman Adipokine Magnetic Bead Panel 2 kit;xMAP Technology
+turbidimetric method (A25 BioSystems and CRP kit BioSystems);;;;;
+eBioscience;Multiplex;;;eBioscience, San Diego, CA, USA;

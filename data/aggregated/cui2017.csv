@@ -1,0 +1,7 @@
+﻿cytokine;value.mean;value.sd;unit;condition;condition.severity;n;method;age.mean;age.sd;bmi.mean;bmi.sd;gabirth.weeks.mean;gabirth.weeks.sd;systolic.mean;systolic.sd;diastolic.mean;diastolic.sd;birthweight.mean;birthweight.sd;tissue;ga.string
+MCP_1;154.78;9.61;pg/mL;healthy;;143;ELISA (R&D Systems, Inc);29.8;3.61;28.47;0.71;38.71;0.95;108.27;9.15;76.2;3.65;3423.33;328.34;serum;14 to 18 weeks
+MCP_1;164.93;6.24;pg/mL;preeclampsia;mild;38;ELISA (R&D Systems, Inc);;;;;;;;;;;;;serum;14 to 18 weeks
+MCP_1;185.8;15.72;pg/mL;preeclampsia;severe;40;ELISA (R&D Systems, Inc);;;;;;;;;;;;;serum;14 to 18 weeks
+IL_10;28.31;3.16;pg/mL;healthy;;143;ELISA (R&D Systems, Inc);29.8;3.61;28.47;0.71;38.71;0.95;108.27;9.15;76.2;3.65;3423.33;328.34;serum;14 to 18 weeks
+IL_10;21.54;0.89;pg/mL;preeclampsia;mild;38;ELISA (R&D Systems, Inc);;;;;;;;;;;;;serum;14 to 18 weeks
+IL_10;14.84;2.73;pg/mL;preeclampsia;severe;40;ELISA (R&D Systems, Inc);;;;;;;;;;;;;serum;14 to 18 weeks

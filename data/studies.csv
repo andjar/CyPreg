@@ -8,3 +8,8 @@ Garcia;2018;Early pregnancy immune biomarkers in peripheral blood may predict pr
 Cheslack-Postava;2016;Maternal serum cytokine levels and risk of bipolar disorder;10.1016/j.bbi.2016.07.160;repeated measures;aggregated;cheslackpostava2016.csv;255
 Taylor;2016;First and second trimester immune biomarkers in preeclamptic and normotensive women;10.1016/j.preghy.2016.09.002;single measure;aggregated;taylor2016.csv;619
 Szarka;2010;Circulating cytokines, chemokines and adhesion molecules in normal pregnancy and preeclampsia determined by multiplex suspension array;10.1186/1471-2172-11-59;single measure;aggregated;szarka2010.csv;179
+Aggarwal;2019;Association of pro- and anti-inflammatory cytokines in preeclampsia;10.1002/jcla.22834;single measure;aggregated;aggarwal2019.csv;194
+Cui;2017;Combined use of serum MCP-1/IL-10 ratio and uterine artery Doppler index significantly improves the prediction of preeclampsia;10.1016/j.cca.2016.12.025;single measure;aggregated;cui2017.csv;221
+Braga;2019;Relationship between inflammatory markers, glycated hemoglobin and placental weight on fetal outcomes in women with gestational diabetes;10.20945/2359-3997000000099 ;single measure;aggregated;braga2019.csv;176
+Georgiou;2011;Association between maternal serum cytokine profiles at 7-10 weeks' gestation and birthweight in small for gestational age infants;10.1016/j.ajog.2010.12.005;single measure;aggregated;georgiou2011.csv;128
+Nayak;2016;Sedentary behavior in obese pregnant women is associated with inflammatory markers and lipid profile but not with glucose metabolism;10.1016/j.cyto.2016.08.031;repeated measures;aggregated;nayak2016.csv;46

@@ -235,9 +235,97 @@ for(i in unique(df_plot$condition)){
 fig
 ```
 
+## Row
+
+### Aggarwal (2019)
+
+```{r}
+fig <- plot_ly(
+    type = 'scatterpolar',
+    fill = 'toself'
+  )
+df_plot <- subset(df_aggregated, author == "Aggarwal")
+df_plot$condition <- paste0(df_plot$ga.string, ", ", df_plot$condition)
+for(i in unique(df_plot$condition)){
+  fig <- fig %>%
+  add_trace(
+    r = subset(df_plot, condition == i)$value/subset(df_plot, condition == unique(df_plot$condition)[1])$value,
+    theta = subset(df_plot, condition == i)$cytokine,
+    name = i
+  )
+}
+
+fig
+```
+
+### Cui (2017)
+
+```{r}
+fig <- plot_ly(
+    type = 'scatterpolar',
+    fill = 'toself'
+  )
+df_plot <- subset(df_aggregated, author == "Cui")
+df_plot$condition <- paste0(df_plot$condition, ", ",df_plot$condition.severity)
+for(i in unique(df_plot$condition)){
+  fig <- fig %>%
+  add_trace(
+    r = subset(df_plot, condition == i)$value/subset(df_plot, condition == "healthy, ")$value,
+    theta = subset(df_plot, condition == i)$cytokine,
+    name = i
+  )
+}
+
+fig
+```
+
+## Row
+
+### Braga (2019)
+
+```{r}
+fig <- plot_ly(
+    type = 'scatterpolar',
+    fill = 'toself'
+  )
+df_plot <- subset(df_aggregated, author == "Braga")
+for(i in unique(df_plot$condition)){
+  fig <- fig %>%
+  add_trace(
+    r = subset(df_plot, condition == i)$value/subset(df_plot, condition == "healthy")$value,
+    theta = subset(df_plot, condition == i)$cytokine,
+    name = i
+  )
+}
+
+fig
+```
+
+### Georgiou (2011)
+
+```{r}
+fig <- plot_ly(
+    type = 'scatterpolar',
+    fill = 'toself'
+  )
+df_plot <- subset(df_aggregated, author == "Georgiou")
+df_plot$condition <- paste0(df_plot$condition, ", week ",df_plot$ga.week.median)
+df_plot <- subset(df_plot, cytokine %in% cytokine[value > 0 & condition == "healthy, week 7"])
+for(i in unique(df_plot$condition)){
+  fig <- fig %>%
+  add_trace(
+    r = subset(df_plot, condition == i)$value/subset(df_plot, condition == "healthy, week 7")$value,
+    theta = subset(df_plot, condition == i)$cytokine,
+    name = i
+  )
+}
+
+fig
+```
+
 # Trends {data-icon="fa-chart-line"}
 
-## Row {.tabset }
+## Row {.tabset data-height=900}
 
 ### Method
 
@@ -247,7 +335,7 @@ ggplotly(
          aes(ga, ifelse(grepl("log",unit), exp(value), value), color = method)) + geom_point() + 
     theme_bw() + scale_y_log10() + theme(legend.position = "bottom") +
     labs(x = "Gestational age", y = "Concentration", color = "Method") + 
-    facet_wrap(~printname, scales = "free_y")
+    facet_wrap(~printname)
 )
 ```
 
@@ -259,7 +347,7 @@ ggplotly(
          aes(ga, ifelse(grepl("log",unit), exp(value), value), color = tissue)) + geom_point() + 
     theme_bw() + scale_y_log10() + theme(legend.position = "bottom") +
     labs(x = "Gestational age", y = "Concentration", color = "Tissue") + 
-    facet_wrap(~printname, scales = "free_y")
+    facet_wrap(~printname)
 )
 ```
 
@@ -271,7 +359,7 @@ ggplotly(
          aes(ga, ifelse(grepl("log",unit), exp(value), value), color = ifelse(is.na(bmi), bmi.baseline, bmi))) + geom_point() + 
     theme_bw() + scale_y_log10() + theme(legend.position = "bottom") +
     labs(x = "Gestational age", y = "Concentration", color = "BMI") + 
-    facet_wrap(~printname, scales = "free_y")
+    facet_wrap(~printname)
 )
 ```
 
@@ -283,7 +371,7 @@ ggplotly(
          aes(ga, ifelse(grepl("log",unit), exp(value), value), color = age)) + geom_point() + 
     theme_bw() + scale_y_log10() + theme(legend.position = "bottom") +
     labs(x = "Gestational age", y = "Concentration", color = "Maternal age") + 
-    facet_wrap(~printname, scales = "free_y")
+    facet_wrap(~printname)
 )
 ```
 
@@ -295,7 +383,7 @@ ggplotly(
          aes(ga, ifelse(grepl("log",unit), exp(value), value), color = systolic)) + geom_point() + 
     theme_bw() + scale_y_log10() + theme(legend.position = "bottom") +
     labs(x = "Gestational age", y = "Concentration", color = "Systolic blood pressure") + 
-    facet_wrap(~printname, scales = "free_y")
+    facet_wrap(~printname)
 )
 ```
 
@@ -307,7 +395,7 @@ ggplotly(
          aes(ga, ifelse(grepl("log",unit), exp(value), value), color = diastolic)) + geom_point() + 
     theme_bw() + scale_y_log10() + theme(legend.position = "bottom") +
     labs(x = "Gestational age", y = "Concentration", color = "Distolic blood pressure") + 
-    facet_wrap(~printname, scales = "free_y")
+    facet_wrap(~printname)
 )
 ```
 

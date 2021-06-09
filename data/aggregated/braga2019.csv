@@ -1,0 +1,7 @@
+﻿cytokine;n;value.median;value.percentile.25;value.percentile.75;unit;condition;ga.string;age.median;age.percentile.25;age.percentile.75;bmi.median;bmi.percentile.25;bmi.percentile.75;systolic.median;systolic.percentile.25;systolic.percentile.75;diastolic.median;diastolic.percentile.25;diastolic.percentile.75;tissue;method
+IL_6;78;0.175;0.12;0.298;pg/mL;gestational diabetes mellitus;24-28th weeks;31;29;37;27.8;23.5;32.1;120;110;120;80;70;80;serum;MAGPIX (Luminex)
+CRP;78;0.585;0.335;1.123;mg/dL;gestational diabetes mellitus;24-28th weeks;31;29;37;27.8;23.5;32.1;120;110;120;80;70;80;serum;turbidimetric method (A25 BioSystems and CRP kit BioSystems)
+TNF_a;78;0.23;0.13;0.33;pg/mL;gestational diabetes mellitus;24-28th weeks;31;29;37;27.8;23.5;32.1;120;110;120;80;70;80;serum;MAGPIX (Luminex)
+IL_6;98;0.155;0.1;0.325;pg/mL;healthy;24-28th weeks;27.5;24;32;22.8;20.9;27.3;110;100;120;70;70;80;serum;MAGPIX (Luminex)
+CRP;98;0.53;0.25;0.883;mg/dL;healthy;24-28th weeks;27.5;24;32;22.8;20.9;27.3;110;100;120;70;70;80;serum;turbidimetric method (A25 BioSystems and CRP kit BioSystems)
+TNF_a;98;0.2;0.13;0.31;pg/mL;healthy;24-28th weeks;27.5;24;32;22.8;20.9;27.3;110;100;120;70;70;80;serum;MAGPIX (Luminex)
