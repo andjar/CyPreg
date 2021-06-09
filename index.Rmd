@@ -4,6 +4,7 @@ output:
   flexdashboard::flex_dashboard:
     orientation: rows
     self_contained: false
+    vertical_layout: scroll
 ---
 
 ```{r setup, include=FALSE}
@@ -190,6 +191,31 @@ for(i in unique(df_plot$condition)){
 
 fig
 ```
+
+## Row
+
+### Taylor (2016)
+
+```{r}
+fig <- plot_ly(
+    type = 'scatterpolar',
+    fill = 'toself'
+  )
+df_plot <- subset(df_aggregated, author == "Taylor")
+df_plot$condition <- paste0(df_plot$ga.string,", ",df_plot$condition)
+for(i in unique(df_plot$condition)){
+  fig <- fig %>%
+  add_trace(
+    r = subset(df_plot, condition == i)$value/subset(df_plot, condition == "First trimester, healthy")$value,
+    theta = subset(df_plot, condition == i)$cytokine,
+    name = i
+  )
+}
+
+fig
+```
+
+### TBA
 
 # Trends {data-icon="fa-chart-line"}
 

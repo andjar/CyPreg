@@ -4,6 +4,7 @@ IL_1b;IL-1beta
 IL_2;IL-2
 IL_6;IL-6
 IL_8;IL-8
+IL_12;IL-12
 IL_12p40;IL-12p40
 IL_12p70;IL-12p70
 IL_15;IL-15
@@ -13,6 +14,7 @@ TNF_a;TNF-alpha
 TNF_b;TNF-beta
 IL_1ra;IL-1Ra
 IL_4;IL-4
+IL_4r;IL-4R
 IL_5;IL-5
 IL_9;IL-9
 IL_10;IL-10
@@ -31,3 +33,6 @@ IP_10;IP-10
 EGF;EGF
 IFN_a2;IFN-alpha2
 VEGF;VEGF
+TNF_R1;TNF-R1
+IL_1a;IL-1alpha
+TGF_b;TGF-beta
