@@ -1,4 +1,5 @@
 source("R/import_data.R")
+source("R/import_stats.R")
 
 # Load studies ----
 df_studies <- read.csv("data/studies.csv", fileEncoding = "UTF-8-BOM", sep = ";")
@@ -16,9 +17,12 @@ cytokines$printname = gsub("epsilon","\u03B5",cytokines$printname)
 
 # Load aggregated data ----
 df_aggregated <- data.frame()
-for(i in 1:nrow(df_studies)){
+for(i in which(df_studies$type == "aggregated")){
   df_aggregated <- dplyr::bind_rows(import_data(df_studies[i,], all_variables), df_aggregated)
 }
+
+# Load aggregated data statistics ----
+df_mann_whitney <- import_stats_mann_whitney(df_studies, all_variables, df_aggregated)
 
 # Load raw data ----
 df_raw <- data.frame()

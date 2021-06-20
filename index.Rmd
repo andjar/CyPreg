@@ -10,10 +10,34 @@ output:
 ```{r setup, include=FALSE}
 library(flexdashboard)
 library(ggplot2)
+library(ggrepel)
 library(plotly)
 library(DT)
 source("R/load_data.R")
+source("R/plot_stat.R")
 source("R/export_data.R")
+diffPlot <- function(df_plot, refLevel = "healthy"){
+  tmp <- Reduce(rbind, lapply(unique(df_plot$condition), function(i){
+    Reduce(rbind, lapply(unique(df_plot$cytokine[df_plot$condition == i]), function(x){
+      data.frame(
+       cytokine = x,
+       diff = (subset(df_plot, condition == i & cytokine == x)$value-subset(df_plot, condition == refLevel & cytokine == x)$value)/subset(df_plot, condition == refLevel & cytokine == x)$value,
+       condition = i
+      )
+    }))
+  }))
+  tmp <- subset(tmp, condition != refLevel)
+  tmp$cytokine <- factor(tmp$cytokine, levels = unique(tmp$cytokine)[order(subset(tmp, condition == tmp$condition[1])$diff)])
+return(
+  ggplotly(
+    ggplot(tmp, aes(cytokine, 100*diff, color = condition)) + 
+      geom_segment( aes(xend=cytokine, y=0, yend=100*diff)) + 
+      geom_point() + theme_bw() + coord_flip() + 
+      facet_wrap(~condition) + theme(legend.position = "none") +
+      labs(y = paste0("Deviation from ", refLevel, " [%]"), x = "Cytokine")
+  )
+)
+}
 ```
 
 # Overview {data-icon="fa-home"}
@@ -104,7 +128,7 @@ ggplotly(
 #  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
 ```
 
-# Conditions {data-icon="fa-heartbeat"}
+# Conditions {data-icon="fa-chart-pie"}
 
 ## Row
 
@@ -126,6 +150,7 @@ for(i in unique(df_plot$condition)){
 }
 
 fig
+
 ```
 
 ### Arikan (2012)
@@ -147,6 +172,7 @@ for(i in unique(df_plot$condition)){
 }
 
 fig
+
 ```
 
 ## Row
@@ -169,6 +195,7 @@ for(i in unique(df_plot$condition)){
 }
 
 fig
+
 ```
 
 ### Cheslack-Postava (2016)
@@ -190,6 +217,7 @@ for(i in unique(df_plot$condition)){
 }
 
 fig
+
 ```
 
 ## Row
@@ -213,6 +241,7 @@ for(i in unique(df_plot$condition)){
 }
 
 fig
+
 ```
 
 ### Szarka (2010)
@@ -233,6 +262,7 @@ for(i in unique(df_plot$condition)){
 }
 
 fig
+
 ```
 
 ## Row
@@ -277,6 +307,7 @@ for(i in unique(df_plot$condition)){
 }
 
 fig
+
 ```
 
 ## Row
@@ -299,6 +330,7 @@ for(i in unique(df_plot$condition)){
 }
 
 fig
+
 ```
 
 ### Georgiou (2011)
@@ -321,7 +353,118 @@ for(i in unique(df_plot$condition)){
 }
 
 fig
+
 ```
+
+
+# Conditions {data-icon="fa-heartbeat"}
+
+## Row
+
+### Tangerås (2015)
+
+```{r}
+
+df_plot <- subset(df_aggregated, author == "Tangerås")
+diffPlot(df_plot, refLevel = "healthy")
+
+```
+
+### Arikan (2012)
+
+```{r}
+
+df_plot <- subset(df_aggregated, author == "Arikan")
+df_plot$condition <- paste(df_plot$condition, df_plot$condition.severity)
+diffPlot(df_plot, refLevel = "healthy ")
+
+```
+
+## Row
+
+### Garcia (2018)
+
+```{r}
+
+df_plot <- subset(df_aggregated, author == "Garcia")
+diffPlot(df_plot, refLevel = "healthy")
+
+```
+
+### Cheslack-Postava (2016)
+
+```{r}
+
+df_plot <- subset(df_aggregated, author == "Cheslack-Postava")
+df_plot$condition <- paste0(df_plot$ga.string,", ",df_plot$condition)
+diffPlot(df_plot, refLevel = "First trimester, healthy")
+
+```
+
+## Row
+
+### Taylor (2016)
+
+```{r}
+
+df_plot <- subset(df_aggregated, author == "Taylor")
+df_plot$condition <- paste0(df_plot$ga.string,", ",df_plot$condition)
+diffPlot(df_plot, refLevel = "First trimester, healthy")
+```
+
+### Szarka (2010)
+
+```{r}
+
+df_plot <- subset(df_aggregated, author == "Szarka")
+diffPlot(df_plot, refLevel = "healthy")
+
+```
+
+## Row
+
+### Aggarwal (2019)
+
+```{r}
+
+df_plot <- subset(df_aggregated, author == "Aggarwal")
+df_plot$condition <- paste0(df_plot$ga.string, ", ", df_plot$condition)
+diffPlot(df_plot, refLevel = unique(df_plot$condition[1]))
+
+```
+
+### Cui (2017)
+
+```{r}
+
+df_plot <- subset(df_aggregated, author == "Cui")
+df_plot$condition <- paste0(df_plot$condition, ", ",df_plot$condition.severity)
+diffPlot(df_plot, refLevel = "healthy, ")
+
+```
+
+## Row
+
+### Braga (2019)
+
+```{r}
+
+df_plot <- subset(df_aggregated, author == "Braga")
+diffPlot(df_plot, refLevel = "healthy")
+
+```
+
+### Georgiou (2011)
+
+```{r}
+
+df_plot <- subset(df_aggregated, author == "Georgiou")
+df_plot$condition <- paste0(df_plot$condition, ", week ",df_plot$ga.week.median)
+df_plot <- subset(df_plot, cytokine %in% cytokine[value > 0 & condition == "healthy, week 7"])
+diffPlot(df_plot, refLevel = "healthy, week 7")
+
+```
+
 
 # Trends {data-icon="fa-chart-line"}
 

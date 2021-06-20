@@ -1,0 +1,4 @@
+﻿test.details;cytokine;auc;auc.ci.lower;auc.ci.upper;sensitivity;specificity;predictor;outcome;file
+;IL_8;0.768;0.664;0.852;77.78;77.92;cytokine;preeclampsia;data/aggregated/garcia2018.csv
+;MCP_1;0.736;0.63;0.825;66.67;80.52;cytokine;preeclampsia;data/aggregated/garcia2018.csv
+;MIP_1a;0.22;0.612;0.814;87.5;69.33;cytokine;preeclampsia;data/aggregated/garcia2018.csv
