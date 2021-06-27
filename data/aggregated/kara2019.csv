@@ -1,0 +1,13 @@
+﻿cytokine;unit;value.mean;value.sd;ga.string;age.mean;age.sd;n;condition;bmi.mean;bmi.sd;method;tissue;ga.weeks.mean;ga.weeks.sd;parity.mean;parity.sd;birthweight.mean;birthweight.sd
+CRP;mg/L;5.1;6.2;Third trimester;30;5.3;20;preeclampsia;30.2;5.6;Cobas Integra 400 Plus using a latex particle-enhanced immunoturbidimetric assay according to the manufacturer’s instructions (Roche Diagnostics, Indianapolis, IN);serum;36;5.3;1;0.8;2465;792
+CRP;mg/L;4.7;5;Third trimester;24.5;5.9;36;healthy;29.4;1.8;Cobas Integra 400 Plus using a latex particle-enhanced immunoturbidimetric assay according to the manufacturer’s instructions (Roche Diagnostics, Indianapolis, IN);serum;36;3;1;0.8;;
+CRP;mg/L;4.6;7.9;Third trimester;23.5;5.6;24;IUGR;29.3;2;Cobas Integra 400 Plus using a latex particle-enhanced immunoturbidimetric assay according to the manufacturer’s instructions (Roche Diagnostics, Indianapolis, IN);serum;37;1.1;0;0.8;2550;439
+IL_6;pg/mL;3.7;20.1;Third trimester;30;5.3;20;preeclampsia;30.2;5.6;solid phase enzyme-linked chemiluminescence immunometric assay on the IMMULITE 1000 analyzer following the manufacturer’s instructions (Siemens Diagnostic Product Corporation, Los Angeles, CA);serum;36;5.3;1;0.8;2465;792
+IL_6;pg/mL;4.2;16.3;Third trimester;24.5;5.9;36;healthy;29.4;1.8;solid phase enzyme-linked chemiluminescence immunometric assay on the IMMULITE 1000 analyzer following the manufacturer’s instructions (Siemens Diagnostic Product Corporation, Los Angeles, CA);serum;36;3;1;0.8;;
+IL_6;pg/mL;2.3;8.9;Third trimester;23.5;5.6;24;IUGR;29.3;2;solid phase enzyme-linked chemiluminescence immunometric assay on the IMMULITE 1000 analyzer following the manufacturer’s instructions (Siemens Diagnostic Product Corporation, Los Angeles, CA);serum;37;1.1;0;0.8;2550;439
+;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;

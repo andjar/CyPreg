@@ -1,0 +1,31 @@
+﻿cytokine;unit;value.mean;value.sd;value.median;value.percentile.0;value.percentile.100;maingroup;subgroup;ga.string;n;condition;condition.severity;age.mean;age.sd;bmi.mean;bmi.sd;method;tissue;ga.weeks.mean;ga.weeks.sd;gabirth.weeks.mean;gabirth.weeks.sd;parity.mean;parity.sd;systolic.mean;systolic.sd;diastolic.mean;diastolic.sd;birthweight.mean;birthweight.sd;birthmode
+IL_6;pg/mL;101.23;121.02;57.93;30.19;669.79;1;;Late third trimester;24;preeclampsia;;28.5;5.83;28.9;6.4;"ELISA; BioSource International,
+Camarillo, CA";serum;37.12;1.45;37.12;1.45;1.67;1.31;162;25;120;13;2530;425;Cesarean section
+IL_6;pg/mL;25.18;24.46;13.57;5.45;476.45;2;;Late third trimester;19;healthy;;28.47;5.01;27.4;5.6;"ELISA; BioSource International,
+Camarillo, CA";serum;38.52;0.96;38.52;0.96;0.95;0.91;118;13;73;5;3310;450;Cesarean section
+IL_8;pg/mL;479.26;318.96;403.86;140.4;1056.55;1;;Late third trimester;24;preeclampsia;;28.5;5.83;28.9;6.4;"ELISA; BioSource International,
+Camarillo, CA";serum;37.12;1.45;37.12;1.45;1.67;1.31;162;25;120;13;2530;425;Cesarean section
+IL_8;pg/mL;89.46;42.39;88.7;74.29;774.71;2;;Late third trimester;19;healthy;;28.47;5.01;27.4;5.6;"ELISA; BioSource International,
+Camarillo, CA";serum;38.52;0.96;38.52;0.96;0.95;0.91;118;13;73;5;3310;450;Cesarean section
+TNF_a;pg/mL;15.03;6.05;14.93;4.06;30.67;1;;Late third trimester;24;preeclampsia;;28.5;5.83;28.9;6.4;"ELISA; Ray-bio ELISA kit (Ray-Bio Tech, Norcross, GA";serum;37.12;1.45;37.12;1.45;1.67;1.31;162;25;120;13;2530;425;Cesarean section
+TNF_a;pg/mL;6.98;7.01;4.5;2.32;30.67;2;;Late third trimester;19;healthy;;28.47;5.01;27.4;5.6;"ELISA; Ray-bio ELISA kit (Ray-Bio Tech, Norcross, GA";serum;38.52;0.96;38.52;0.96;0.95;0.91;118;13;73;5;3310;450;Cesarean section
+IL_6;pg/mL;58.73;26.45;69.79;30.19;333.87;;1;Late third trimester;9;preeclampsia;mild;;;;;"ELISA; BioSource International,
+Camarillo, CA";serum;;;;;;;;;;;;;Cesarean section
+IL_6;pg/mL;126.73;147.65;52.84;112.89;669.79;;1;Late third trimester;15;preeclampsia;severe;;;;;"ELISA; BioSource International,
+Camarillo, CA";serum;;;;;;;;;;;;;Cesarean section
+IL_8;pg/mL;284.52;275.16;140.4;48.6;742.72;;1;Late third trimester;9;preeclampsia;mild;;;;;"ELISA; BioSource International,
+Camarillo, CA";serum;;;;;;;;;;;;;Cesarean section
+IL_8;pg/mL;596.1;291.32;691.32;140.4;1056.55;;1;Late third trimester;15;preeclampsia;severe;;;;;"ELISA; BioSource International,
+Camarillo, CA";serum;;;;;;;;;;;;;Cesarean section
+TNF_a;pg/mL;9.94;3.77;8.85;4.06;14.79;;1;Late third trimester;9;preeclampsia;mild;;;;;"ELISA; Ray-bio ELISA kit (Ray-Bio Tech, Norcross, GA";serum;;;;;;;;;;;;;Cesarean section
+TNF_a;pg/mL;18.07;5.05;15.95;13.92;30.67;;1;Late third trimester;15;preeclampsia;severe;;;;;"ELISA; Ray-bio ELISA kit (Ray-Bio Tech, Norcross, GA";serum;;;;;;;;;;;;;Cesarean section
+IL_6;pg/mL;103.46;100.78;52.5;112.89;669.79;;1;Late third trimester;12;preeclampsia, IUGR;;;;;;"ELISA; BioSource International,
+Camarillo, CA";serum;;;;;;;;;;;;;Cesarean section
+IL_6;pg/mL;99;143.01;72.5;30.19;546.35;;1;Late third trimester;12;preeclampsia;;;;;;"ELISA; BioSource International,
+Camarillo, CA";serum;;;;;;;;;;;;;Cesarean section
+IL_8;pg/mL;609.23;308.56;700.9;148.28;1056.55;;1;Late third trimester;12;preeclampsia, IUGR;;;;;;"ELISA; BioSource International,
+Camarillo, CA";serum;;;;;;;;;;;;;Cesarean section
+IL_8;pg/mL;349.28;283.99;326.99;48.6;742.72;;1;Late third trimester;12;preeclampsia;;;;;;"ELISA; BioSource International,
+Camarillo, CA";serum;;;;;;;;;;;;;Cesarean section
+TNF_a;pg/mL;18.84;5.4;16.39;13.92;30.67;;1;Late third trimester;12;preeclampsia, IUGR;;;;;;"ELISA; Ray-bio ELISA kit (Ray-Bio Tech, Norcross, GA";serum;;;;;;;;;;;;;Cesarean section
+TNF_a;pg/mL;11.21;3.96;12.21;6.7;15.66;;1;Late third trimester;12;preeclampsia;;;;;;"ELISA; Ray-bio ELISA kit (Ray-Bio Tech, Norcross, GA";serum;;;;;;;;;;;;;Cesarean section

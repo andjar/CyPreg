@@ -1,0 +1,21 @@
+﻿cytokine;unit;value.median;value.percentile.0;value.percentile.100;ga.string;age.mean;age.sd;n;condition;condition.severity;bmi.mean;bmi.sd;method;tissue;ga.weeks.mean;ga.weeks.sd;diastolic.mean;diastolic.sd;birthweight.mean;birthweight.sd
+neopterin;nmol/L;10.3;6.5;15.1;Early third trimester;32.3;6.9;24;healthy;;28.2;2.8;ELISA. DRG Diagnostics International, Inc., Mountainside, NJ, USA;serum;34.7;4.1;76.9;16;3089;668.5
+neopterin;nmol/L;14.16;7.2;27.9;Early third trimester;30.3;6.3;22;preeclampsia;mild;31.1;5;ELISA. DRG Diagnostics International, Inc., Mountainside, NJ, USA;serum;34.3;2.8;91.1;9.2;2406;838.4
+neopterin;nmol/L;14.8;7.6;24.6;Early third trimester;29.2;5.8;20;preeclampsia;severe;28.3;4;ELISA. DRG Diagnostics International, Inc., Mountainside, NJ, USA;serum;32.7;3.6;106.6;7.7;2082;904
+neopterin;nmol/L;19.1;8.5;31.5;Early third trimester;28.1;6.9;20;preeclampsia;HELLP;27.55;5.2;ELISA. DRG Diagnostics International, Inc., Mountainside, NJ, USA;serum;32.4;3.6;106.6;7.2;1877;635.3
+TNF_a;ng/dL;7.05;3;24.4;Early third trimester;32.3;6.9;24;healthy;;28.2;2.8;"ELISA. DIA
+Source, Nivelles, Belgium";serum;34.7;4.1;76.9;16;3089;668.5
+TNF_a;ng/dL;9.5;4.1;35.5;Early third trimester;30.3;6.3;22;preeclampsia;mild;31.1;5;"ELISA. DIA
+Source, Nivelles, Belgium";serum;34.3;2.8;91.1;9.2;2406;838.4
+TNF_a;ng/dL;7.7;3.4;20.3;Early third trimester;29.2;5.8;20;preeclampsia;severe;28.3;4;"ELISA. DIA
+Source, Nivelles, Belgium";serum;32.7;3.6;106.6;7.7;2082;904
+TNF_a;ng/dL;7.7;3.7;41.5;Early third trimester;28.1;6.9;20;preeclampsia;HELLP;27.55;5.2;"ELISA. DIA
+Source, Nivelles, Belgium";serum;32.4;3.6;106.6;7.2;1877;635.3
+IL_6;ng/dL;44.3;28.7;211.9;Early third trimester;32.3;6.9;24;healthy;;28.2;2.8;"ELISA. DIA
+Source, Nivelles, Belgium";serum;34.7;4.1;76.9;16;3089;668.5
+IL_6;ng/dL;50.2;24.2;248.1;Early third trimester;30.3;6.3;22;preeclampsia;mild;31.1;5;"ELISA. DIA
+Source, Nivelles, Belgium";serum;34.3;2.8;91.1;9.2;2406;838.4
+IL_6;ng/dL;55.7;34.2;263.4;Early third trimester;29.2;5.8;20;preeclampsia;severe;28.3;4;"ELISA. DIA
+Source, Nivelles, Belgium";serum;32.7;3.6;106.6;7.7;2082;904
+IL_6;ng/dL;52.4;16.7;274.6;Early third trimester;28.1;6.9;20;preeclampsia;HELLP;27.55;5.2;"ELISA. DIA
+Source, Nivelles, Belgium";serum;32.4;3.6;106.6;7.2;1877;635.3
