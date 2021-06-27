@@ -13,31 +13,11 @@ library(ggplot2)
 library(ggrepel)
 library(plotly)
 library(DT)
+library(meta)
 source("R/load_data.R")
 source("R/plot_stat.R")
 source("R/export_data.R")
-diffPlot <- function(df_plot, refLevel = "healthy"){
-  tmp <- Reduce(rbind, lapply(unique(df_plot$condition), function(i){
-    Reduce(rbind, lapply(unique(df_plot$cytokine[df_plot$condition == i]), function(x){
-      data.frame(
-       cytokine = x,
-       diff = (subset(df_plot, condition == i & cytokine == x)$value-subset(df_plot, condition == refLevel & cytokine == x)$value)/subset(df_plot, condition == refLevel & cytokine == x)$value,
-       condition = i
-      )
-    }))
-  }))
-  tmp <- subset(tmp, condition != refLevel)
-  tmp$cytokine <- factor(tmp$cytokine, levels = unique(tmp$cytokine)[order(subset(tmp, condition == tmp$condition[1])$diff)])
-return(
-  ggplotly(
-    ggplot(tmp, aes(cytokine, 100*diff, color = condition)) + 
-      geom_segment( aes(xend=cytokine, y=0, yend=100*diff)) + 
-      geom_point() + theme_bw() + coord_flip() + 
-      facet_wrap(~condition) + theme(legend.position = "none") +
-      labs(y = paste0("Deviation from ", refLevel, " [%]"), x = "Cytokine")
-  )
-)
-}
+source("R/estimateEffect.R")
 ```
 
 # Overview {data-icon="fa-home"}
@@ -462,6 +442,222 @@ df_plot <- subset(df_aggregated, author == "Georgiou")
 df_plot$condition <- paste0(df_plot$condition, ", week ",df_plot$ga.week.median)
 df_plot <- subset(df_plot, cytokine %in% cytokine[value > 0 & condition == "healthy, week 7"])
 diffPlot(df_plot, refLevel = "healthy, week 7")
+
+```
+
+
+
+# Meta-analysis {data-icon="fa-sitemap"}
+
+## Row
+
+### IL-6
+
+```{r, out.height="100%", out.width="100%", fig.width=16, fig.height=8}
+df_meta <- subset(df_aggregated, cytokine == "IL_6")
+df_meta_prep <- data.frame()
+
+df_meta_prep <- rbind(
+  df_meta_prep,
+  prep_meta(
+    dff = subset(df_meta, author == "Ma"),
+    Author = "Ma et al. (2019)",
+    c = "healthy",
+    e = "preeclampsia"
+  )
+)
+
+dff <- subset(df_meta, author == "Aggarwal")
+for(i in unique(dff$ga.string)){
+  df_meta_prep <- rbind(
+    df_meta_prep,
+    prep_meta(
+      dff = subset(dff, ga.string == i),
+      Author = "Aggarwal et al. (2019)",
+      c = "healthy",
+      e = "preeclampsia"
+    )
+  )
+}
+
+df_meta_prep <- rbind(
+  df_meta_prep,
+  prep_meta(
+    dff = subset(df_meta, author == "Tangerås"),
+    Author = "Tangerås et al. (2015)",
+    c = "healthy",
+    e = "preeclampsia"
+  )
+)
+
+df_meta_prep <- rbind(
+  df_meta_prep,
+  prep_meta(
+    dff = subset(df_meta, author == "Garcia"),
+    Author = "Garcia et al. (2018)",
+    c = "healthy",
+    e = "preeclampsia"
+  )
+)
+
+dff <- subset(df_meta, author == "Taylor")
+for(i in unique(dff$ga.string)){
+  df_meta_prep <- rbind(
+    df_meta_prep,
+    prep_meta(
+      dff = subset(dff, ga.string == i),
+      Author = "Taylor et al. (2016)",
+      c = "healthy",
+      e = "preeclampsia"
+    )
+  )
+}
+
+df_meta_prep <- rbind(
+  df_meta_prep,
+  prep_meta(
+    dff = subset(df_meta, author == "Szarka"),
+    Author = "Szarka et al. (2010)",
+    c = "healthy",
+    e = "preeclampsia"
+  )
+)
+
+
+m.cont <- metacont(
+  median.e = median.e, 
+  median.c = median.c,
+  mean.e = mean.e, 
+  mean.c = mean.c,
+  q1.c = q1.c, q1.e = q1.e, 
+  q3.c = q3.c, q3.e = q3.e,
+  min.c = min.c, min.e = min.e, 
+  max.c = max.c, max.e = max.e,
+  sd.e = sd.e, sd.c = sd.c, 
+  n.e = n.e, n.c = n.c, 
+  studlab = Author,
+  data = df_meta_prep,
+  sm = "SMD",
+  method.smd = "Hedges",
+  comb.fixed = FALSE,
+  comb.random = TRUE,
+  method.tau = "REML",
+  hakn = TRUE,
+  title = "IL-6")
+
+
+forest.meta(m.cont, 
+            sortvar = TE,
+            predict = TRUE, 
+            print.tau2 = FALSE,
+            leftlabs = c("Author", "g", "SE"))
+
+```
+
+
+
+## Row
+
+### IL-10
+
+```{r, out.height="100%", out.width="100%", fig.width=16, fig.height=8}
+df_meta <- subset(df_aggregated, cytokine == "IL_10")
+df_meta_prep <- data.frame()
+
+df_meta_prep <- rbind(
+  df_meta_prep,
+  prep_meta(
+    dff = subset(df_meta, author == "Ma"),
+    Author = "Ma et al. (2019)",
+    c = "healthy",
+    e = "preeclampsia"
+  )
+)
+
+dff <- subset(df_meta, author == "Aggarwal")
+for(i in unique(dff$ga.string)){
+  df_meta_prep <- rbind(
+    df_meta_prep,
+    prep_meta(
+      dff = subset(dff, ga.string == i),
+      Author = "Aggarwal et al. (2019)",
+      c = "healthy",
+      e = "preeclampsia"
+    )
+  )
+}
+
+df_meta_prep <- rbind(
+  df_meta_prep,
+  prep_meta(
+    dff = subset(df_meta, author == "Tangerås"),
+    Author = "Tangerås et al. (2015)",
+    c = "healthy",
+    e = "preeclampsia"
+  )
+)
+
+df_meta_prep <- rbind(
+  df_meta_prep,
+  prep_meta(
+    dff = subset(df_meta, author == "Garcia"),
+    Author = "Garcia et al. (2018)",
+    c = "healthy",
+    e = "preeclampsia"
+  )
+)
+
+dff <- subset(df_meta, author == "Taylor")
+for(i in unique(dff$ga.string)){
+  df_meta_prep <- rbind(
+    df_meta_prep,
+    prep_meta(
+      dff = subset(dff, ga.string == i),
+      Author = "Taylor et al. (2016)",
+      c = "healthy",
+      e = "preeclampsia"
+    )
+  )
+}
+
+df_meta_prep <- rbind(
+  df_meta_prep,
+  prep_meta(
+    dff = subset(df_meta, author == "Szarka"),
+    Author = "Szarka et al. (2010)",
+    c = "healthy",
+    e = "preeclampsia"
+  )
+)
+
+
+m.cont <- metacont(
+  median.e = median.e, 
+  median.c = median.c,
+  mean.e = mean.e, 
+  mean.c = mean.c,
+  q1.c = q1.c, q1.e = q1.e, 
+  q3.c = q3.c, q3.e = q3.e,
+  min.c = min.c, min.e = min.e, 
+  max.c = max.c, max.e = max.e,
+  sd.e = sd.e, sd.c = sd.c, 
+  n.e = n.e, n.c = n.c, 
+  studlab = Author,
+  data = df_meta_prep,
+  sm = "SMD",
+  method.smd = "Hedges",
+  comb.fixed = FALSE,
+  comb.random = TRUE,
+  method.tau = "REML",
+  hakn = TRUE,
+  title = "IL-10")
+
+
+forest.meta(m.cont, 
+            sortvar = TE,
+            predict = TRUE, 
+            print.tau2 = FALSE,
+            leftlabs = c("Author", "g", "SE"))
 
 ```
 
