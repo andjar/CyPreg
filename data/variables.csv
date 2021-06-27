@@ -21,3 +21,5 @@ systolic;both;
 diastolic;both;
 birthweight;both;
 gabirth;both;
+birthmode;both;
+parity;both;

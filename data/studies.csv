@@ -14,3 +14,8 @@ Braga;2019;Relationship between inflammatory markers, glycated hemoglobin and pl
 Georgiou;2011;Association between maternal serum cytokine profiles at 7-10 weeks' gestation and birthweight in small for gestational age infants;10.1016/j.ajog.2010.12.005;single measure;aggregated;georgiou2011.csv;128
 Nayak;2016;Sedentary behavior in obese pregnant women is associated with inflammatory markers and lipid profile but not with glucose metabolism;10.1016/j.cyto.2016.08.031;repeated measures;aggregated;nayak2016.csv;46
 Ma;2019;Immune imbalance is associated with the development of preeclampsia;10.1097/MD.0000000000015080;single measure;aggregated;ma2019.csv;52
+Guven;2009;Association of Maternal Serum CRP, IL-6, TNF-a, Homocysteine, Folic Acid and Vitamin B12 Levels with the Severity of Preeclampsia and Fetal Birth Weight;10.1080/10641950802601179;single measure;aggregated;guven2009.csv;183
+Ozler;2012;Serum levels of neopterin, tumor necrosis factor-alpha and Interleukin-6 in preeclampsia: relationship with disease severity;https://pubmed.ncbi.nlm.nih.gov/23161044/;single measure;aggregated;ozler2012.csv;86
+Tosun;2010;Maternal and umbilical serum levels of interleukin-6, interleukin-8, and tumor necrosis factor-α in normal pregnancies and in pregnancies complicated by preeclampsia;10.3109/14767051003774942;single measure;aggregated;tosun2010.csv;43
+Kara;2019;The role of inflammatory markers hs-CRP, sialic acid, and IL-6 in the pathogenesis of preeclampsia and intrauterine growth restriction;10.1684/ecn.2019.0423;single measure;aggregated;kara2019.csv;80
+Duvan;2014;Is the level of maternal serum prohepcidin associated with preeclampsia?;10.3109/10641955.2014.988350;single measure;aggregated;duvan2014.csv;67
