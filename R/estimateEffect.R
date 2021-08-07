@@ -94,27 +94,42 @@ estimateEffect <- function(a = NA,  #a = the minimum value,
 
 
 
-prep_meta <- function(dff, Author, c, e){
+prep_meta <- function(dff, Author = NA, c, e){
+  df_c <- subset(dff, condition == c)
+  df_e <- subset(dff, condition == e)
+  
   return(
     data.frame(
-      Author = Author,
-      median.e = subset(dff, condition == e)$value.median,
-      median.c = subset(dff, condition == c)$value.median,
-      mean.e = subset(dff, condition == e)$value.mean,
-      mean.c = subset(dff, condition == c)$value.mean,
-      sd.e = subset(dff, condition == e)$value.sd,
-      sd.c = subset(dff, condition == c)$value.sd,
-      n.e = subset(dff, condition == e)$n,
-      min.e = subset(dff, condition == e)$value.percentile.0,
-      max.e = subset(dff, condition == e)$value.percentile.100,
-      q1.e = subset(dff, condition == e)$value.percentile.25,
-      q3.e = subset(dff, condition == e)$value.percentile.75,
-      n.c = subset(dff, condition == c)$n,
-      q1.c = subset(dff, condition == c)$value.percentile.25,
-      q3.c = subset(dff, condition == c)$value.percentile.75,
-      min.c = subset(dff, condition == c)$value.percentile.0,
-      max.c = subset(dff, condition == c)$value.percentile.100,
-      ga = subset(dff, condition == c)$ga.weeks
+      Author = prep_meta_author(dff,e),
+      median.e = df_e$value.median,
+      median.c = df_c$value.median,
+      mean.e = df_e$value.mean,
+      mean.c = df_c$value.mean,
+      sd.e = df_e$value.sd,
+      sd.c = df_c$value.sd,
+      n.e = df_e$n,
+      min.e = df_e$value.percentile.0,
+      max.e = df_e$value.percentile.100,
+      q1.e = df_e$value.percentile.25,
+      q3.e = df_e$value.percentile.75,
+      n.c = df_c$n,
+      q1.c = df_c$value.percentile.25,
+      q3.c = df_c$value.percentile.75,
+      min.c = df_c$value.percentile.0,
+      max.c = df_c$value.percentile.100,
+      ga = weighted.mean(subset(dff, condition %in% c(c,e))$ga.weeks, subset(dff, condition %in% c(c,e))$n),
+      bmi = weighted.mean(subset(dff, condition %in% c(c,e))$bmi, subset(dff, condition %in% c(c,e))$n)
     )
   )
 }
+
+prep_meta_author <- function(df,e){
+  df <- subset(df, condition == e)
+  suffix <- ""
+  df$condition.severity[is.na(df$condition.severity)] <- ""
+  suffix <- df$condition.severity
+  df$condition.onset[is.na(df$condition.onset)] <- ""
+  suffix <- ifelse(suffix == "", df$condition.onset, suffix)
+  return(ifelse(suffix == "", df$aut[1], paste0(df$aut[1]," [",suffix,"]")))
+}
+
