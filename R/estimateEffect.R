@@ -113,7 +113,8 @@ prep_meta <- function(dff, Author, c, e){
       q1.c = subset(dff, condition == c)$value.percentile.25,
       q3.c = subset(dff, condition == c)$value.percentile.75,
       min.c = subset(dff, condition == c)$value.percentile.0,
-      max.c = subset(dff, condition == c)$value.percentile.100
+      max.c = subset(dff, condition == c)$value.percentile.100,
+      ga = subset(dff, condition == c)$ga.weeks
     )
   )
 }

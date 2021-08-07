@@ -498,12 +498,35 @@ m.cont <- metacont(
   hakn = TRUE,
   title = "IL-6")
 
-
 forest.meta(m.cont, 
             sortvar = TE,
             predict = TRUE, 
             print.tau2 = FALSE,
             leftlabs = c("Author", "g", "SE"))
+
+m.cont_nona <- metacont(
+  median.e = median.e, 
+  median.c = median.c,
+  mean.e = mean.e, 
+  mean.c = mean.c,
+  q1.c = q1.c, q1.e = q1.e, 
+  q3.c = q3.c, q3.e = q3.e,
+  min.c = min.c, min.e = min.e, 
+  max.c = max.c, max.e = max.e,
+  sd.e = sd.e, sd.c = sd.c, 
+  n.e = n.e, n.c = n.c, 
+  studlab = Author,
+  data = subset(df_meta_prep, !is.na(ga)),
+  sm = "SMD",
+  method.smd = "Hedges",
+  comb.fixed = FALSE,
+  comb.random = TRUE,
+  method.tau = "REML",
+  hakn = TRUE,
+  title = "IL-6")
+m.reg <- metareg(m.cont_nona, ~ga)
+bubble(m.reg, studlab = TRUE)
+
 
 ```
 
@@ -560,6 +583,28 @@ forest.meta(m.cont,
             print.tau2 = FALSE,
             leftlabs = c("Author", "g", "SE"))
 
+m.cont_nona <- metacont(
+  median.e = median.e, 
+  median.c = median.c,
+  mean.e = mean.e, 
+  mean.c = mean.c,
+  q1.c = q1.c, q1.e = q1.e, 
+  q3.c = q3.c, q3.e = q3.e,
+  min.c = min.c, min.e = min.e, 
+  max.c = max.c, max.e = max.e,
+  sd.e = sd.e, sd.c = sd.c, 
+  n.e = n.e, n.c = n.c, 
+  studlab = Author,
+  data = subset(df_meta_prep, !is.na(ga)),
+  sm = "SMD",
+  method.smd = "Hedges",
+  comb.fixed = FALSE,
+  comb.random = TRUE,
+  method.tau = "REML",
+  hakn = TRUE,
+  title = "IFN-g")
+m.reg <- metareg(m.cont_nona, ~ga)
+bubble(m.reg, studlab = TRUE)
 ```
 
 ## Row
@@ -671,6 +716,28 @@ forest.meta(m.cont,
             print.tau2 = FALSE,
             leftlabs = c("Author", "g", "SE"))
 
+m.cont_nona <- metacont(
+  median.e = median.e, 
+  median.c = median.c,
+  mean.e = mean.e, 
+  mean.c = mean.c,
+  q1.c = q1.c, q1.e = q1.e, 
+  q3.c = q3.c, q3.e = q3.e,
+  min.c = min.c, min.e = min.e, 
+  max.c = max.c, max.e = max.e,
+  sd.e = sd.e, sd.c = sd.c, 
+  n.e = n.e, n.c = n.c, 
+  studlab = Author,
+  data = subset(df_meta_prep, !is.na(ga)),
+  sm = "SMD",
+  method.smd = "Hedges",
+  comb.fixed = FALSE,
+  comb.random = TRUE,
+  method.tau = "REML",
+  hakn = TRUE,
+  title = "CRP")
+m.reg <- metareg(m.cont_nona, ~ga)
+bubble(m.reg, studlab = TRUE)
 ```
 
 ## Row
@@ -726,6 +793,29 @@ forest.meta(m.cont,
             print.tau2 = FALSE,
             leftlabs = c("Author", "g", "SE"))
 
+m.cont_nona <- metacont(
+  median.e = median.e, 
+  median.c = median.c,
+  mean.e = mean.e, 
+  mean.c = mean.c,
+  q1.c = q1.c, q1.e = q1.e, 
+  q3.c = q3.c, q3.e = q3.e,
+  min.c = min.c, min.e = min.e, 
+  max.c = max.c, max.e = max.e,
+  sd.e = sd.e, sd.c = sd.c, 
+  n.e = n.e, n.c = n.c, 
+  studlab = Author,
+  data = subset(df_meta_prep, !is.na(ga)),
+  sm = "SMD",
+  method.smd = "Hedges",
+  comb.fixed = FALSE,
+  comb.random = TRUE,
+  method.tau = "REML",
+  hakn = TRUE,
+  title = "IL-8")
+m.reg <- metareg(m.cont_nona, ~ga)
+bubble(m.reg, studlab = TRUE)
+
 ```
 
 ## Row
@@ -780,6 +870,29 @@ forest.meta(m.cont,
             predict = TRUE, 
             print.tau2 = FALSE,
             leftlabs = c("Author", "g", "SE"))
+
+m.cont_nona <- metacont(
+  median.e = median.e, 
+  median.c = median.c,
+  mean.e = mean.e, 
+  mean.c = mean.c,
+  q1.c = q1.c, q1.e = q1.e, 
+  q3.c = q3.c, q3.e = q3.e,
+  min.c = min.c, min.e = min.e, 
+  max.c = max.c, max.e = max.e,
+  sd.e = sd.e, sd.c = sd.c, 
+  n.e = n.e, n.c = n.c, 
+  studlab = Author,
+  data = subset(df_meta_prep, !is.na(ga) & Author != "Ma et al. (2019)"),
+  sm = "SMD",
+  method.smd = "Hedges",
+  comb.fixed = FALSE,
+  comb.random = TRUE,
+  method.tau = "REML",
+  hakn = TRUE,
+  title = "TNF-a")
+m.reg <- metareg(m.cont_nona, ~ga)
+bubble(m.reg, studlab = TRUE)
 
 ```
 
