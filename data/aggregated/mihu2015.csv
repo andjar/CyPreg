@@ -1,0 +1,16 @@
+﻿cytokine;unit;maingroup;subgroup;value.median;value.percentile.25;value.percentile.75;condition;condition.severity;n;ga.string;ga.weeks.median;ga.weeks.percentile.0;ga.weeks.percentile.25;ga.weeks.percentile.75;ga.weeks.percentile.100;birthweight.median;birthweight.percentile.0;birthweight.percentile.25;birthweight.percentile.75;birthweight.percentile.100;age.mean;age.sd;age.median;age.percentile.25;age.percentile.75
+TNF_a;pg/mL;1;;30.76;28.633;32;preeclampsia;;80;Late third trimester;38;29;36;39;41;3000;990;2425;3475;4400;30.43;4.89;;;
+IL_6;pg/mL;1;;7.57;6.655;8.915;preeclampsia;;80;Late third trimester;38;29;36;39;41;3000;990;2425;3475;4400;30.43;4.89;;;
+CRP;ng/mL;1;;4034;3789;4596;preeclampsia;;80;Late third trimester;38;29;36;39;41;3000;990;2425;3475;4400;30.43;4.89;;;
+TNF_a;pg/mL;2;;2.67;1.513;5.513;healthy;;78;Late third trimester;39;32;38;39;42;3300;1600;2975;3600;4800;29.56;4.28;;;
+IL_6;pg/mL;2;;1.815;1.52;2.043;healthy;;78;Late third trimester;39;32;38;39;42;3300;1600;2975;3600;4800;29.56;4.28;;;
+CRP;ng/mL;2;;4776;3241;5468;healthy;;78;Late third trimester;39;32;38;39;42;3300;1600;2975;3600;4800;29.56;4.28;;;
+TNF_a;pg/mL;3;;1.775;0.888;4.548;not pregnant;;72;not pregnant;;;;;;;;;;;;;32;27;37
+IL_6;pg/mL;3;;1.01;0.633;1.498;not pregnant;;72;not pregnant;;;;;;;;;;;;;32;27;37
+CRP;ng/mL;3;;847.85;571.13;1157.3;not pregnant;;72;not pregnant;;;;;;;;;;;;;32;27;37
+TNF_a;pg/mL;;1;30.28;28.24;32.41;preeclampsia;moderate;;;;;;;;;;;;;;;;;
+IL_6;pg/mL;;1;7.41;6.41;8.78;preeclampsia;moderate;;;;;;;;;;;;;;;;;
+CRP;ng/mL;;1;4015;3790;4599;preeclampsia;moderate;;;;;;;;;;;;;;;;;
+TNF_a;pg/mL;;1;31.3;28.76;32;preeclampsia;severe;;;;;;;;;;;;;;;;;
+IL_6;pg/mL;;1;7.9;6.91;9.95;preeclampsia;severe;;;;;;;;;;;;;;;;;
+CRP;ng/mL;;1;4333;3730;4731;preeclampsia;severe;;;;;;;;;;;;;;;;;
