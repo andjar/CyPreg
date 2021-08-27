@@ -1,0 +1,13 @@
+﻿cytokine;unit;value.median;value.percentile.0;value.percentile.100;condition;condition.severity;maingroup;subgroup;n;age.mean;age.sd;ga.string;ga.weeks.mean;ga.weeks.sd;bmi.mean;bmi.sd;systolic.mean;systolic.sd;diastolic.mean;diastolic.sd;nulliparous.n;tissue
+IL_6;pg ⁄mL;7.9;4.8;30;preeclampsia;;1;;30;30.6;4.3;Third trimester;34.8;2.9;30.4;5.8;160.3;13.3;104.2;8.1;20;serum
+IL_1b;pg ⁄mL;2.1;1.3;7.2;preeclampsia;;1;;30;30.6;4.3;Third trimester;34.8;2.9;30.4;5.8;160.3;13.3;104.2;8.1;20;serum
+hCG;IU ⁄mL;38335;20250;25700;preeclampsia;;1;;30;30.6;4.3;Third trimester;34.8;2.9;30.4;5.8;160.3;13.3;104.2;8.1;20;serum
+IL_6;pg ⁄mL;7.8;5.8;30;preeclampsia;mild;;1;21;;;Third trimester;;;;;;;;;;serum
+IL_1b;pg ⁄mL;2;1.3;2.7;preeclampsia;mild;;1;21;;;Third trimester;;;;;;;;;;serum
+hCG;IU ⁄mL;40580;22440;4940;preeclampsia;mild;;1;21;;;Third trimester;;;;;;;;;;serum
+IL_6;pg ⁄mL;8.1;4.8;16;preeclampsia;severe;;1;9;;;Third trimester;;;;;;;;;;serum
+IL_1b;pg ⁄mL;2.5;1.5;7.2;preeclampsia;severe;;1;9;;;Third trimester;;;;;;;;;;serum
+hCG;IU ⁄mL;35730;20250;125700;preeclampsia;severe;;1;9;;;Third trimester;;;;;;;;;;serum
+IL_6;pg ⁄mL;0.6;0.6;4.2;healthy;;2;;30;29.5;3.7;Third trimester;34.1;3.1;30.1;5.8;114;12.3;70.8;9.3;9;serum
+IL_1b;pg ⁄mL;0.9;0.9;8.6;healthy;;2;;30;29.5;3.7;Third trimester;34.1;3.1;30.1;5.8;114;12.3;70.8;9.3;9;serum
+hCG;IU ⁄mL;9000.5;1620;8250;healthy;;2;;30;29.5;3.7;Third trimester;34.1;3.1;30.1;5.8;114;12.3;70.8;9.3;9;serum

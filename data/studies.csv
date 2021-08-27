@@ -8,9 +8,13 @@ Duvan;2014;Is the level of maternal serum prohepcidin associated with preeclamps
 Garcia;2018;Early pregnancy immune biomarkers in peripheral blood may predict preeclampsia;10.1016/j.jri.2017.10.048;single measure;aggregated;garcia2018.csv;86
 Georgiou;2011;Association between maternal serum cytokine profiles at 7-10 weeks' gestation and birthweight in small for gestational age infants;10.1016/j.ajog.2010.12.005;single measure;aggregated;georgiou2011.csv;128
 Guven;2009;Association of Maternal Serum CRP, IL-6, TNF-a, Homocysteine, Folic Acid and Vitamin B12 Levels with the Severity of Preeclampsia and Fetal Birth Weight;10.1080/10641950802601179;single measure;aggregated;guven2009.csv;183
+Jonsson;2005;Cytokine mapping of sera from women with preeclampsia and normal pregnancies;10.1016/j.jri.2005.10.007;single measure;aggregated;jonsson2005.csv;30
 Kara;2019;The role of inflammatory markers hs-CRP, sialic acid, and IL-6 in the pathogenesis of preeclampsia and intrauterine growth restriction;10.1684/ecn.2019.0423;single measure;aggregated;kara2019.csv;80
+Kong;2018;Correlation between the expression of inflammatory cytokines IL-6, TNF-α and hs-CRP and unfavorable fetal outcomes in patients with pregnancy-induced hypertension;10.3892/etm.2018.6393;single measure;aggregated;kong2018.csv;200
 Ma;2019;Immune imbalance is associated with the development of preeclampsia;10.1097/MD.0000000000015080;single measure;aggregated;ma2019.csv;52
 Mihu;2015;Evaluation of maternal systemic inflammatory response in preeclampsia;10.1016/j.tjog.2014.03.006;single measure;aggregated;mihu2015.csv;230
+Molvarec;2011;Serum heat shock protein 70 levels in relation to circulating cytokines, chemokines, adhesion molecules and angiogenic factors in women with preeclampsia;10.1016/j.cca.2011.06.042;single measure;aggregated;molvarec2011.csv;120
+Mtali;2019;Hypertensive disorders of pregnancy are associated with an inflammatory state: evidence from hematological findings and cytokine levels;10.1186/s12884-019-2383-7;single measure;aggregated;mtali2019.csv;153
 Nayak;2016;Sedentary behavior in obese pregnant women is associated with inflammatory markers and lipid profile but not with glucose metabolism;10.1016/j.cyto.2016.08.031;repeated measures;aggregated;nayak2016.csv;46
 Ozler;2012;Serum levels of neopterin, tumor necrosis factor-alpha and Interleukin-6 in preeclampsia: relationship with disease severity;https://pubmed.ncbi.nlm.nih.gov/23161044/;single measure;aggregated;ozler2012.csv;86
 Ross;2016;Patterns of peripheral cytokine expression during pregnancy in two cohorts and associations with inflammatory markers in cord blood;10.1111/aji.12563;repeated measures;aggregated;ross2016.csv;626
@@ -20,5 +24,7 @@ Tangerås;2015;Distinct First Trimester Cytokine Profiles for Gestational Hypert
 Taylor;2016;First and second trimester immune biomarkers in preeclamptic and normotensive women;10.1016/j.preghy.2016.09.002;single measure;aggregated;taylor2016.csv;619
 Tosun;2010;Maternal and umbilical serum levels of interleukin-6, interleukin-8, and tumor necrosis factor-α in normal pregnancies and in pregnancies complicated by preeclampsia;10.3109/14767051003774942;single measure;aggregated;tosun2010.csv;43
 Xiao;2012;The increased maternal serum levels of IL-6 are associated with the severity and onset of preeclampsia;10.1016/j.cyto.2012.07.039;single measure;aggregated;xiao2012.csv;179
-Molvarec;2011;Serum heat shock protein 70 levels in relation to circulating cytokines, chemokines, adhesion molecules and angiogenic factors in women with preeclampsia;10.1016/j.cca.2011.06.042;single measure;aggregated;molvarec2011.csv;120
-Jonsson;2005;Cytokine mapping of sera from women with preeclampsia and normal pregnancies;10.1016/j.jri.2005.10.007;single measure;aggregated;jonsson2005.csv;30
+Kurz;2001;Maternal Basic Fibroblast Growth Factor Serum Levels Are Associated With Pregnancy-Induced Hypertension;10.1177/107155760100800104;single measure;aggregated;kurz2001.csv;138
+Bernardi;2008;Oxidative stress and inflammatory markers in normal pregnancy and preeclampsia;10.1111/j.1447-0756.2008.00803.x;single measure;aggregated;bernardi2008.csv;70
+Boij;2012;Biomarkers of coagulation, inflammation, and angiogenesis are independently associated with preeclampsia;10.1111/j.1600-0897.2012.01158.x;single measure;aggregated;boij2012.csv;214
+Kalinderis;2011;Elevated Serum Levels of Interleukin-6, Interleukin-1b and Human Chorionic Gonadotropin in Pre-eclampsia;10.1111/j.1600-0897.2011.01019.x;single measure;aggregated;kalinderis2011.csv;60

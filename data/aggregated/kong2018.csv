@@ -1,0 +1,17 @@
+﻿cytokine;value.mean;value.median;unit;maingroup;subgroup;condition;condition.severity;n;ga.weeks.mean;ga.weeks.sd;age.mean;age.sd;method;tissue
+;;;;0;;;;200;39.3;1.9;27.1;3;;
+IL_6;1.79;0.37;pg/mL;1;0;healthy;;100;;;;;ELISA;serum
+TNF_a;1.13;0.41;ug/mL;1;0;healthy;;100;;;;;ELISA;serum
+CRP;1.33;0.89;mg/mL;1;0;healthy;;100;;;;;Immunological transmission turbidimetry.;serum
+IL_6;3.42;0.45;pg/mL;2;0;pregnancy-induced hypertension;;100;;;;;ELISA;serum
+TNF_a;4.98;1.25;ug/mL;2;0;pregnancy-induced hypertension;;100;;;;;ELISA;serum
+CRP;5.12;1.88;mg/mL;2;0;pregnancy-induced hypertension;;100;;;;;Immunological transmission turbidimetry.;serum
+IL_6;1.98;0.39;pg/mL;;2;pregnancy-induced hypertension;Grade I hypertension;;;;;;ELISA;serum
+TNF_a;1.77;0.75;ug/mL;;2;pregnancy-induced hypertension;Grade I hypertension;;;;;;ELISA;serum
+CRP;1.92;0.77;mg/mL;;2;pregnancy-induced hypertension;Grade I hypertension;;;;;;Immunological transmission turbidimetry.;serum
+IL_6;2.3;0.41;pg/mL;;2;pregnancy-induced hypertension;Grade II hypertension;;;;;;ELISA;serum
+TNF_a;2.96;1.34;ug/mL;;2;pregnancy-induced hypertension;Grade II hypertension;;;;;;ELISA;serum
+CRP;3.18;1.32;mg/mL;;2;pregnancy-induced hypertension;Grade II hypertension;;;;;;Immunological transmission turbidimetry.;serum
+IL_6;4.73;0.5;pg/mL;;2;pregnancy-induced hypertension;Grade III hypertension;;;;;;ELISA;serum
+TNF_a;5.16;1.87;ug/mL;;2;pregnancy-induced hypertension;Grade III hypertension;;;;;;ELISA;serum
+CRP;6.76;1.97;mg/mL;;2;pregnancy-induced hypertension;Grade III hypertension;;;;;;Immunological transmission turbidimetry.;serum

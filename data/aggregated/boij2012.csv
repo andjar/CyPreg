@@ -1,0 +1,91 @@
+﻿cytokine;unit;condition;condition.onset;maingroup;n;value.median;value.percentile.25;value.percentile.75;value.mean;value.ci.2.5;value.ci.97.5;tissue;ga.weeks.mean;age.mean;ga.string
+M_CSF;pg/mL;preeclampsia;early;1;30;49;49;49;;;;plasma;35.7;29.8;Third trimester
+GM_CSF;pg/mL;preeclampsia;early;1;30;20;13.2;35.1;;;;plasma;35.7;29.8;Third trimester
+IFN_g;pg/mL;preeclampsia;early;1;30;39;22;57;;;;plasma;35.7;29.8;Third trimester
+IL_1b;pg/mL;preeclampsia;early;1;30;0.9;0.4;1.7;;;;plasma;35.7;29.8;Third trimester
+IL_2;pg/mL;preeclampsia;early;1;30;60;44;99;;;;plasma;35.7;29.8;Third trimester
+IL_4;pg/mL;preeclampsia;early;1;30;29;18;57;;;;plasma;35.7;29.8;Third trimester
+IL_5;pg/mL;preeclampsia;early;1;30;6.1;4;10.4;;;;plasma;35.7;29.8;Third trimester
+IL_6;pg/mL;preeclampsia;early;1;30;9.7;5.3;17;;;;plasma;35.7;29.8;Third trimester
+IL_8;pg/mL;preeclampsia;early;1;30;22;13;31;;;;plasma;35.7;29.8;Third trimester
+IL_10;pg/mL;preeclampsia;early;1;30;9.2;5.1;13;;;;plasma;35.7;29.8;Third trimester
+TNF;pg/mL;preeclampsia;early;1;30;26;14;36;;;;plasma;35.7;29.8;Third trimester
+CXCL11;pg/mL;preeclampsia;early;1;30;120;81;182;;;;plasma;35.7;29.8;Third trimester
+IP_10;pg/mL;preeclampsia;early;1;30;86;62;160;;;;plasma;35.7;29.8;Third trimester
+CCL17;pg/mL;preeclampsia;early;1;30;12;8.7;22;;;;plasma;35.7;29.8;Third trimester
+CCL22;pg/mL;preeclampsia;early;1;30;106.6;72;142;;;;plasma;35.7;29.8;Third trimester
+C3;mg/L;preeclampsia;early;1;30;1326;1118;1691;;;;plasma;35.7;29.8;Third trimester
+C3a;lg/L;preeclampsia;early;1;30;75;63;86;;;;plasma;35.7;29.8;Third trimester
+Factor H;mg/L;preeclampsia;early;1;30;606;528;703;;;;plasma;35.7;29.8;Third trimester
+C5b_9;AU/ML;preeclampsia;early;1;30;36;26;54;;;;plasma;35.7;29.8;Third trimester
+Pentraxin_3;pg/mL;preeclampsia;early;1;30;9122;4221;13519;;;;plasma;35.7;29.8;Third trimester
+sFlt_1;pg/mL;preeclampsia;early;1;30;10470;5682;18789;;;;plasma;35.7;29.8;Third trimester
+Placental Growth Factor;pg/mL;preeclampsia;early;1;30;3.9;3.9;14;;;;plasma;35.7;29.8;Third trimester
+Protein C;kIE/L;preeclampsia;early;1;;;;;0.93;0.8;1.06;plasma;35.7;29.8;Third trimester
+Protein S;kIE/L;preeclampsia;early;1;;;;;0.52;0.48;0.59;plasma;35.7;29.8;Third trimester
+Antithrombin;kIE/L;preeclampsia;early;1;;;;;0.76;0.7;0.81;plasma;35.7;29.8;Third trimester
+Fibrinogen;g/L;preeclampsia;early;1;;;;;4.8;4.2;5.5;plasma;35.7;29.8;Third trimester
+PT/INR;;preeclampsia;early;1;;;;;0.93;0.87;0.99;plasma;35.7;29.8;Third trimester
+APTT;s;preeclampsia;early;1;;;;;29.3;27.9;30.8;plasma;35.7;29.8;Third trimester
+D_Dimer;;preeclampsia;early;1;;;;;1.35;0.64;2.07;plasma;35.7;29.8;Third trimester
+Platelets;109/L;preeclampsia;early;1;;;;;189;159;219;plasma;35.7;29.8;Third trimester
+M_CSF;pg/mL;preeclampsia;late;2;81;49;49;49;;;;plasma;35.7;29.8;Third trimester
+GM_CSF;pg/mL;preeclampsia;late;2;81;34;15;61;;;;plasma;35.7;29.8;Third trimester
+IFN_g;pg/mL;preeclampsia;late;2;81;42;27;68;;;;plasma;35.7;29.8;Third trimester
+IL_1b;pg/mL;preeclampsia;late;2;81;1;0.5;1.6;;;;plasma;35.7;29.8;Third trimester
+IL_2;pg/mL;preeclampsia;late;2;81;74;45;122;;;;plasma;35.7;29.8;Third trimester
+IL_4;pg/mL;preeclampsia;late;2;81;47;24;75;;;;plasma;35.7;29.8;Third trimester
+IL_5;pg/mL;preeclampsia;late;2;81;8;5;13;;;;plasma;35.7;29.8;Third trimester
+IL_6;pg/mL;preeclampsia;late;2;81;11;6.3;20;;;;plasma;35.7;29.8;Third trimester
+IL_8;pg/mL;preeclampsia;late;2;81;24;17;35;;;;plasma;35.7;29.8;Third trimester
+IL_10;pg/mL;preeclampsia;late;2;81;13;5.9;18;;;;plasma;35.7;29.8;Third trimester
+TNF;pg/mL;preeclampsia;late;2;81;29;20;48;;;;plasma;35.7;29.8;Third trimester
+CXCL11;pg/mL;preeclampsia;late;2;81;93;62;125;;;;plasma;35.7;29.8;Third trimester
+IP_10;pg/mL;preeclampsia;late;2;81;115;80;161;;;;plasma;35.7;29.8;Third trimester
+CCL17;pg/mL;preeclampsia;late;2;81;8.7;6.3;13;;;;plasma;35.7;29.8;Third trimester
+CCL22;pg/mL;preeclampsia;late;2;81;97.5;67;130;;;;plasma;35.7;29.8;Third trimester
+C3;mg/L;preeclampsia;late;2;80;1245;1110;1480;;;;plasma;35.7;29.8;Third trimester
+C3a;lg/L;preeclampsia;late;2;80;64;56;76;;;;plasma;35.7;29.8;Third trimester
+Factor H;mg/L;preeclampsia;late;2;80;597;526;683;;;;plasma;35.7;29.8;Third trimester
+C5b_9;AU/ML;preeclampsia;late;2;80;28;22;38;;;;plasma;35.7;29.8;Third trimester
+Pentraxin_3;pg/mL;preeclampsia;late;2;80;5938;3222;9557;;;;plasma;35.7;29.8;Third trimester
+sFlt_1;pg/mL;preeclampsia;late;2;80;5760;2851;9936;;;;plasma;35.7;29.8;Third trimester
+Placental Growth Factor;pg/mL;preeclampsia;late;2;80;13;3.9;31;;;;plasma;35.7;29.8;Third trimester
+Protein C;kIE/L;preeclampsia;late;2;;;;;1.05;0.98;1.12;plasma;35.7;29.8;Third trimester
+Protein S;kIE/L;preeclampsia;late;2;;;;;0.5;0.46;0.53;plasma;35.7;29.8;Third trimester
+Antithrombin;kIE/L;preeclampsia;late;2;;;;;0.86;0.82;0.9;plasma;35.7;29.8;Third trimester
+Fibrinogen;g/L;preeclampsia;late;2;;;;;5.2;4.9;5.4;plasma;35.7;29.8;Third trimester
+PT/INR;;preeclampsia;late;2;;;;;0.87;0.85;0.89;plasma;35.7;29.8;Third trimester
+APTT;s;preeclampsia;late;2;;;;;29.8;28.8;30.8;plasma;35.7;29.8;Third trimester
+D_Dimer;;preeclampsia;late;2;;;;;0.66;0.51;0.81;plasma;35.7;29.8;Third trimester
+Platelets;109/L;preeclampsia;late;2;;205;191;218;;;;plasma;35.7;29.8;Third trimester
+M_CSF;pg/mL;healthy;;3;97;49;49;49;;;;plasma;34.3;30.2;Third trimester
+GM_CSF;pg/mL;healthy;;3;97;32;20;49;;;;plasma;34.3;30.2;Third trimester
+IFN_g;pg/mL;healthy;;3;97;44;30;76;;;;plasma;34.3;30.2;Third trimester
+IL_1b;pg/mL;healthy;;3;97;1;0.5;1.5;;;;plasma;34.3;30.2;Third trimester
+IL_2;pg/mL;healthy;;3;97;69.5;44;113;;;;plasma;34.3;30.2;Third trimester
+IL_4;pg/mL;healthy;;3;97;46;31;83;;;;plasma;34.3;30.2;Third trimester
+IL_5;pg/mL;healthy;;3;97;7.8;5.5;13;;;;plasma;34.3;30.2;Third trimester
+IL_6;pg/mL;healthy;;3;97;11;7.2;20;;;;plasma;34.3;30.2;Third trimester
+IL_8;pg/mL;healthy;;3;97;26;18;36;;;;plasma;34.3;30.2;Third trimester
+IL_10;pg/mL;healthy;;3;97;11;7;17;;;;plasma;34.3;30.2;Third trimester
+TNF;pg/mL;healthy;;3;97;31;20;52;;;;plasma;34.3;30.2;Third trimester
+CXCL11;pg/mL;healthy;;3;97;89;65;125;;;;plasma;34.3;30.2;Third trimester
+IP_10;pg/mL;healthy;;3;97;70;51;99;;;;plasma;34.3;30.2;Third trimester
+CCL17;pg/mL;healthy;;3;97;8.3;5.4;13;;;;plasma;34.3;30.2;Third trimester
+CCL22;pg/mL;healthy;;3;97;93.4;68;117;;;;plasma;34.3;30.2;Third trimester
+C3;mg/L;healthy;;3;97;1265;1058;1460;;;;plasma;34.3;30.2;Third trimester
+C3a;lg/L;healthy;;3;97;59;51;67;;;;plasma;34.3;30.2;Third trimester
+Factor H;mg/L;healthy;;3;97;593;554;659;;;;plasma;34.3;30.2;Third trimester
+C5b_9;AU/ML;healthy;;3;97;25;19;43;;;;plasma;34.3;30.2;Third trimester
+Pentraxin_3;pg/mL;healthy;;3;97;3249;2208;6120;;;;plasma;34.3;30.2;Third trimester
+sFlt_1;pg/mL;healthy;;3;97;839;368;1543;;;;plasma;34.3;30.2;Third trimester
+Placental Growth Factor;pg/mL;healthy;;3;97;59;26;149;;;;plasma;34.3;30.2;Third trimester
+Protein C;kIE/L;healthy;;3;;;;;1.1;1.04;1.15;plasma;34.3;30.2;Third trimester
+Protein S;kIE/L;healthy;;3;;;;;0.52;0.48;0.56;plasma;34.3;30.2;Third trimester
+Antithrombin;kIE/L;healthy;;3;;;;;0.97;0.94;1;plasma;34.3;30.2;Third trimester
+Fibrinogen;g/L;healthy;;3;;;;;5.4;4.3;6.3;plasma;34.3;30.2;Third trimester
+PT/INR;;healthy;;3;;;;;0.89;0.86;0.91;plasma;34.3;30.2;Third trimester
+APTT;s;healthy;;3;;;;;30.6;29.6;31.6;plasma;34.3;30.2;Third trimester
+D_Dimer;;healthy;;3;;;;;0.48;0.38;0.59;plasma;34.3;30.2;Third trimester
+Platelets;109/L;healthy;;3;;;;;251;216;285;plasma;34.3;30.2;Third trimester

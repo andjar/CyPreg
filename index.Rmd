@@ -984,11 +984,13 @@ m.cont <- metacont(
   title = "TNF-a")
 
 
+png(file = "forestplot_IL_1b.png", width = 3200, height = 2000, res = 300)
 forest.meta(m.cont, 
             sortvar = TE,
             predict = TRUE, 
             print.tau2 = FALSE,
             leftlabs = c("Author", "g", "SE"))
+dev.off()
 
 m.cont_nona <- metacont(
   median.e = median.e, 
@@ -1011,7 +1013,9 @@ m.cont_nona <- metacont(
   hakn = TRUE,
   title = "IL-1b")
 m.reg <- metareg(m.cont_nona, ~ga)
+png(file = "bubbleplot_IL_1b.png", width = 3200, height = 2000, res = 300)
 bubble(m.reg, studlab = TRUE)
+dev.off()
 
 ```
 

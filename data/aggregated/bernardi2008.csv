@@ -1,0 +1,9 @@
+﻿cytokine;condition;value.mean;value.sd;unit;age.mean;age.sd;n;ga.weeks.mean;ga.weeks.sd;ga.string;systolic.mean;systolic.sd;diastolic.mean;diastolic.sd;tissue;method
+TBARS;preeclampsia;0.28;0.03;nmol/mg protein;25.1;6.7;35;37.9;1.7;Late third trimester;151.6;11.7;100.8;11.5;plasma;ELISA
+Carbonyls;preeclampsia;3.93;3.36;nmol/mg protein;25.1;6.7;35;37.9;1.7;Late third trimester;151.6;11.7;100.8;11.5;plasma;ELISA
+IL_6;preeclampsia;20.3;7.15;pg/mL;25.1;6.7;35;37.9;1.7;Late third trimester;151.6;11.7;100.8;11.5;plasma;ELISA
+TNF_a;preeclampsia;37.08;6.25;pg/mL;25.1;6.7;35;37.9;1.7;Late third trimester;151.6;11.7;100.8;11.5;plasma;ELISA
+TBARS;healthy;0.13;0.06;nmol/mg protein;26.8;4.2;35;38.6;1.8;Late third trimester;118.8;7.6;76.4;6.5;plasma;ELISA
+Carbonyls;healthy;1.55;1.69;nmol/mg protein;26.8;4.2;35;38.6;1.8;Late third trimester;118.8;7.6;76.4;6.5;plasma;ELISA
+IL_6;healthy;-1;-1;pg/mL;26.8;4.2;35;38.6;1.8;Late third trimester;118.8;7.6;76.4;6.5;plasma;ELISA
+TNF_a;healthy;-1;-1;pg/mL;26.8;4.2;35;38.6;1.8;Late third trimester;118.8;7.6;76.4;6.5;plasma;ELISA
