@@ -1,0 +1,13 @@
+﻿cytokine;n;condition;ga.string;value.median;value.percentile.0;value.percentile.100;maingroup;unit;age.mean;age.sd;smoking.n;height.cm.mean;height.cm.sd;weight.kg.mean;weight.kg.sd;total_cholesterol.mmol/L.mean;total_cholesterol.mmol/L.sd;hdl_cholesterol.mmol/L.mean;hdl_cholesterol.mmol/L.sd;triglycerides.mmol/L.mean;triglycerides.mmol/L.sd;flow_mediated_dilation.mm.mean;flow_mediated_dilation.mm.sd;tissue;ga.weeks.percentile.0;ga.weeks.percentile.100
+CRP;61;Not pregnant;;1.21;0.1;23.9;1;mg/L;30.7;4.7;6;167;6.5;67;12;5.06;0.889;1.44;0.3;1.14;0.439;0.29;0.12;serum;;
+IL_6;61;Not pregnant;;1.32;0.23;8.4;1;pg/mL;30.7;4.7;6;167;6.5;67;12;5.06;0.889;1.44;0.3;1.14;0.439;0.29;0.12;serum;;
+TNF_a;61;Not pregnant;;2.38;1.25;38.8;1;pg/mL;30.7;4.7;6;167;6.5;67;12;5.06;0.889;1.44;0.3;1.14;0.439;0.29;0.12;serum;;
+CRP;13;Normal;First trimester;2.43;0.52;15.5;2;mg/L;30.8;4.7;6;166;5.8;71;12;6.04;1.36;1.68;0.365;1.839;0.885;0.22;0.1;serum;;14
+IL_6;13;Normal;First trimester;1.26;0.48;3.1;2;pg/mL;30.8;4.7;6;166;5.8;71;12;6.04;1.36;1.68;0.365;1.839;0.885;0.22;0.1;serum;;14
+TNF_a;13;Normal;First trimester;2.11;1.45;4.1;2;pg/mL;30.8;4.7;6;166;5.8;71;12;6.04;1.36;1.68;0.365;1.839;0.885;0.22;0.1;serum;;14
+CRP;19;Normal;Second trimester;2.92;0.78;16.9;2;mg/L;30.8;4.7;6;166;5.8;71;12;6.04;1.36;1.68;0.365;1.839;0.885;0.34;0.13;serum;15;27
+IL_6;19;Normal;Second trimester;1.28;0.62;6.38;2;pg/mL;30.8;4.7;6;166;5.8;71;12;6.04;1.36;1.68;0.365;1.839;0.885;0.34;0.13;serum;15;27
+TNF_a;19;Normal;Second trimester;2.09;0.69;34.7;2;pg/mL;30.8;4.7;6;166;5.8;71;12;6.04;1.36;1.68;0.365;1.839;0.885;0.34;0.13;serum;15;27
+CRP;22;Normal;Third trimester;2.01;0.44;19.7;2;mg/L;30.8;4.7;6;166;5.8;71;12;6.04;1.36;1.68;0.365;1.839;0.885;0.36;0.17;serum;28;
+IL_6;22;Normal;Third trimester;1.8;0.56;5.6;2;pg/mL;30.8;4.7;6;166;5.8;71;12;6.04;1.36;1.68;0.365;1.839;0.885;0.36;0.17;serum;28;
+TNF_a;22;Normal;Third trimester;2.28;1.28;5.4;2;pg/mL;30.8;4.7;6;166;5.8;71;12;6.04;1.36;1.68;0.365;1.839;0.885;0.36;0.17;serum;28;

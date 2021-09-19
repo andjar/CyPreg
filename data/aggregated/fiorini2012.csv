@@ -1,0 +1,13 @@
+﻿cytokine;value.mean;value.sd;value.median;value.percentile.25;value.percentile.75;tissue;unit;age.percentile.0;age.percentile.100;ga.weeks.mean;ga.weeks.sd;ga.string;condition;n
+IL_1b;1.9;1;1.7;1.3;2.2;serum;pg/mL;18;35;16.1;3.5;second trimester;various;100
+IL_6;4.3;3.2;3.7;2.8;4.4;serum;pg/mL;18;35;16.1;3.5;second trimester;various;100
+IL_8;11;9.4;9;7;11.2;serum;pg/mL;18;35;16.1;3.5;second trimester;various;100
+IL_10;1.5;1.1;1;1;1.8;serum;pg/mL;18;35;16.1;3.5;second trimester;various;100
+IL_12p70;1.7;0.8;1.3;1.2;2;serum;pg/mL;18;35;16.1;3.5;second trimester;various;100
+TNF_a;1.3;1;1.1;0.9;1.1;serum;pg/mL;18;35;16.1;3.5;second trimester;various;100
+IL_1b;156.2;182.2;102.4;50.7;204.9;gingival crevicular fluid;pg/mL;18;35;16.1;3.5;second trimester;various;100
+IL_6;4.8;4.7;4.5;2.6;7.6;gingival crevicular fluid;pg/mL;18;35;16.1;3.5;second trimester;various;100
+IL_8;435.3;377.3;301.8;189.1;503.4;gingival crevicular fluid;pg/mL;18;35;16.1;3.5;second trimester;various;100
+IL_10;1.8;1.7;1;0.9;1.6;gingival crevicular fluid;pg/mL;18;35;16.1;3.5;second trimester;various;100
+IL_12p70;3;3.1;1.5;1.3;2.8;gingival crevicular fluid;pg/mL;18;35;16.1;3.5;second trimester;various;100
+TNF_a;2.8;2.5;1.7;1.1;3.6;gingival crevicular fluid;pg/mL;18;35;16.1;3.5;second trimester;various;100

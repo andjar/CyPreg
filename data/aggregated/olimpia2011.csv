@@ -1,0 +1,31 @@
+﻿cytokine;value.mean;value.sd;value.percentile.0;value.percentile.100;unit;condition;ga.string;n;age.mean;mean.sd;ga.trimester;maingroup
+IL_2R;1078.95;629.67;324;3068;pg/mL;Antiphospholipid syndrome;First trimester;23;29.5;1.08;1;1
+IL_2R;887.86;456.2;270;2171;pg/mL;Antiphospholipid syndrome;Second trimester;23;29.5;1.08;2;1
+IL_2R;802.82;360.61;357;1765;pg/mL;Antiphospholipid syndrome;Third trimester;23;29.5;1.08;3;1
+IL_4;0.39;0.1;0.25;0.69;pg/mL;Antiphospholipid syndrome;First trimester;23;29.5;1.08;1;1
+IL_4;0.42;0.17;0.26;1.02;pg/mL;Antiphospholipid syndrome;Second trimester;23;29.5;1.08;2;1
+IL_4;0.39;0.14;0.24;0.87;pg/mL;Antiphospholipid syndrome;Third trimester;23;29.5;1.08;3;1
+IL_10;5.06;5.25;0.6;24.6;pg/mL;Antiphospholipid syndrome;First trimester;23;29.5;1.08;1;1
+IL_10;5.1;5.74;0.34;24.6;pg/mL;Antiphospholipid syndrome;Second trimester;23;29.5;1.08;2;1
+IL_10;8.48;14.7;0.42;69.9;pg/mL;Antiphospholipid syndrome;Third trimester;23;29.5;1.08;3;1
+TNF_a;11.37;9.01;2.5;32.9;pg/mL;Antiphospholipid syndrome;First trimester;23;29.5;1.08;1;1
+TNF_a;21.44;35.29;1.6;178.5;pg/mL;Antiphospholipid syndrome;Second trimester;23;29.5;1.08;2;1
+TNF_a;24.48;42.33;2.9;161;pg/mL;Antiphospholipid syndrome;Third trimester;23;29.5;1.08;3;1
+sHLA_I;672.82;590.84;265;2999;ng/mL;Antiphospholipid syndrome;First trimester;23;29.5;1.08;1;1
+sHLA_I;840.85;1350.7;204;7403;ng/mL;Antiphospholipid syndrome;Second trimester;23;29.5;1.08;2;1
+sHLA_I;874;1536.8;227;7617;ng/mL;Antiphospholipid syndrome;Third trimester;23;29.5;1.08;3;1
+IL_2R;1019.38;280.02;551;1707;pg/mL;Normal;First trimester;20;28.7;0.72;1;2
+IL_2R;977.5;240.81;580;1436;pg/mL;Normal;Second trimester;20;28.7;0.72;2;2
+IL_2R;926.89;239.97;610;1269;pg/mL;Normal;Third trimester;20;28.7;0.72;3;2
+IL_4;0.35;0.06;0.24;0.46;pg/mL;Normal;First trimester;20;28.7;0.72;1;2
+IL_4;0.39;0.08;0.27;0.57;pg/mL;Normal;Second trimester;20;28.7;0.72;2;2
+IL_4;0.45;0.13;0.31;0.84;pg/mL;Normal;Third trimester;20;28.7;0.72;3;2
+IL_10;6.15;5.99;0.85;26.4;pg/mL;Normal;First trimester;20;28.7;0.72;1;2
+IL_10;4.62;3.9;0.29;17.6;pg/mL;Normal;Second trimester;20;28.7;0.72;2;2
+IL_10;6.82;7.14;0.42;34.4;pg/mL;Normal;Third trimester;20;28.7;0.72;3;2
+TNF_a;6.06;4.2;1.4;17.9;pg/mL;Normal;First trimester;20;28.7;0.72;1;2
+TNF_a;6.95;4.51;1;19.1;pg/mL;Normal;Second trimester;20;28.7;0.72;2;2
+TNF_a;53.62;71.79;1.8;268.2;pg/mL;Normal;Third trimester;20;28.7;0.72;3;2
+sHLA_I;583.5;245.54;297;1043;ng/mL;Normal;First trimester;20;28.7;0.72;1;2
+sHLA_I;466.5;157.82;216;759;ng/mL;Normal;Second trimester;20;28.7;0.72;2;2
+sHLA_I;496.16;190.06;200;900;ng/mL;Normal;Third trimester;20;28.7;0.72;3;2

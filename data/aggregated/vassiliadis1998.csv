@@ -1,0 +1,61 @@
+﻿cytokine;value.mean;value.sd;unit;ga.string;condition;n;tissue
+IL_1a;1.76;0.4;ng/mL;;not pregnant;15;serum
+IL_2;3.6;0.3;ng/mL;;not pregnant;15;serum
+IL_3;3.8;0.4;ng/mL;;not pregnant;15;serum
+IL_4;0.16;0.01;ng/mL;;not pregnant;15;serum
+IL_6;2.7;0.3;ng/mL;;not pregnant;15;serum
+IL_10;0.77;0.02;ng/mL;;not pregnant;15;serum
+IL_12;0.83;0.11;ng/mL;;not pregnant;15;serum
+GM_CSF;2.7;0.25;ng/mL;;not pregnant;15;serum
+TNF_a;0.62;0.04;ng/mL;;not pregnant;15;serum
+IFN_g;1.07;0.14;ng/mL;;not pregnant;15;serum
+IL_1a;1.73;0.53;ng/mL;first trimester;normal;19;serum
+IL_2;3.63;0.6;ng/mL;first trimester;normal;19;serum
+IL_3;3.85;0.52;ng/mL;first trimester;normal;19;serum
+IL_4;0.14;0.02;ng/mL;first trimester;normal;19;serum
+IL_6;2.55;0.24;ng/mL;first trimester;normal;19;serum
+IL_10;0.76;0.07;ng/mL;first trimester;normal;19;serum
+IL_12;0.79;0.1;ng/mL;first trimester;normal;19;serum
+GM_CSF;2.78;0.28;ng/mL;first trimester;normal;19;serum
+TNF_a;0.6;0.06;ng/mL;first trimester;normal;19;serum
+IFN_g;1.06;0.08;ng/mL;first trimester;normal;19;serum
+IL_1a;1.55;0.34;ng/mL;second trimester;normal;17;serum
+IL_2;3.56;0.46;ng/mL;second trimester;normal;17;serum
+IL_3;3.36;0.54;ng/mL;second trimester;normal;17;serum
+IL_4;0.16;0.05;ng/mL;second trimester;normal;17;serum
+IL_6;2.91;0.38;ng/mL;second trimester;normal;17;serum
+IL_10;0.74;0.09;ng/mL;second trimester;normal;17;serum
+IL_12;0.85;0.27;ng/mL;second trimester;normal;17;serum
+GM_CSF;3.01;0.32;ng/mL;second trimester;normal;17;serum
+TNF_a;0.57;0.09;ng/mL;second trimester;normal;17;serum
+IFN_g;1.14;0.11;ng/mL;second trimester;normal;17;serum
+IL_1a;1.89;0.42;ng/mL;third trimester;normal;18;serum
+IL_2;3.41;0.61;ng/mL;third trimester;normal;18;serum
+IL_3;3.32;0.55;ng/mL;third trimester;normal;18;serum
+IL_4;0.17;0.04;ng/mL;third trimester;normal;18;serum
+IL_6;2.91;0.34;ng/mL;third trimester;normal;18;serum
+IL_10;0.88;0.1;ng/mL;third trimester;normal;18;serum
+IL_12;0.8;0.08;ng/mL;third trimester;normal;18;serum
+GM_CSF;3.14;0.73;ng/mL;third trimester;normal;18;serum
+TNF_a;0.6;0.07;ng/mL;third trimester;normal;18;serum
+IFN_g;1.33;0.14;ng/mL;third trimester;normal;18;serum
+IL_1a;1.76;0.7;ng/mL;labor;normal;15;serum
+IL_2;3.23;0.96;ng/mL;labor;normal;15;serum
+IL_3;3.6;0.46;ng/mL;labor;normal;15;serum
+IL_4;0.15;0.01;ng/mL;labor;normal;15;serum
+IL_6;2.87;0.31;ng/mL;labor;normal;15;serum
+IL_10;0.96;0.11;ng/mL;labor;normal;15;serum
+IL_12;0.73;0.03;ng/mL;labor;normal;15;serum
+GM_CSF;3.52;0.57;ng/mL;labor;normal;15;serum
+TNF_a;0.62;0.03;ng/mL;labor;normal;15;serum
+IFN_g;1.35;0.2;ng/mL;labor;normal;15;serum
+IL_1a;1.6;0.46;ng/mL;first trimester;spontaneous abortion;19;serum
+IL_2;4.05;1.24;ng/mL;first trimester;spontaneous abortion;19;serum
+IL_3;3.28;0.41;ng/mL;first trimester;spontaneous abortion;19;serum
+IL_4;0.15;0.01;ng/mL;first trimester;spontaneous abortion;19;serum
+IL_6;2.95;0.4;ng/mL;first trimester;spontaneous abortion;19;serum
+IL_10;0.87;0.06;ng/mL;first trimester;spontaneous abortion;19;serum
+IL_12;0.8;0.05;ng/mL;first trimester;spontaneous abortion;19;serum
+GM_CSF;3.4;0.02;ng/mL;first trimester;spontaneous abortion;19;serum
+TNF_a;0.63;0.04;ng/mL;first trimester;spontaneous abortion;19;serum
+IFN_g;1.62;0.16;ng/mL;first trimester;spontaneous abortion;19;serum

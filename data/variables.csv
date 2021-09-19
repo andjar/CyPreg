@@ -23,3 +23,6 @@ birthweight;both;
 gabirth;both;
 birthmode;both;
 parity;both;
+above.LOD;both;
+LLOD;both;
+postpartum;both;

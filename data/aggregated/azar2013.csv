@@ -1,0 +1,7 @@
+﻿cytokine;ga.string;n;unit;value.median;value.percentile.25;value.percentile.75;maingroup;ga.weeks.percentile.0;ga.weeks.percentile.100;PHQ_9.total.mean;PHQ_9.total.sd;age.mean;age.sd;bmi.mean;bmi.sd
+CRP;First trimester;27;mg/L;4.27;1.95;6.52;1;7;10;6.6;3.3;24.29;4.85;29.61;8.98
+IL_6;First trimester;27;pg/mL;1.17;0.75;1.69;1;7;10;6.6;3.3;24.29;4.85;29.61;8.98
+TNF_a;First trimester;27;pg/mL;0.95;0.88;1.14;1;7;10;6.6;3.3;24.29;4.85;29.61;8.98
+CRP;Second trimester;27;mg/L;5.95;3.69;12.66;1;16;20;6.62;4.02;;;;
+IL_6;Second trimester;27;pg/mL;1.55;0.96;3.01;1;16;20;6.62;4.02;;;;
+TNF_a;Second trimester;27;pg/mL;1.08;0.95;1.33;1;16;20;6.62;4.02;;;;

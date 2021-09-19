@@ -1,0 +1,4 @@
+﻿cytokine;value.mean;value.sd;value.percentile.0;value.percentile.100;unit;ga.string;ga.weeks.percentile.0;ga.weeks.percentile.100;age.mean;age.sd;age.percentile.0;age.percentile.100;bmi.prepregnancy.mean;bmi.prepregnancy.sd;bmi.prepregnancy.percentile.0;bmi.prepregnancy.percentile.100;bmi.mean;bmi.sd;bmi.percentile.0;bmi.percentile.100;condition;n
+IL_6;0.77;0.38;0.13;1.66;pg/mL;first trimester;9;17;26.06;5.67;18;39;26.25;5.46;17.41;48.07;27.35;5.04;17.09;47.53;normal;75
+IL_6;0.93;0.58;0.03;2.79;pg/mL;second trimester;18;24;26.06;5.67;18;39;26.25;5.46;17.41;48.07;27.94;5;19.35;49.07;normal;75
+IL_6;1.11;0.61;0;2.85;pg/mL;third trimester;29;35;26.06;5.67;18;39;26.25;5.46;17.41;48.07;29.65;5.04;20.89;50.33;normal;75

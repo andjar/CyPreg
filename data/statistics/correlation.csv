@@ -1,0 +1,64 @@
+﻿cytokine;variable;correlation;p;condition;study
+CRP;age;-0.26;NS;;saarelainen2015.csv
+IL_6;age;-0.187;NS;;saarelainen2015.csv
+TNF_a;age;-0.17;NS;;saarelainen2015.csv
+CRP;age;-0.059;NS;Not pregnant;saarelainen2015.csv
+IL_6;age;-0.092;NS;Not pregnant;saarelainen2015.csv
+TNF_a;age;-0.115;NS;Not pregnant;saarelainen2015.csv
+CRP;ga;0.001;NS;;saarelainen2015.csv
+IL_6;ga;0.404;< 0.01;;saarelainen2015.csv
+TNF_a;ga;0.155;NS;;saarelainen2015.csv
+CRP;systolic;-0.119;NS;;saarelainen2015.csv
+IL_6;systolic;-0.186;NS;;saarelainen2015.csv
+TNF_a;systolic;0.057;NS;;saarelainen2015.csv
+CRP;systolic;0.149;NS;Not pregnant;saarelainen2015.csv
+IL_6;systolic;0.061;NS;Not pregnant;saarelainen2015.csv
+TNF_a;systolic;-0.046;NS;Not pregnant;saarelainen2015.csv
+CRP;diastolic;-0.183;NS;;saarelainen2015.csv
+IL_6;diastolic;0.131;NS;;saarelainen2015.csv
+TNF_a;diastolic;-0.155;NS;;saarelainen2015.csv
+CRP;diastolic;0.155;NS;Not pregnant;saarelainen2015.csv
+IL_6;diastolic;0.024;NS;Not pregnant;saarelainen2015.csv
+TNF_a;diastolic;-0.012;NS;Not pregnant;saarelainen2015.csv
+CRP;bmi;0.231;NS;;saarelainen2015.csv
+IL_6;bmi;0.209;NS;;saarelainen2015.csv
+TNF_a;bmi;0.076;NS;;saarelainen2015.csv
+CRP;bmi;0.515;< 0.001;Not pregnant;saarelainen2015.csv
+IL_6;bmi;0.564;< 0.001;Not pregnant;saarelainen2015.csv
+TNF_a;bmi;-0.158;NS;Not pregnant;saarelainen2015.csv
+CRP;total_cholesterol;0.056;NS;;saarelainen2015.csv
+IL_6;total_cholesterol;0.303;< 0.05;;saarelainen2015.csv
+TNF_a;total_cholesterol;-0.107;NS;;saarelainen2015.csv
+CRP;total_cholesterol;0.264;< 0.05;Not pregnant;saarelainen2015.csv
+IL_6;total_cholesterol;0.109;NS;Not pregnant;saarelainen2015.csv
+TNF_a;total_cholesterol;-0.267;< 0.05;Not pregnant;saarelainen2015.csv
+CRP;ldl;0.11;NS;;saarelainen2015.csv
+IL_6;ldl;0.305;< 0.05;;saarelainen2015.csv
+TNF_a;ldl;0.088;NS;;saarelainen2015.csv
+CRP;ldl;0.094;NS;Not pregnant;saarelainen2015.csv
+IL_6;ldl;0.182;NS;Not pregnant;saarelainen2015.csv
+TNF_a;ldl;0.23;NS;Not pregnant;saarelainen2015.csv
+CRP;hdl;-0.115;NS;;saarelainen2015.csv
+IL_6;hdl;-0.003;NS;;saarelainen2015.csv
+TNF_a;hdl;-0.256;NS;;saarelainen2015.csv
+CRP;hdl;0.086;NS;Not pregnant;saarelainen2015.csv
+IL_6;hdl;-0.318;< 0.05;Not pregnant;saarelainen2015.csv
+TNF_a;hdl;-0.087;NS;Not pregnant;saarelainen2015.csv
+CRP;triglycerides;0.205;NS;;saarelainen2015.csv
+IL_6;triglycerides;0.336;< 0.05;;saarelainen2015.csv
+TNF_a;triglycerides;0.089;NS;;saarelainen2015.csv
+CRP;triglycerides;0.321;< 0.05;Not pregnant;saarelainen2015.csv
+IL_6;triglycerides;0.093;NS;Not pregnant;saarelainen2015.csv
+TNF_a;triglycerides;0.048;NS;Not pregnant;saarelainen2015.csv
+CRP;flow_mediated_dilation_%;0.09;NS;;saarelainen2015.csv
+IL_6;flow_mediated_dilation_%;0.288;< 0.05;;saarelainen2015.csv
+TNF_a;flow_mediated_dilation_%;0.077;NS;;saarelainen2015.csv
+CRP;flow_mediated_dilation_%;-0.069;NS;Not pregnant;saarelainen2015.csv
+IL_6;flow_mediated_dilation_%;-0.145;NS;Not pregnant;saarelainen2015.csv
+TNF_a;flow_mediated_dilation_%;-0.109;NS;Not pregnant;saarelainen2015.csv
+CRP;baseline_diameter;-0.009;NS;;saarelainen2015.csv
+IL_6;baseline_diameter;-0.17;NS;;saarelainen2015.csv
+TNF_a;baseline_diameter;0.218;NS;;saarelainen2015.csv
+CRP;baseline_diameter;0.216;NS;Not pregnant;saarelainen2015.csv
+IL_6;baseline_diameter;0.336;< 0.01;Not pregnant;saarelainen2015.csv
+TNF_a;baseline_diameter;0.018;NS;Not pregnant;saarelainen2015.csv
