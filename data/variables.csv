@@ -8,6 +8,7 @@ subgroup;aggregated;The main group which the current subpopulation belongs to
 ga.string;both;Gestational age at sampling described as a string
 ga.days;aggregated;Gestational age at sampling in days
 ga.weeks;aggregated;Gestational age at sampling in weeks
+ga.trimester;aggregated;Gestational age at sampling as trimester
 condition;aggregated;
 condition.onset;both;
 condition.severity;both;
@@ -26,3 +27,14 @@ parity;both;
 above.LOD;both;
 LLOD;both;
 postpartum;both;
+PHQ_9.total;both;
+weight;both;Maternal weight
+height;both;Maternal height
+fat_mass;both;
+fat_free_mass;both;
+bmi.earlypregnancy;both;
+smoking;both;
+total_cholesterol;both;
+hdl_cholesterol;both;
+triglycerides;both;
+flow_mediated_dilation;both;

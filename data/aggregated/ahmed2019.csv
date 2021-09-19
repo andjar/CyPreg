@@ -1,0 +1,10 @@
+﻿cytokine;condition;value.mean;value.sd;unit;ga.string;ga.weeks.mean;ga.weeks.sd;age.mean;age.sd;systolic.mean;systolic.sd;diastolic.mean;diastolic.sd;n
+TNF_a;Not pregnant;0.3;0.02;pg/mL;;;;29;1.06;71;0.69;115.5;1.14;20
+TNF_a;Normal;0.48;0.02;pg/mL;Third trimester;31;0.81;29;0.89;76;1.52;110.5;1.35;20
+TNF_a;preeclampsia;1.69;0.11;pg/mL;Third trimester;30;1.08;28;1.04;89.33;2.49;157.67;2.69;60
+IL_10;Not pregnant;286.67;16.07;pg/mL;;;;29;1.06;71;0.69;115.5;1.14;20
+IL_10;Normal;299.84;12.51;pg/mL;Third trimester;31;0.81;29;0.89;76;1.52;110.5;1.35;20
+IL_10;preeclampsia;231.64;9.96;pg/mL;Third trimester;30;1.08;28;1.04;89.33;2.49;157.67;2.69;60
+CRP;Not pregnant;0.48;0.09;mg/L;;;;29;1.06;71;0.69;115.5;1.14;20
+CRP;Normal;2.9;0.42;mg/L;Third trimester;31;0.81;29;0.89;76;1.52;110.5;1.35;20
+CRP;preeclampsia;72;46;mg/L;Third trimester;30;1.08;28;1.04;89.33;2.49;157.67;2.69;60

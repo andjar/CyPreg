@@ -528,9 +528,9 @@ m.cont_nona <- metacont(
   method.tau = "REML",
   hakn = TRUE,
   title = "IL-6")
-m.reg <- metareg(m.cont_nona, ~ga)
-png(file = "bubbleplot_IL_6.png", width = 3200, height = 2000, res = 300)
-bubble(m.reg, studlab = TRUE)
+#m.reg <- metareg(m.cont_nona, ~ga)
+png(file = "#bubbleplot_IL_6.png", width = 3200, height = 2000, res = 300)
+##bubble(#m.reg, studlab = TRUE)
 dev.off()
 
 ```
@@ -608,8 +608,8 @@ m.cont_nona <- metacont(
   method.tau = "REML",
   hakn = TRUE,
   title = "IFN-g")
-m.reg <- metareg(m.cont_nona, ~ga)
-bubble(m.reg, studlab = TRUE)
+#m.reg <- metareg(m.cont_nona, ~ga)
+#bubble(#m.reg, studlab = TRUE)
 ```
 
 ## Row
@@ -617,76 +617,76 @@ bubble(m.reg, studlab = TRUE)
 ### Preeclampsia: IL-10
 
 ```{r, out.height="100%", out.width="100%", fig.width=16, fig.height=8}
-df_meta <- subset(df_aggregated, cytokine == "IL_10" & is.na(subgroup) & condition %in% c("healthy", "preeclampsia"))
-df_meta_prep <- data.frame()
-df_meta$id <- paste(df_meta$author, df_meta$title)
-df_meta$aut <- paste0(df_meta$author, " et al. (", df_meta$year, ")")
-for(i in unique(df_meta$id)){
-  for(j in unique(df_meta$ga.string[df_meta$id == i])){
-    if(any(subset(df_meta, id == i & ga.string == j)$condition == "preeclampsia")){
-      df_meta_prep <- rbind(
-        df_meta_prep,
-        prep_meta(
-          dff = subset(df_meta, id == i & ga.string == j),
-          Author = subset(df_meta, id == i & ga.string == j)$aut[1],
-          c = "healthy",
-          e = "preeclampsia"
-        )
-      )
-    }
-  }
-}
-
-m.cont <- metacont(
-  median.e = median.e, 
-  median.c = median.c,
-  mean.e = mean.e, 
-  mean.c = mean.c,
-  q1.c = q1.c, q1.e = q1.e, 
-  q3.c = q3.c, q3.e = q3.e,
-  min.c = min.c, min.e = min.e, 
-  max.c = max.c, max.e = max.e,
-  sd.e = sd.e, sd.c = sd.c, 
-  n.e = n.e, n.c = n.c, 
-  studlab = Author,
-  data = df_meta_prep,
-  sm = "SMD",
-  method.smd = "Hedges",
-  comb.fixed = FALSE,
-  comb.random = TRUE,
-  method.tau = "REML",
-  hakn = TRUE,
-  title = "IL-10")
-
-
-forest.meta(m.cont, 
-            sortvar = TE,
-            predict = TRUE, 
-            print.tau2 = FALSE,
-            leftlabs = c("Author", "g", "SE"))
-
-m.cont_nona <- metacont(
-  median.e = median.e, 
-  median.c = median.c,
-  mean.e = mean.e, 
-  mean.c = mean.c,
-  q1.c = q1.c, q1.e = q1.e, 
-  q3.c = q3.c, q3.e = q3.e,
-  min.c = min.c, min.e = min.e, 
-  max.c = max.c, max.e = max.e,
-  sd.e = sd.e, sd.c = sd.c, 
-  n.e = n.e, n.c = n.c, 
-  studlab = Author,
-  data = subset(df_meta_prep, !is.na(ga)),
-  sm = "SMD",
-  method.smd = "Hedges",
-  comb.fixed = FALSE,
-  comb.random = TRUE,
-  method.tau = "REML",
-  hakn = TRUE,
-  title = "IL-10")
-m.reg <- metareg(m.cont_nona, ~ga)
-bubble(m.reg, studlab = TRUE)
+# df_meta <- subset(df_aggregated, cytokine == "IL_10" & is.na(subgroup) & condition %in% c("healthy", "preeclampsia"))
+# df_meta_prep <- data.frame()
+# df_meta$id <- paste(df_meta$author, df_meta$title)
+# df_meta$aut <- paste0(df_meta$author, " et al. (", df_meta$year, ")")
+# for(i in unique(df_meta$id)){
+#   for(j in unique(df_meta$ga.string[df_meta$id == i])){
+#     if(any(subset(df_meta, id == i & ga.string == j)$condition == "preeclampsia")){
+#       df_meta_prep <- rbind(
+#         df_meta_prep,
+#         prep_meta(
+#           dff = subset(df_meta, id == i & ga.string == j),
+#           Author = subset(df_meta, id == i & ga.string == j)$aut[1],
+#           c = "healthy",
+#           e = "preeclampsia"
+#         )
+#       )
+#     }
+#   }
+# }
+# 
+# m.cont <- metacont(
+#   median.e = median.e, 
+#   median.c = median.c,
+#   mean.e = mean.e, 
+#   mean.c = mean.c,
+#   q1.c = q1.c, q1.e = q1.e, 
+#   q3.c = q3.c, q3.e = q3.e,
+#   min.c = min.c, min.e = min.e, 
+#   max.c = max.c, max.e = max.e,
+#   sd.e = sd.e, sd.c = sd.c, 
+#   n.e = n.e, n.c = n.c, 
+#   studlab = Author,
+#   data = df_meta_prep,
+#   sm = "SMD",
+#   method.smd = "Hedges",
+#   comb.fixed = FALSE,
+#   comb.random = TRUE,
+#   method.tau = "REML",
+#   hakn = TRUE,
+#   title = "IL-10")
+# 
+# 
+# forest.meta(m.cont, 
+#             sortvar = TE,
+#             predict = TRUE, 
+#             print.tau2 = FALSE,
+#             leftlabs = c("Author", "g", "SE"))
+# 
+# m.cont_nona <- metacont(
+#   median.e = median.e, 
+#   median.c = median.c,
+#   mean.e = mean.e, 
+#   mean.c = mean.c,
+#   q1.c = q1.c, q1.e = q1.e, 
+#   q3.c = q3.c, q3.e = q3.e,
+#   min.c = min.c, min.e = min.e, 
+#   max.c = max.c, max.e = max.e,
+#   sd.e = sd.e, sd.c = sd.c, 
+#   n.e = n.e, n.c = n.c, 
+#   studlab = Author,
+#   data = subset(df_meta_prep, !is.na(ga)),
+#   sm = "SMD",
+#   method.smd = "Hedges",
+#   comb.fixed = FALSE,
+#   comb.random = TRUE,
+#   method.tau = "REML",
+#   hakn = TRUE,
+#   title = "IL-10")
+#m.reg <- metareg(m.cont_nona, ~ga)
+##bubble(#m.reg, studlab = TRUE)
 
 ```
 
@@ -696,7 +696,7 @@ bubble(m.reg, studlab = TRUE)
 ### Preeclampsia: CRP
 
 ```{r, out.height="100%", out.width="100%", fig.width=16, fig.height=8}
-df_meta <- subset(df_aggregated, cytokine == "CRP" & is.na(subgroup) & condition %in% c("healthy", "preeclampsia"))
+df_meta <- subset(df_aggregated, cytokine == "CRP" & is.na(subgroup) & condition %in% c("healthy", "preeclampsia", "Normal"))
 df_meta_prep <- data.frame()
 df_meta$id <- paste(df_meta$author, df_meta$title)
 df_meta$aut <- paste0(df_meta$author, " et al. (", df_meta$year, ")")
@@ -765,10 +765,10 @@ m.cont_nona <- metacont(
   method.tau = "REML",
   hakn = TRUE,
   title = "CRP")
-m.reg <- metareg(m.cont_nona, ~ga)
+#m.reg <- metareg(m.cont_nona, ~ga)
 
-png(file = "bubbleplot_CRP.png", width = 3200, height = 2000, res = 300)
-bubble(m.reg, studlab = TRUE)
+png(file = "#bubbleplot_CRP.png", width = 3200, height = 2000, res = 300)
+#bubble(#m.reg, studlab = TRUE)
 dev.off()
 ```
 
@@ -846,10 +846,10 @@ m.cont_nona <- metacont(
   method.tau = "REML",
   hakn = TRUE,
   title = "IL-8")
-m.reg <- metareg(m.cont_nona, ~ga)
+#m.reg <- metareg(m.cont_nona, ~ga)
 
-png(file = "bubbleplot_IL_8.png", width = 3200, height = 2000, res = 300)
-bubble(m.reg, studlab = TRUE)
+png(file = "#bubbleplot_IL_8.png", width = 3200, height = 2000, res = 300)
+#bubble(#m.reg, studlab = TRUE)
 dev.off()
 
 ```
@@ -929,9 +929,9 @@ m.cont_nona <- metacont(
   method.tau = "REML",
   hakn = TRUE,
   title = "TNF-a")
-m.reg <- metareg(m.cont_nona, ~ga)
-png(file = "bubbleplot_TNF_a.png", width = 3200, height = 2000, res = 300)
-bubble(m.reg, studlab = TRUE)
+#m.reg <- metareg(m.cont_nona, ~ga)
+png(file = "#bubbleplot_TNF_a.png", width = 3200, height = 2000, res = 300)
+#bubble(#m.reg, studlab = TRUE)
 dev.off()
 
 ```
@@ -1012,9 +1012,9 @@ m.cont_nona <- metacont(
   method.tau = "REML",
   hakn = TRUE,
   title = "IL-1b")
-m.reg <- metareg(m.cont_nona, ~ga)
-png(file = "bubbleplot_IL_1b.png", width = 3200, height = 2000, res = 300)
-bubble(m.reg, studlab = TRUE)
+#m.reg <- metareg(m.cont_nona, ~ga)
+png(file = "#bubbleplot_IL_1b.png", width = 3200, height = 2000, res = 300)
+#bubble(#m.reg, studlab = TRUE)
 dev.off()
 
 ```
